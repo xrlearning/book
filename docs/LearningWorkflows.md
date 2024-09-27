@@ -1,7 +1,7 @@
 ---
 title: LearningWorkflows
 layout: default
-nav_order: 3
+nav_order: 2
 ---
 
 {:.no_toc}
@@ -19,6 +19,14 @@ nav_order: 3
 </details>
 
 
-## Design of XR Learning Workflows
+## Introduction
 
-...
+## Framework for XR-Based Learning Workflows
+
+## Design of XR-Based Learning Workflows
+
+## Technology for XR-Based Learning Workflows
+
+## Examples of XR-Based Learning Workflows
+
+## References
