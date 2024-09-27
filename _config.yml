@@ -1,0 +1,28 @@
+title: XREN Book
+description: XREN Book
+theme: just-the-docs
+
+url: https://xrlearning.github.io/book
+
+aux_links:
+  XREN site: https://www.xr-en.eu
+  
+plugins: 
+    - jekyll-default-layout
+    - jekyll-toc
+    
+logo: "/images/XREN_logo.png"
+
+heading_anchors: true
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: light
+
+
+# TOC Settings
+toc:
+ min_level: 1
+ max_level: 3
+ list_class: toc
+ list_class: toc__list
+ sublist_class: toc__sublist
