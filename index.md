@@ -26,7 +26,8 @@ This book will present the main results of the project.
 ---
 ## Table of Contents
 1. [XR Learning Workflows](docs/LearningWorkflows)
-2. [XR Learning Workflows](docs/Tools)
+2. [Tools](docs/Tools)
 3. [Use Cases](docs/UseCases)
 ---
+
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
