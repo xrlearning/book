@@ -20,7 +20,7 @@ The European Commission's support for the production of this publication does no
 
 
 
-This book will present the main results of the project.
+This book presents the main results of the project.
 
 
 ---
