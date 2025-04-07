@@ -11,7 +11,7 @@ has_children: true
 
 
 {:.no_toc}
-<details open markdown="block">
+<details open markdown="block"> 
   <summary>
     Table of contents
   </summary>
