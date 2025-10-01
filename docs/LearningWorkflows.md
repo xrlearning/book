@@ -1,12 +1,12 @@
 ---
-title: LearningWorkflows
 layout: default
+title: LearningWorkflows
 nav_order: 2
 has_children: true
+has_toc: false
+# child_nav_display_title: 'Title TOC'
 ---
 
-{:.no_toc}
-# XR Learning Workflows
 
 
 {:.no_toc}
@@ -19,15 +19,15 @@ has_children: true
 {:toc}
 </details>
 
+{:.no_toc}
+# XR Learning Workflows
 
-## Introduction
+## Guidelines for XR-Based Learning Workflows
 
-## Framework for XR-Based Learning Workflows
+## XR-Based Learning Workflows for the design of mechanical products
 
-## Design of XR-Based Learning Workflows
+## XR-Based Learning Workflows for the design and analysis of manufacturing processes
 
-## Technology for XR-Based Learning Workflows
+[XR-based Learning Workflow for the Assembly Sequence Analysis](Workflows/W1)
 
-## Examples of XR-Based Learning Workflows
-
-## References
+## XR-Based Learning Workflows for the design and analysis of manufacturing systems
