@@ -26,6 +26,8 @@ has_toc: false
 
 ## XR-Based Learning Workflows for the design of mechanical products
 
+[XR learning workflows for the design of mechanical products](Workflows/W2_product_design)
+
 ## XR-Based Learning Workflows for the design and analysis of manufacturing processes
 
 [XR-based Learning Workflow for the Assembly Sequence Analysis](Workflows/W1)
