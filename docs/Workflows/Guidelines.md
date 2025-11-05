@@ -15,7 +15,8 @@ toc_min_heading_level: 1
     Table of contents
   </summary>
   {: .text-delta }
-  {{ content | toc_only: 2 }}
+- TOC
+{:toc}
 </details>
 
 # Requirements and specifications for the design of XR-based learning workflows
