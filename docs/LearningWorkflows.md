@@ -29,6 +29,8 @@ The [guidelines](Workflows/Guidelines.md) provide support for the design, develo
 ## XR-Based Learning Workflows for the design of mechanical products
 
 [XR learning workflows for the design of mechanical products](Workflows/W2_product_design)
+[Product Analysis](Workflows/W2_product_analysis)
+[Virtual Testing and Planning Activities](Workflows/W2_virtual_testing)
 
 ## XR-Based Learning Workflows for the design and analysis of manufacturing processes
 

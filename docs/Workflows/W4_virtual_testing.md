@@ -1,4 +1,25 @@
+---
+title: Virtual Testing
+layout: default
+nav_order: 5
+parent: LearningWorkflows
+---
+
+{:.no_toc}
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
+
+
+
 # Virtual Testing and Planning Activities Workflow
+{:.no_toc}
 
 <p align="center"><img src="./media/media/img-14.jpeg" width="900" /></p>
 

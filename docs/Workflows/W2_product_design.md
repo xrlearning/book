@@ -1,7 +1,7 @@
 ---
 title: Product Design
 layout: default
-nav_order: 2
+nav_order: 3
 parent: LearningWorkflows
 ---
 
@@ -17,6 +17,7 @@ parent: LearningWorkflows
 
 
 # XR learning workflows for the design of mechanical products
+{:.no_toc}
 
 ## 1. Introduction
 

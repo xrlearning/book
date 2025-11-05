@@ -1,4 +1,24 @@
+---
+title: Product Analysis
+layout: default
+nav_order: 4
+parent: LearningWorkflows
+---
+
+{:.no_toc}
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
+
+
 # Product Analysis Workflow (T2.0)
+{:.no_toc}
 
 <p align="center"><img src="./media/media/img-8.jpeg" width="900" /></p>
 
