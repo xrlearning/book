@@ -3,6 +3,7 @@ title: Guidelines
 layout: default
 nav_order: 1
 parent: LearningWorkflows
+toc_max_heading_level: 2
 ---
 
 {:.no_toc}
