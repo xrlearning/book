@@ -27,3 +27,8 @@ toc:
  list_class: toc
  list_class: toc__list
  sublist_class: toc__sublist
+
+
+just_the_docs:
+  toc:
+    max_level: 2
