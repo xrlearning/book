@@ -1,8 +1,22 @@
-<p align="center"><img src="./media/media/img-0.jpeg" width="320" /></p>
+---
+title: Product Design
+layout: default
+nav_order: 2
+parent: LearningWorkflows
+---
 
-# **EXTENDED REALITY TOOLS TO SUPPORT LEARNING ACTIVITIES IN ENGINEERING**
+{:.no_toc}
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
-## **XR learning workflows for the design of mechanical products**
+
+# XR learning workflows for the design of mechanical products
 
 # Introduction
 
