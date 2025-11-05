@@ -18,11 +18,11 @@ parent: LearningWorkflows
 
 # XR learning workflows for the design of mechanical products
 
-# Introduction
+## 1. Introduction
 
 The guidelines highlighted in document D2.1 can be applied to create a learning workflow related to the design of mechanical components. Mechanical product design involves not only the development of innovative solutions to meet specific functional requirements but also the integration of components into cohesive systems that balance performance, manufacturability, and cost-effectiveness. This workflow offers a structured approach to mastering these complexities, leveraging advanced tools like CAD software, XR technologies, and simulation techniques. Students will engage in iterative design processes, from concept development to virtual prototyping, guided by engineering principles and key performance metrics. Through hands-on activities and real-world case studies, learners will develop the skills needed to navigate the multidisciplinary demands of modern mechanical design.
 
-# Learning Objectives
+## 2. Learning Objectives
 
 1. **Factual Knowledge**
     1. Learn fundamental concepts of mechanical product design and engineering principles.
@@ -62,7 +62,7 @@ Table 1 lists the specific Intended Learning Objectives (ILOs) with their associ
 
 Table 1: ILOs with associated knowledge type
 
-# 3. Use Case
+## 3. Use Case
 
 This comprehensive workflow guides engineering students through the product development process, utilizing a Planetary Gearbox as a real-world case study (Figure 1). By examining this complex mechanical system, students gain hands-on experience with essential product design principles and methodologies, from initial concept to final implementation. The Planetary Gearbox's sophisticated mechanism and wide industrial applications make it an ideal teaching tool for demonstrating the practical challenges and considerations in mechanical engineering design.
 
@@ -70,11 +70,11 @@ This comprehensive workflow guides engineering students through the product deve
 
 Figure 1: Planetary Gearbox (Use Case)
 
-# Learning Activities
+## 4. Learning Activities
 
 The learning activities are organized into six sequential activities leading to the complete product design. Each level consists of tasks associated with specifics ILOs as reported in Table 2. All the activities of the Reverse Engineering task (T3.0) are further described in Table 3.
 
-## Main Learning Workflow
+### 4.1 Main Learning Workflow
 
 <p align="center"><img src="./media/media/img-2.jpeg" width="900" /></p>
 
