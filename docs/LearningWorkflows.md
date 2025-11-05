@@ -24,6 +24,8 @@ has_toc: false
 
 ## Guidelines for XR-Based Learning Workflows
 
+The [guidelines](Workflows/Guidelines.md) provide support for the design, development, testing and assessment of learning workflows in industrial engineering education, taking advantage of XR technologies. Each workflow is formalised in terms of Learning objectives, Use cases, Tasks, User Experience, and Technology.
+
 ## XR-Based Learning Workflows for the design of mechanical products
 
 ## XR-Based Learning Workflows for the design and analysis of manufacturing processes
