@@ -23,7 +23,7 @@ color_scheme: light
 toc:
  enabled: false
  min_level: 1
- max_level: 3
+ max_level: 2
  list_class: toc
  list_class: toc__list
  sublist_class: toc__sublist
