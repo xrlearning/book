@@ -27,11 +27,11 @@ This chapter presents the relevant tools supporting the executiong of the XR Lea
 
 ### Cutset and Bourjault Application
 
-This software tools has been developed using Unity and is available [online](https://github.com/xrlearning/repo/tree/main/Tools/Cutset_Bourjault).
+This application has been developed using Unity and is available [online](https://github.com/xrlearning/repo/tree/main/Tools/Cutset_Bourjault).
 
 ### Gearbox Application
 
-This software tools has been developed using Unity and is available [online](https://github.com/xrlearning/repo/tree/main/Tools/Gearbox).
+This application has been developed using Unity and is available [online](https://github.com/xrlearning/repo/tree/main/Tools/Gearbox).
 
 
 ## References
