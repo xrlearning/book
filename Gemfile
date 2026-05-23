@@ -8,4 +8,4 @@ gem "just-the-docs", "0.4.0.rc4" # currently the latest pre-release
 
 gem "jekyll-default-layout"
 
-gem 'jekyll-toc'
+# gem 'jekyll-toc'

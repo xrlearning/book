@@ -1,8 +1,9 @@
 ---
 layout: default
 title: LearningWorkflows
-nav_order: 2
+nav_order: 3
 has_children: true
+toc: false
 has_toc: false
 # child_nav_display_title: 'Title TOC'
 ---
@@ -22,18 +23,18 @@ has_toc: false
 {:.no_toc}
 # XR Learning Workflows
 
-## Guidelines for XR-Based Learning Workflows
 
-The [guidelines](Workflows/Guidelines.md) provide support for the design, development, testing and assessment of learning workflows in industrial engineering education, taking advantage of XR technologies. Each workflow is formalised in terms of Learning objectives, Use cases, Tasks, User Experience, and Technology.
 
 ## XR-Based Learning Workflows for the design of mechanical products
 
-[XR learning workflows for the design of mechanical products](Workflows/W2_product_design)
-[Product Analysis](Workflows/W2_product_analysis)
-[Virtual Testing and Planning Activities](Workflows/W2_virtual_testing)
+* [Design of mechanical products](Workflows/W2_product_design)
+* [Product Analysis](Workflows/W3_product_analysis)
+* [Virtual Testing and Planning Activities](Workflows/W4_virtual_testing)
 
 ## XR-Based Learning Workflows for the design and analysis of manufacturing processes
 
-[XR-based Learning Workflow for the Assembly Sequence Analysis](Workflows/W1)
+* [Assembly Sequence Analysis](Workflows/W1_assembly_sequence)
 
 ## XR-Based Learning Workflows for the design and analysis of manufacturing systems
+
+* [Design and Control of Manufacturing Systems](Workflows/W5_design_control)

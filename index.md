@@ -25,9 +25,10 @@ This book presents the main results of the project.
 
 ---
 ## Table of Contents
-1. [XR Learning Workflows](docs/LearningWorkflows)
-2. [Tools](docs/Tools)
-3. [Use Cases](docs/UseCases)
+1. [Guidelines](docs/Guidelines/Guidelines)
+2. [XR Learning Workflows](docs/LearningWorkflows)
+3. [Tools](docs/Tools)
+4. [Use Cases](docs/UseCases)
 
 ---
 
