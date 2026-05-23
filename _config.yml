@@ -7,6 +7,12 @@ url: https://xrlearning.github.io/book
 aux_links:
   XREN site: https://www.xr-en.eu
   
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  
 plugins: 
     - jekyll-default-layout
     - jekyll-toc
