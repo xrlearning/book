@@ -9,7 +9,7 @@ aux_links:
   
 plugins: 
     - jekyll-default-layout
-    # - jekyll-toc
+    - jekyll-toc
     
 logo: "/images/XREN_logo.png"
 
@@ -19,13 +19,13 @@ heading_anchors: true
 color_scheme: light
 
 
-# # TOC Settings
-# toc:
-#  enabled: false
-#  min_level: 1
-#  max_level: 2
-#  list_class: toc
-#  list_class: toc__list
-#  sublist_class: toc__sublist
+# TOC Settings
+toc:
+ enabled: false
+ min_level: 1
+ max_level: 2
+ list_class: toc
+ list_class: toc__list
+ sublist_class: toc__sublist
 
 
