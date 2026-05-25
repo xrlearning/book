@@ -34,7 +34,10 @@ has_toc: false
 ## XR-Based Learning Workflows for the design and analysis of manufacturing processes
 
 * [Assembly Sequence Analysis](Workflows/W1_assembly_sequence)
+* [Robotic Motion Planning](Workflows/W7_motion_planning)
 
 ## XR-Based Learning Workflows for the design and analysis of manufacturing systems
 
 * [Design and Control of Manufacturing Systems](Workflows/W5_design_control)
+* [Design and Analysis of Manufacturing Systems](Workflows/W6_design_analysis)
+
