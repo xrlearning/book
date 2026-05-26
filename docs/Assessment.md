@@ -1,7 +1,7 @@
 ---
-title: Use Cases
+title: Assessment
 layout: default
-nav_order: 5
+nav_order: 7
 ---
 
 
@@ -18,5 +18,6 @@ nav_order: 5
 
 
 
-# Use Cases
+
+# Assessment of XR-based Learning Experience
 {:.no_toc}

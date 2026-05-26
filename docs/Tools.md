@@ -6,7 +6,7 @@ has_children: true
 ---
 
 
-{:.no_toc}
+
 
 
 {: .no_toc }
@@ -22,6 +22,7 @@ has_children: true
 
 
 # XR Learning Tools
+{:.no_toc}
 
 This chapter presents the relevant tools supporting the execution of the XR Learning Workflows. 
 

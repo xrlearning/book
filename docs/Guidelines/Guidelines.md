@@ -19,12 +19,9 @@ toc_min_heading_level: 1
 {:toc}
 </details>
 
+
 # Requirements and specifications for the design of XR-based learning workflows
 {:.no_toc}
-
-
-
-
 
 
 This document addresses the design, development, testing and assessment of learning workflows in industrial engineering education, taking advantage of XR technologies. Each workflow will be formalised in terms of Learning objectives, Use cases, Tasks, User Experience, and Technology.

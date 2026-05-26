@@ -8,7 +8,7 @@ nav_order: 1
 
 # XREN Book
 
-XREN is a [project](https://www.xr-en.eu/) funded by the European Commission’s [Erasmus+ programme](https://erasmus-plus.ec.europa.eu/projects). Starting in September 2023, the project involves four partners:
+XREN is a [project](https://www.xr-en.eu/) (n. 2023-1-EE01-KA220-HED-000158491) funded by the European Commission’s [Erasmus+ programme](https://erasmus-plus.ec.europa.eu/projects). Starting in September 2023, the project involves four partners:
 
 * **Tallinn University of Technology** (TalTech), Department of Mechanical and Industrial Engineering ([DMIE](https://taltech.ee/en/department-mechanical-and-industrial-engineering)) 
 * **Politecnico di Milano** (Polimi), Department of Mechanical Engineering ([DMEC](https://www.mecc.polimi.it/))
@@ -29,6 +29,8 @@ This book presents the main results of the project.
 2. [XR Learning Workflows](docs/LearningWorkflows)
 3. [Tools](docs/Tools)
 4. [Use Cases](docs/UseCases)
+5. [Workshops](docs/Workshops)
+6. [Assessment](docs/Assessment)
 
 ---
 

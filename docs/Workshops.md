@@ -1,8 +1,9 @@
 ---
-title: Use Cases
+title: Workshops
 layout: default
-nav_order: 5
+nav_order: 6
 ---
+
 
 
 
@@ -18,5 +19,5 @@ nav_order: 5
 
 
 
-# Use Cases
+# XR Workshops
 {:.no_toc}

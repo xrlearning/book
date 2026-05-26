@@ -20,9 +20,9 @@ has_toc: false
 {:toc}
 </details>
 
-{:.no_toc}
-# XR Learning Workflows
 
+# XR-based Learning Workflows
+{:.no_toc}
 
 
 ## XR-Based Learning Workflows for the design of mechanical products
