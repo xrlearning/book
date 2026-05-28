@@ -166,6 +166,7 @@ The remaining part of this chapter is focused on the on the guidelines for the u
 
 ### 3.1 XR Overview
 
+{:.no_toc}
 #### 3.1.1 Benefits
 
 XR technologies provide several key features that are relevant for a learning experience, such as:
@@ -184,6 +185,7 @@ In addition to training, XR can enhance collaborative design, prototyping, and p
 
 Lastly, XR offers new ways for students to engage in safety training and hands-on simulations without exposure to real risks, preparing them for professional environments with a higher level of practical experience and awareness.
 
+{:.no_toc}
 #### 3.1.2 Challenges
 
 Despite the potential of XR, there are still relevant challenges that limit its spread. The quality of the immersive experience sought significantly impacts the investment and management cost, as a more advanced experience typically demands complex technologies and equipment. Another key element that escalates both cost and complexity is the design, development, and creation of virtual environments. Developing virtual models requires frequent updates and revisions. However, as simulation technologies evolve, constant updates are needed, requiring substantial programming efforts, which can pose challenges for users without programming expertise.
@@ -200,6 +202,7 @@ Best practices arise from the collective experience of developers and users in t
 
 The following guidelines are focused on VR applications[^4], but most of the rules and recommendations are valid for general XR applications. The guidelines address various aspects, such as optimizing performance, enhancing user comfort, and ensuring security. In addition, these guidelines assist in making informed decisions regarding technology selection, software design, and the implementation of key features, ensuring that the final product is both functional and user-friendly.
 
+{:.no_toc}
 #### 3.2.1 Vision
 
 The representation of the virtual world is a crucial component that demands careful consideration and strategic decisions across multiple aspects. These choices impact the overall realism, usability, and immersive quality of the virtual environment, making it essential to focus on elements such as graphics, interaction design, and system performance to ensure a seamless and engaging user experience.
@@ -218,6 +221,7 @@ In the case of VR, the primary issue with HUDs lies in defining their depth plan
 
 A better approach is embedding information into the environment. For example, players could access information by moving their heads or interacting with wearable devices. The key is to present information in a way that is clear, comfortable, and does not interfere with the user's ability to see and interact with the virtual world.
 
+{:.no_toc}
 #### 3.2.2 User input
 
 When it comes to user interaction in virtual environments, controllers can be classified into two main types: mobile device controllers with 3 degrees of freedom (3DOF) and those with positional tracking, offering 6 degrees of freedom (6DOF).
@@ -244,6 +248,7 @@ It is crucial that the intersection between the virtual hands and objects does n
 
 When it comes to grasping objects in VR, the recommended method is to align the interaction with the object's intended use. For objects designed with a specific grip, they should automatically align with the hand upon contact. If an object lacks a clear way to be held, it should attach to the hand as soon as the grab trigger is activated. In this case, the object’s orientation can be arbitrary, but maintaining its attachment creates a believable interaction.
 
+{:.no_toc}
 #### 3.2.3 User orientation and positional tracking
 
 User orientation and positional tracking are essential components of the virtual experience, particularly in devices that offer six degrees of freedom.
@@ -254,6 +259,7 @@ It is crucial to avoid disabling or altering positional tracking, especially whe
 
 Location tracking can be compromised if the user steps outside the designated viewing area. To ensure a seamless experience, it is essential to establish a defined play area for VR. This area is set up during the initial configuration for each user and works in conjunction with the boundary system to keep users safe.
 
+{:.no_toc}
 #### 3.2.4 User well-being during the experience
 
 The overall user experience in virtual reality (VR) necessitates careful consideration of the fundamental interactions between users and the virtual environment. Allowing users to determine the length of their sessions is essential, given the physical nature of VR, where users wear head-mounted devices and often stand or move around.
@@ -264,6 +270,7 @@ It is vital for developers to conduct regular testing of their VR applications, 
 
 Additionally, users should be gradually introduced to the gaming experience, starting with slower, calmer interactions and providing warnings for more intense content, allowing them to mentally prepare.
 
+{:.no_toc}
 #### 3.2.5 Locomotion
 
 Locomotion refers to how users navigate virtual worlds and is a critical design feature for any VR application. Providing a comfortable and effective locomotion experience is key to the success of a VR project.
@@ -339,7 +346,7 @@ Table 1: issues and types of locomotion
 
 Many frameworks and libraries are available for developing XR applications (e.g., Unity3D, Unreal Engine, Three.js, Babylon.js, etc.).
 
-
+{:.no_toc}
 #### 3.3.1 Babylon.js
 
 [Babylon.js](https://www.babylonjs.com/) is a comprehensive JavaScript framework and graphics engine for developing interactive 3D and XR applications using HTML5 and WebGL (Web Graphics Library). It provides a rich set of high-level functionalities for loading and rendering 3D assets, managing scene graphs, controlling object position and orientation, handling animations, and supporting advanced visualization features such as lighting, materials, and screenshot generation. Thanks to its modular architecture and extensive API, Babylon.js is widely used for building web-based XR environments for visualization, simulation, and training purposes.
@@ -352,6 +359,7 @@ Beyond visualization and navigation, Babylon.js also supports interactive and da
 
 Figure 3: Screenshot of VEB.js application
 
+{:.no_toc}
 #### 3.3.2 React and Three.js
 
 A valuable option for the implementation of web-based 3D and XR applications is the adoption of another webGL based framework such as [Next.js](https://nextjs.org/). This is grounded on React library and allows the creation of full-stack web applications. In combination with the webXR based [Three.js library](https://threejs.org/) dynamic and interactable 3D and augmented or virtual reality contents can be easily accessed from a compatible web browser therefore not dependent on any specific hardware. Also in this case it is possible to include 3D contents in compatible formats (such gLTF) and create a backend connection to communication protocols such as MQTT and ROS (Robot Operating System) which has been adopted in some of the joint calls and workshop activities (Figure 4).
