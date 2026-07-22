@@ -16,14 +16,12 @@ parent: LearningWorkflows
 </details>
 
 
-# XR Learning Workflow for the design of mechanical products
+# XR Learning Workflow for the Design of Mechanical Products
 {:.no_toc}
 
-## 1. Introduction
+Mechanical product design involves not only the development of innovative solutions to meet specific functional requirements but also the integration of components into cohesive systems that balance performance, manufacturability, and cost-effectiveness. This workflow offers a structured approach to mastering these complexities, leveraging advanced tools like CAD software, XR technologies, and simulation techniques. Students will engage in iterative design processes, from concept development to virtual prototyping, guided by engineering principles and key performance metrics. Through hands-on activities and real-world case studies, learners will develop the skills needed to navigate the multidisciplinary demands of modern mechanical design.
 
-The guidelines highlighted in document D2.1 can be applied to create a learning workflow related to the design of mechanical components. Mechanical product design involves not only the development of innovative solutions to meet specific functional requirements but also the integration of components into cohesive systems that balance performance, manufacturability, and cost-effectiveness. This workflow offers a structured approach to mastering these complexities, leveraging advanced tools like CAD software, XR technologies, and simulation techniques. Students will engage in iterative design processes, from concept development to virtual prototyping, guided by engineering principles and key performance metrics. Through hands-on activities and real-world case studies, learners will develop the skills needed to navigate the multidisciplinary demands of modern mechanical design.
-
-## 2. Learning Objectives
+## 1. Learning Objectives
 
 1. **Factual Knowledge**
     1. Learn fundamental concepts of mechanical product design and engineering principles.
@@ -63,19 +61,17 @@ Table 1 lists the specific Intended Learning Objectives (ILOs) with their associ
 
 Table 1: ILOs with associated knowledge type
 
-## 3. Use Case
+## 2. Use Case
 
-This comprehensive workflow guides engineering students through the product development process, utilizing a Planetary Gearbox as a real-world case study (Figure 1). By examining this complex mechanical system, students gain hands-on experience with essential product design principles and methodologies, from initial concept to final implementation. The Planetary Gearbox's sophisticated mechanism and wide industrial applications make it an ideal teaching tool for demonstrating the practical challenges and considerations in mechanical engineering design.
+This comprehensive workflow guides engineering students through the product development process, utilizing a Planetary Gearbox as a real-world case study (Figure 1). By examining this complex mechanical system, students gain hands-on experience with essential product design principles and methodologies, from initial concept to final implementation. The Planetary Gearbox's sophisticated mechanism and wide industrial applications make it an ideal teaching tool for demonstrating the practical challenges and considerations in mechanical engineering design. The gearbox is further described in the [Use Cases](../UseCases.md) page.
 
 <p align="center"><img src="./W2_media/img-1.jpeg" width="320" /></p>
 
 Figure 1: Planetary Gearbox (Use Case)
 
-## 4. Learning Activities
+## 3. Learning Activities
 
 The learning activities are organized into six sequential activities leading to the complete product design. Each level consists of tasks associated with specifics ILOs as reported in Table 2. All the activities of the Reverse Engineering task (T3.0) are further described in Table 3.
-
-### 4.1 Main Learning Workflow
 
 <p align="center"><img src="./W2_media/img-2.jpeg" width="900" /></p>
 
@@ -89,3 +85,41 @@ Figure 2: XR Learning Workflow for the design of mechanical components
 | T4.0 | Concept Definition | <p align="center"><img src="./W2_media/img-5.jpeg" width="320" /></p> • **Description**: During the Conceptual Design phase, students develop fundamental solution principles that will shape their design approach. This crucial stage begins with a systematic analysis of the requirements list to identify key design challenges and technical constraints. Students then define the system's core functionalities and propose innovative technical solutions to achieve these objectives. Through detailed sketches, drawings, and preliminary assembly concepts, students articulate their understanding of the system's working principles and demonstrate how their proposed solutions address the identified challenges. This phase establishes the foundational framework that will guide subsequent detailed design decisions.<br>• **Output**: Concept<br>• **Input**: Technical Requirements<br>• **Control**: Product Design Guidelines, Technical Requirements<br>• **Resource**: Variants Selection Framework | I10, I11 |
 | T5.0 | Embodiment and Detailed Design | <p align="center"><img src="./W2_media/img-6.jpeg" width="300" /></p><br>• **Description**: In the Embodiment and Detailed Design phase, students transform their conceptual framework into a comprehensive technical solution. Starting from their initial concept, they develop the complete product layout while rigorously evaluating design choices against both technical feasibility and economic viability criteria. Using advanced design software, students define precise specifications including component geometries, dimensional requirements, material selections, and surface characteristics for each system element. This phase also encompasses manufacturing strategy development and cost analysis, ensuring producibility and economic efficiency. The process culminates in the creation of detailed technical documentation that captures all essential design specifications, manufacturing requirements, and assembly instructions.<br>• **Output**: Technical Documentation, 3D models of the product<br>• **Input**: Concept<br>• **Controls**: Product Design guidelines, Technical Requirements<br>• **Resources**: CAD/CAM software, Finite Element Analyses (FEA), Multibody Simulations | I11 |
 | T6.0 | [Virtual Testing and Planning Activities](./W4_virtual_testing.md) | <p align="center"><img src="./W2_media/img-7.jpeg" alt="Use Case" width="600" /></p>• **Description**: In this phase students leverage XR technologies to create an immersive testing environment for their mechanical system design. This interactive virtual platform enables students to engage with their product in multiple ways: manipulating components, performing assembly operations, and evaluating functionality across various use scenarios. This interactive platform serves multiple purposes: demonstrating proper product operation, illustrating its working principle, highlighting safety protocols, and visualizing troubleshooting scenarios. Through immersive simulations, users can practice assembly/disassembly sequences, understand component interactions, and master operational procedures in a risk-free virtual environment. This approach not only replaces traditional text-heavy manuals but also accelerates skill acquisition through hands-on learning, reducing training time and potential user errors while improving knowledge retention. Finally, students develop a comprehensive maintenance strategy that leverages XR technologies to optimize product support and service operations. This phase integrates remote collaboration capabilities and assisted maintenance solutions to ensure efficient product upkeep throughout its lifecycle. Through XR-enabled platforms, maintenance technicians can receive real-time expert guidance, access interactive repair procedures, and visualize complex maintenance sequences.<br>• **Output**: Virtual prototype validation report, functionality test outcomes, design improvement recommendations (if any)<br>• **Input**: Technical Documentation, 3D models of the product<br>• **Controls**: Product Design guidelines, Technical Requirements<br>• **Resources**: Unity3D, XR device | I4, I7, I8, I12, I13, I14 |
+
+## 4. Technology
+
+This workflow combines virtual reality (VR), Unity 3D, computer-aided design (CAD) software, and Blender to connect engineering design activities with immersive virtual prototyping. Together, these technologies allow students to move from the definition of a mechanical component to its exploration, validation, and communication in a realistic interactive environment.
+
+**Virtual reality**
+
+VR provides an immersive environment in which students can explore and interact with virtual prototypes of mechanical systems. It enables learners to examine components and assemblies at full scale, simulate assembly processes, test operation, and investigate troubleshooting scenarios without requiring physical parts. The planetary gearbox scene illustrates how an engineering model can become an interactive learning resource.
+
+<p align="center"><img src="./W2_media/img-8.png" width="900" /></p>
+
+Figure 8: Screenshot of a virtual scene showing the planetary gearbox use case
+
+**Unity 3D**
+
+Unity 3D is used to create and run the virtual environment. The engine renders detailed mechanical models in real time and supports interactive features such as animations, component manipulation, assembly and disassembly sequences, and operational simulations. These features make the behaviour and relationships of the gearbox components visible while students perform the learning activities.
+
+<p align="center"><img src="./W2_media/img-9.jpg" width="900" /></p>
+
+Figure 9: Screenshot of a virtual scene rendered in Unity 3D
+
+**CAD software and Blender**
+
+CAD software supports the detailed design phase by enabling students to define component geometry, dimensions, material properties, and assembly relationships. It also allows them to evaluate design feasibility and manufacturability before exporting models for virtual prototyping.
+
+Blender bridges detailed design and visualization. CAD models often contain more geometric detail than can be rendered efficiently in real time; Blender is therefore used to optimize polygon counts, refine materials, and create UV maps for texturing. This preparation preserves the visual fidelity of the engineering model while ensuring that the virtual scene performs smoothly in Unity 3D and VR.
+
+<p align="center"><img src="./W2_media/img-10.png" width="900" /></p>
+
+Figure 10: Screenshot of the gearbox use case in Blender
+
+## 5. User Experience
+
+The user experience is designed to make the product-design workflow both intuitive and immersive. Students progress from the analysis of a reference product to the definition, modelling, and testing of their own design, using the virtual prototype as a common representation throughout the process. The VR environment provides a realistic but risk-free setting in which learners can connect engineering documentation with the physical behaviour of the system.
+
+Students can freely explore the planetary gearbox, inspect its components and their relationships, and manipulate the virtual assembly to understand its working principle. Interactive animations and simulations reveal how the system behaves during operation, while assembly and disassembly activities help learners identify physical constraints and dependencies among parts. These direct interactions turn abstract design requirements into observable design decisions.
+
+In VR, users can select components, grab and move parts, and activate interactive elements directly in the scene; ray-based selection can support the precise interaction with distant or small objects. The resulting learning outputs—feature lists, technical requirements, CAD models, and virtual test results—provide evidence for assessing students' progress and for supporting reflection on subsequent design improvements.
