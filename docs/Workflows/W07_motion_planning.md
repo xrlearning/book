@@ -1,8 +1,8 @@
 ---
 title: Robotic Motion Planning
 layout: default
-nav_order: 5
-parent: LearningWorkflows 
+nav_order: 7
+parent: Learning Workflows 
 ---
 
 {:.no_toc}
@@ -16,7 +16,7 @@ parent: LearningWorkflows
 </details>
 
 
-# Robotic Motion Planning
+# Robotic Motion Planning 
 {:.no_toc}
 
 This workflows is related to robotic motion planning, addressing the assessment and generation phases by developing and updating the digital twin of a robotics lab. Therefore, special attention is paid to the technical steps ranging from the creation of a 3D scene to the simulation of robot trajectories.
@@ -38,29 +38,9 @@ Table 6: ILOs and knowledge type
 
 ## 2. Use Case
 
-The learning workflow was applied to the PERFORM Lab (Personal Robotics for Manufacturing Laboratory) at CNR-STIIMA that is devoted to the development and validation of methods for the control of industrial and collaborative robots in advanced manufacturing. The lab is structured as an open space populated by heavy industrial robots, collaborative robots and mobile manipulators, in order to create an ecosystem of interacting autonomous machines.
+The learning workflow was applied to the [PERFORM Lab (Personal Robotics for Manufacturing Laboratory)](../UseCases/U02_performlab) at CNR-STIIMA (Figure 8).
 
-The lab focuses on thematic areas such as human-robot collaboration, task and motion planning, physical human-robot interaction, rapid sorting, human-robot and robot-robot co-manipulation. These topics have applications in various areas in manufacturing, including waste sorting, assembly and disassembly, and pick and pack.
-
-The PERFORM Lab (Figure 8) consists of several assets placed in the room. Assets are basic elements composing a system, e.g. physical objects like machine tools, parts, conveyors, buffers, but also processes and plans. Herein, only a subset of relevant assets is considered:
-
-- COMAU robots, model NS16 (n.2, Robot_1 and Robot_2)
-
-- bases where the robots are placed (n.2)
-
-- workpieces
-
-- conveyor
-
-- force sensor
-
-- tool (end effector)
-
-- robot controller
-
-- desk
-
-<img src="W7_media/image9.jpeg" style="width:3.63159in;height:4.21875in" alt="https://github.com/difactory/DF/raw/main/docs/AVATAR-JLL/images/PERFORM_Lab.jpg" />
+<img src="W07_media/image9.jpeg" style="width:3.63159in;height:4.21875in" alt="https://github.com/difactory/DF/raw/main/docs/AVATAR-JLL/images/PERFORM_Lab.jpg" />
 
 Figure 8: PERFORM Lab
 
@@ -68,7 +48,7 @@ Figure 8: PERFORM Lab
 
 The learning activities are organized into three levels of increasing difficulty: 1) Visualization and assessment of robot trajectories; 2) Receive and elaborate messages from a robot controller; 3) Generate and assess new robot trajectories.
 
-Each level consists of tasks associated with specifics ILOs as reported in Table 7.
+Each level consists of tasks associated with specifics ILOs as reported in Table 7. 
 
 | **Task ID** | **Task name**                                       | **Task description**                                                                                                                                                                                               | **ILO** |
 |-------------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|

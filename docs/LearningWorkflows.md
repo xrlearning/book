@@ -1,6 +1,6 @@
 ---
 layout: default
-title: LearningWorkflows
+title: Learning Workflows
 nav_order: 3
 has_children: true
 toc: false
@@ -9,8 +9,7 @@ has_toc: false
 ---
 
 
-
-{:.no_toc}
+<!-- {:.no_toc}
 <details open markdown="block">
   <summary>
     Table of contents
@@ -18,26 +17,32 @@ has_toc: false
   {: .text-delta }
 - TOC
 {:toc}
-</details>
-
+</details> -->
+ 
 
 # XR-based Learning Workflows
-{:.no_toc}
+{:.no_toc}  
 
 
 ## XR-Based Learning Workflows for the design of mechanical products
 
-* [Design of mechanical products](Workflows/W2_product_design)
-* [Product Analysis](Workflows/W3_product_analysis)
-* [Virtual Testing and Planning Activities](Workflows/W4_virtual_testing)
+* W01 - [Design of mechanical products](Workflows/W01_product_design)
+* W02 - [Product Analysis](Workflows/W02_product_analysis)
+* W03 - [Virtual Testing and Planning Activities](Workflows/W03_virtual_testing)
 
 ## XR-Based Learning Workflows for the design and analysis of manufacturing processes
 
-* [Assembly Sequence Analysis](Workflows/W1_assembly_sequence)
-* [Robotic Motion Planning](Workflows/W7_motion_planning)
+* W04 - [Assembly Sequence Analysis](Workflows/W04_assembly_sequence)
+* W05 - [Pneumatic Assembly Process](Workflows/W05_penumatic_assembly)
+* W06 - [Inverse and Direct Kinematics Simulation](Workflows/W06_kinematics_simulation)
+* W07 - [Robotic Motion Planning](Workflows/W07_motion_planning) 
 
 ## XR-Based Learning Workflows for the design and analysis of manufacturing systems
 
-* [Design and Control of Manufacturing Systems](Workflows/W5_design_control)
-* [Design and Analysis of Manufacturing Systems](Workflows/W6_design_analysis)
+* W08 - [Sequential Control Systems Synthesis](Workflows/W08_sequential_control)
+* W09 - [Generation of Robotic Cell Digital Shadow](Workflows/W09_robotic_cell)
+* W10 - [Simulation of Conveyor Belt-Cobot line](Workflows/W00_conveyor_belt)
+* W11 - [Design and Control of Manufacturing Systems](Workflows/W01_design_control)
+* W12 - [Design and Analysis of Manufacturing Systems](Workflows/W12_design_analysis)
 
+ 
