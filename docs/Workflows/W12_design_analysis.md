@@ -109,11 +109,14 @@ Table 2: Tasks of learning activities with related ILO
 
 ## 4. Technology
 
+A digital twin of the assembly line has been developed to support research and teaching activities. Digital resources are [available online](../UseCases/U04_assemblyline#online-resources), including the 3D models of the assets in gLFT format and the scene configuration defined in a JSON file according to a specific [schema](https://virtualfactory.gitbook.io/vlft/kb/instantiation/assets/json).
+
 Virtual reality (VR) technology has been selected to deliver the necessary level of realism, allowing students to immerse themselves in a virtual walkthrough of the factory, simulating an actual factory visit. The workflow can be explored using [VEB.js prototype tool](../Tools#vebjs). Figure 6 illustrates how the industrial environment, including the assembly line, is rendered within VEB.js.
 
 <img src="W12_media/image7.png" style="width:5.26258in;height:3.58282in" />
 
 Figure 6: Screenshot of VEB.js application showing the assembly line use case
+
 
 The presentation of the learning tasks and corresponding assessments has been implemented using the [Moodle platform](https://moodle.org/), an online learning management system that offers a variety of tools for designing forms and conducting assessments. 
 

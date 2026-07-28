@@ -109,7 +109,7 @@ Virtual reality (VR) technology has been selected to deliver the necessary level
 
 **Assets and scene configuration**
 
-A digital twin of the lab has been developed to support research and teaching activities. The 3D models of the assets are available on a [GitHub repository](https://github.com/difactory/repository/tree/main/models/PickPlaceCell) in gLFT format, specifically the binary version .glb. The scene configuration is defined in a [JSON file](https://difactory.github.io/repository/scenes/UC/PickPlaceCell.json) according to a specific [schema](https://virtualfactory.gitbook.io/vlft/kb/instantiation/assets/json).
+A digital twin of the cell has been developed to support research and teaching activities. Digital resources are [available online](../UseCases/U03_pickplacecell#online-resources), including the 3D models of the assets in gLFT format and the scene configuration defined in a JSON file according to a specific [schema](https://virtualfactory.gitbook.io/vlft/kb/instantiation/assets/json).
 
 **Visualization in VR environment**
 

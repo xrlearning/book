@@ -72,13 +72,13 @@ Table 7: Learning tasks and ILOs
 
 **Assets and scene configuration**
 
-A digital twin of the lab has been developed to support research and teaching activities. The 3D models of the assets are available on a [GitHub repository](https://github.com/difactory/repository/tree/main/models/VL/PERFORM) in gLFT format, specifically the binary version .glb. The scene configuration is defined in a [JSON file](https://difactory.github.io/repository/scenes/VL/PERFORM.json) according to a specific [schema](https://virtualfactory.gitbook.io/vlft/kb/instantiation/assets/json).
+A digital twin of the lab has been developed to support research and teaching activities. Digital resources are [available online](../UseCases/U02_performlab#online-resources), including the 3D models of the assets in gLFT format and the scene configuration defined in a JSON file according to a specific [schema](https://virtualfactory.gitbook.io/vlft/kb/instantiation/assets/json).
 
 **Visualization in VR environment**
 
 The 3D scene can be visualized using several VR tools/environments, such as Unity, UnrealEngine, Godot, BabylonJS, etc.
 
-Herein, [VEB.js prototype tool](../Tools#vebjs) is employed, taking advantage of its reconfigurable model-driven approach. Any browser can be used to visualize the [PERFORM Lab with VEB.js](https://difactory.github.io/DF/scenes/VL/PERFORM_glb.html).
+Herein, [VEB.js prototype tool](../Tools#vebjs) is employed, taking advantage of its reconfigurable model-driven approach. Any browser can be used to visualize the [PERFORM Lab with VEB.js](https://xrlearning.github.io/repo/UseCases/PerformLab/PERFORM.html).
 
 **Simulation**
 
