@@ -139,6 +139,12 @@ VEB.js can play the role of both [publisher and subscriber](https://virtualfacto
 ## 5. User Experience
 
 The assessment of the learning task is carried out by analyzing the output of the various tasks, as defined in Table 8.
+The following trajectories are provided as list of joint positions defined in a JSON file:
+- [trajectory_1.json](https://xrlearning.github.io/repo/UseCases/PerformLab/trajectory_1.json)
+- [trajectory_2.json](https://xrlearning.github.io/repo/UseCases/PerformLab/trajectory_2.json)
+- [trajectory_3.json](https://xrlearning.github.io/repo/UseCases/PerformLab/trajectory_3.json)
+- [trajectory_4.json](https://xrlearning.github.io/repo/UseCases/PerformLab/trajectory_4.json)
+
 
 | **Task ID** | **Task**                                            | **Output**                                                                                                                                                                                               |
 |-------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -157,3 +163,4 @@ The assessment of the learning task is carried out by analyzing the output of th
 | T3.4        | Assess the execution of the trajectories            | 1\) Does the trajectory reach the goal (yes/no)?; 2) Identification of possible collisions of the robot or tool with other assets; 3) Distance of the tip of the Tool from the local origin of Workpiece |
 
 Table 8: Expected outcome of the learning tasks
+
