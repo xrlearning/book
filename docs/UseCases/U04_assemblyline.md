@@ -67,6 +67,8 @@ Table 1: Hinge components with label
 
 Table 2: Operations and workstations
 
+More details about the use case can be found [here](https://virtualfactory.gitbook.io/vlft/use-cases/assembly-line).
+
 
 ## Online resources
 
