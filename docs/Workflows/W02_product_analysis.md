@@ -57,9 +57,11 @@ Figure 1: Learning Workflow - Product Analysis
 
 ## 4. Technology
 
-The workflow uses high-fidelity 3D models of reference products, an XR application, and an XR device to create an interactive virtual environment for product analysis. The 3D models are integrated into a virtual scene that supports the exploration of complex assemblies, their decomposition, and the visualization of working principles through animations and simulations.
+The workflow uses [Autodesk Inventor](../Tools.md#autodesk-inventor), [Blender](../Tools.md#blender), [Unity 3D](../Tools.md#unity), the [Meta XR SDK](../Tools.md#meta-xr-sdk), and a Meta Quest XR device to create an interactive virtual environment for product analysis. [Autodesk Inventor](../Tools.md#autodesk-inventor) provides the detailed CAD representation of the reference planetary gearbox, including its individual components and assembly relationships. These models are prepared for the virtual environment in [Blender](../Tools.md#blender), where their geometry and appearance can be adapted for real-time use.
 
-The XR application also provides virtual inspection capabilities. Students use these tools to examine components, identify critical geometric parameters, tolerances, and spatial relationships, and investigate constraint mechanisms, kinematic relationships, and mechanical interfaces. The virtual scene is therefore both the resource used for analysis and the environment in which students document their findings.
+The prepared 3D models are brought into [Unity 3D](../Tools.md#unity), which integrates them into a virtual scene that supports the exploration of complex assemblies, their decomposition, and the visualization of working principles through animations and simulations. The [Meta XR SDK](../Tools.md#meta-xr-sdk) connects this scene to the Meta Quest headset and provides the hand and controller interactions needed to select, grab and inspect the gearbox components.
+
+The XR application also provides virtual inspection capabilities. Students use the Unity scene and Meta XR interactions to examine components, identify critical geometric parameters, tolerances, and spatial relationships, and investigate constraint mechanisms, kinematic relationships, and mechanical interfaces. The virtual scene is therefore both the resource used for analysis and the environment in which students document their findings.
 
 ## 5. User Experience
 

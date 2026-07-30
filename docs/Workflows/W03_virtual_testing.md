@@ -57,13 +57,13 @@ Figure 1: Learning Workflow - Virtual Testing and Planning Activities
 
 ## 4. Technology
 
-The workflow combines CAD software, Blender, Unity3D, the Meta SDK, an XR application, and an XR device to prepare and test a designed product in a virtual scene. CAD models provide the precise geometric representation of the product, while Blender is used to reduce the number of vertices and faces when the conversion to polygonal meshes produces geometry that is too detailed for efficient real-time rendering.
+The workflow combines [Autodesk Inventor](../Tools.md#autodesk-inventor), [Blender](../Tools.md#blender), [Unity 3D](../Tools.md#unity), the [Meta XR SDK](../Tools.md#meta-xr-sdk), an XR application, and a Meta Quest XR device to prepare and test a designed product in a virtual scene. [Autodesk Inventor](../Tools.md#autodesk-inventor) provides the precise CAD representation of the designed product, including its component geometry and assembly structure. [Blender](../Tools.md#blender) is used to prepare these models for real-time use by reducing the number of vertices and faces when the conversion to polygonal meshes produces geometry that is too detailed for efficient rendering.
 
 <p align="center"><img src="./W03_media/img-23.png" width="900" /></p>
 
 Figure 7: Gearbox model views: assembled CAD model (left) and exploded view in Unity 3D (right).
 
-The optimized models are used to create an interactive XR testing experience in Unity3D. This virtual scene supports product manipulation, functional testing, assembly and disassembly procedures, and the development of guided training and maintenance activities. Optimizing the models is particularly important for XR head-mounted displays and other edge devices with limited computational power.
+The optimized models are used to create an interactive XR testing experience in [Unity 3D](../Tools.md#unity). This virtual scene supports product manipulation, functional testing, assembly and disassembly procedures, and the development of guided training and maintenance activities. The [Meta XR SDK](../Tools.md#meta-xr-sdk) provides the connection with the Meta Quest headset and supports the hand and controller interactions used to manipulate the product and carry out the testing procedures. Optimizing the models is particularly important for XR head-mounted displays and other edge devices with limited computational power.
 
 ## 5. User Experience
 
