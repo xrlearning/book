@@ -88,11 +88,13 @@ Figure 2: XR Learning Workflow for the design of mechanical components
 
 ## 4. Technology
 
-This workflow combines virtual reality (VR), Unity 3D, computer-aided design (CAD) software, and Blender to connect engineering design activities with immersive virtual prototyping. Together, these technologies allow students to move from the definition of a mechanical component to its exploration, validation, and communication in a realistic interactive environment.
+This workflow combines virtual reality (VR), [Unity 3D](../Tools.md#unity), [Autodesk Inventor](../Tools.md#autodesk-inventor), [Blender](../Tools.md#blender), and the [Meta XR SDK](../Tools.md#meta-xr-sdk) to connect engineering design activities with immersive virtual prototyping. Together, these technologies allow students to move from the definition of a mechanical component to its exploration, validation, and communication in a realistic interactive environment.
 
 **Virtual reality**
 
 VR provides an immersive environment in which students can explore and interact with virtual prototypes of mechanical systems. It enables learners to examine components and assemblies at full scale, simulate assembly processes, test operation, and investigate troubleshooting scenarios without requiring physical parts. The planetary gearbox scene illustrates how an engineering model can become an interactive learning resource.
+
+The [Meta XR SDK](../Tools.md#meta-xr-sdk) connects the virtual environment to the Meta Quest headset and provides the hand and controller interactions used during these activities. Learners can select, grab and manipulate components while receiving immediate visual, audio and haptic feedback as they explore the virtual prototype.
 
 <p align="center"><img src="./W01_media/img-8.png" width="900" /></p>
 
@@ -100,7 +102,7 @@ Figure 8: Screenshot of a virtual scene showing the planetary gearbox use case
 
 **Unity 3D**
 
-Unity 3D is used to create and run the virtual environment. The engine renders detailed mechanical models in real time and supports interactive features such as animations, component manipulation, assembly and disassembly sequences, and operational simulations. These features make the behaviour and relationships of the gearbox components visible while students perform the learning activities.
+[Unity 3D](../Tools.md#unity) is used to create and run the virtual environment. The engine renders detailed mechanical models in real time and supports interactive features such as animations, component manipulation, assembly and disassembly sequences, and operational simulations. These features make the behaviour and relationships of the gearbox components visible while students perform the learning activities.
 
 <p align="center"><img src="./W01_media/img-9.jpg" width="900" /></p>
 
@@ -108,9 +110,9 @@ Figure 9: Screenshot of a virtual scene rendered in Unity 3D
 
 **CAD software and Blender**
 
-CAD software supports the detailed design phase by enabling students to define component geometry, dimensions, material properties, and assembly relationships. It also allows them to evaluate design feasibility and manufacturability before exporting models for virtual prototyping.
+[Autodesk Inventor](../Tools.md#autodesk-inventor) supports the detailed design phase by enabling students to define component geometry, dimensions, material properties, and assembly relationships. It also allows them to evaluate design feasibility and manufacturability before exporting models for virtual prototyping.
 
-Blender bridges detailed design and visualization. CAD models often contain more geometric detail than can be rendered efficiently in real time; Blender is therefore used to optimize polygon counts, refine materials, and create UV maps for texturing. This preparation preserves the visual fidelity of the engineering model while ensuring that the virtual scene performs smoothly in Unity 3D and VR.
+[Blender](../Tools.md#blender) bridges detailed design and visualization. CAD models often contain more geometric detail than can be rendered efficiently in real time; Blender is therefore used to optimize polygon counts, refine materials, and create UV maps for texturing. This preparation preserves the visual fidelity of the engineering model while ensuring that the virtual scene performs smoothly in Unity 3D and VR.
 
 <p align="center"><img src="./W01_media/img-10.png" width="900" /></p>
 
