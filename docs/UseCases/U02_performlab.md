@@ -86,7 +86,7 @@ The URDF package adopts the following **conventions** to define the position and
 
 
 
-## Online resources
+## Digital Model
 
 The [scene configuration](https://xrlearning.github.io/repo/UseCases/PerformLab/PERFORM.json) and the [3D models](https://github.com/xrlearning/repo/tree/main/UseCases/PerformLab/models) (Figures 2-4) of the use case are available online. The [lab can be visualized](https://xrlearning.github.io/repo/UseCases/PerformLab/PERFORM.html) using [VEB.js](../Tools#vebjs) tool (Figure 2).
 

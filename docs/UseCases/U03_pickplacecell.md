@@ -41,7 +41,7 @@ The virtual pick&place cell consists of several assets (see Figure 1-Figure 9):
 
 - Detection Barriers: Both conveyors are equipped with sensor-receiver pairs that detect the presence, passage, and correct positioning of objects. (Figure 9)
 
-## Online resources
+## Digital Model
 
 The [scene configuration](https://xrlearning.github.io/repo/UseCases/PickPlaceCell/PickPlaceCell.json) and the [3D models](https://github.com/xrlearning/repo/tree/main/UseCases/PickPlaceCell/models) (Fugures 1-9) of the use case are available online. The [use case can be visualized](https://xrlearning.github.io/repo/UseCases/PickPlaceCell/PickPlaceCell.html) using [VEB.js](../Tools#vebjs) tool (see Figures 10 and 11).
 

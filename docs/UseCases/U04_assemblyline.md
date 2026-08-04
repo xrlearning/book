@@ -70,7 +70,7 @@ Table 2: Operations and workstations
 More details about the use case can be found [here](https://virtualfactory.gitbook.io/vlft/use-cases/assembly-line).
 
 
-## Online resources
+## Digital Model
 
 The [scene configuration](https://xrlearning.github.io/repo/UseCases/AssemblyLine/AssemblyLine.json) and the [3D models](https://github.com/xrlearning/repo/tree/main/UseCases/AssemblyLine/models) (Figures 2-8) of the use case are available online. The [assembly line can be visualized](https://xrlearning.github.io/repo/UseCases/AssemblyLine/AssemblyLine.html) using [VEB.js](../Tools#vebjs) tool (Figures 9 and 10).
 

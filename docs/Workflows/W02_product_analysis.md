@@ -38,7 +38,7 @@ Table 1: ILOs addressed by the Product Analysis workflow
 
 ## 2. Use Case
 
-The workflow uses the Planetary Gearbox presented in the [Product Design workflow](./W2_product_design.md) as the reference product. Its mechanism and component relationships allow students to explore the product, perform a virtual disassembly, assess dimensions and properties, identify relations and constraints, and define its working principle. The resulting product feature list provides an input to the following product-design activities. The Planetary Gearbox use case is further described in its [page]((../UseCases/U01_gearbox)).
+The workflow uses the Planetary Gearbox presented in the [Product Design workflow](./W2_product_design) as the reference product. Its mechanism and component relationships allow students to explore the product, perform a virtual disassembly, assess dimensions and properties, identify relations and constraints, and define its working principle. The resulting product feature list provides an input to the following product-design activities. The Planetary Gearbox use case is further described in its [page](../UseCases/U01_gearbox).
 
 
 ## 3. Learning Activities
@@ -57,9 +57,9 @@ Figure 1: Learning Workflow - Product Analysis
 
 ## 4. Technology
 
-The workflow uses [Autodesk Inventor](../Tools.md#autodesk-inventor), [Blender](../Tools.md#blender), [Unity 3D](../Tools.md#unity), the [Meta XR SDK](../Tools.md#meta-xr-sdk), and a Meta Quest XR device to create an interactive virtual environment for product analysis. [Autodesk Inventor](../Tools.md#autodesk-inventor) provides the detailed CAD representation of the reference planetary gearbox, including its individual components and assembly relationships. These models are prepared for the virtual environment in [Blender](../Tools.md#blender), where their geometry and appearance can be adapted for real-time use.
+The workflow uses [Autodesk Inventor](../Tools#autodesk-inventor), [Blender](../Tools#blender), [Unity 3D](../Tools#gearbox-learning-application-in-unity), the [Meta XR SDK](../Tools#meta-xr-sdk), and a Meta Quest XR device to create an interactive virtual environment for product analysis. [Autodesk Inventor](../Tools#autodesk-inventor) provides the detailed CAD representation of the reference planetary gearbox, including its individual components and assembly relationships. These models are prepared for the virtual environment in [Blender](../Tools#blender), where their geometry and appearance can be adapted for real-time use.
 
-The prepared 3D models are brought into [Unity 3D](../Tools.md#unity), which integrates them into a virtual scene that supports the exploration of complex assemblies, their decomposition, and the visualization of working principles through animations and simulations. The [Meta XR SDK](../Tools.md#meta-xr-sdk) connects this scene to the Meta Quest headset and provides the hand and controller interactions needed to select, grab and inspect the gearbox components.
+The prepared 3D models are brought into [Unity 3D](../Tools#gearbox-learning-application-in-unity), which integrates them into a virtual scene that supports the exploration of complex assemblies, their decomposition, and the visualization of working principles through animations and simulations. The [Meta XR SDK](../Tools#meta-xr-sdk) connects this scene to the Meta Quest headset and provides the hand and controller interactions needed to select, grab and inspect the gearbox components.
 
 The XR application also provides virtual inspection capabilities. Students use the Unity scene and Meta XR interactions to examine components, identify critical geometric parameters, tolerances, and spatial relationships, and investigate constraint mechanisms, kinematic relationships, and mechanical interfaces. The virtual scene is therefore both the resource used for analysis and the environment in which students document their findings.
 

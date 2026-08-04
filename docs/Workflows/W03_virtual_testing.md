@@ -38,7 +38,7 @@ Table 1: ILOs addressed by the Virtual Testing and Planning Activities workflow
 
 ## 2. Use Case
 
-The workflow uses the designed product developed in the Product Design workflow for virtual testing and planning activities. In the Planetary Gearbox use case, CAD models are optimized and integrated into an interactive virtual scene, where students can inspect the assembly, test component relationships and functionality, and evaluate assembly, disassembly, training, and maintenance procedures. The findings are documented in validation and performance assessment reports and can result in design improvements. The Planetary Gearbox use case is further described in its [page]((../UseCases/U01_gearbox)).
+The workflow uses the designed product developed in the Product Design workflow for virtual testing and planning activities. In the Planetary Gearbox use case, CAD models are optimized and integrated into an interactive virtual scene, where students can inspect the assembly, test component relationships and functionality, and evaluate assembly, disassembly, training, and maintenance procedures. The findings are documented in validation and performance assessment reports and can result in design improvements. The Planetary Gearbox use case is further described in its [page](../UseCases/U01_gearbox).
 
 ## 3. Learning Activities
 
@@ -57,13 +57,13 @@ Figure 1: Learning Workflow - Virtual Testing and Planning Activities
 
 ## 4. Technology
 
-The workflow combines [Autodesk Inventor](../Tools.md#autodesk-inventor), [Blender](../Tools.md#blender), [Unity 3D](../Tools.md#unity), the [Meta XR SDK](../Tools.md#meta-xr-sdk), an XR application, and a Meta Quest XR device to prepare and test a designed product in a virtual scene. [Autodesk Inventor](../Tools.md#autodesk-inventor) provides the precise CAD representation of the designed product, including its component geometry and assembly structure. [Blender](../Tools.md#blender) is used to prepare these models for real-time use by reducing the number of vertices and faces when the conversion to polygonal meshes produces geometry that is too detailed for efficient rendering.
+The workflow combines [Autodesk Inventor](../Tools#autodesk-inventor), [Blender](../Tools#blender), [Unity 3D](../Tools#gearbox-learning-application-in-unity), the [Meta XR SDK](../Tools#meta-xr-sdk), an XR application, and a Meta Quest XR device to prepare and test a designed product in a virtual scene. [Autodesk Inventor](../Tools#autodesk-inventor) provides the precise CAD representation of the designed product, including its component geometry and assembly structure. [Blender](../Tools#blender) is used to prepare these models for real-time use by reducing the number of vertices and faces when the conversion to polygonal meshes produces geometry that is too detailed for efficient rendering.
 
 <p align="center"><img src="./W03_media/img-23.png" width="900" /></p>
 
 Figure 7: Gearbox model views: assembled CAD model (left) and exploded view in Unity 3D (right).
 
-The optimized models are used to create an interactive XR testing experience in [Unity 3D](../Tools.md#unity). This virtual scene supports product manipulation, functional testing, assembly and disassembly procedures, and the development of guided training and maintenance activities. The [Meta XR SDK](../Tools.md#meta-xr-sdk) provides the connection with the Meta Quest headset and supports the hand and controller interactions used to manipulate the product and carry out the testing procedures. Optimizing the models is particularly important for XR head-mounted displays and other edge devices with limited computational power.
+The optimized models are used to create an interactive XR testing experience in [Unity 3D](../Tools#gearbox-learning-application-in-unity). This virtual scene supports product manipulation, functional testing, assembly and disassembly procedures, and the development of guided training and maintenance activities. The [Meta XR SDK](../Tools#meta-xr-sdk) provides the connection with the Meta Quest headset and supports the hand and controller interactions used to manipulate the product and carry out the testing procedures. Optimizing the models is particularly important for XR head-mounted displays and other edge devices with limited computational power.
 
 ## 5. User Experience
 

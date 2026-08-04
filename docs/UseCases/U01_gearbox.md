@@ -61,3 +61,16 @@ Three planet gears are positioned symmetrically at 120°. This configuration sha
 <p align="center">Figure 2: Exploded view of the planetary gearbox assembly</p>
 
 The design prioritises simple maintenance, reduced machine downtime, and low manufacturing and operating costs. The casing protects the internal components and retains the lubricant. Lip seals at the shaft ends and flat gaskets at the ring-gear interface limit lubricant leakage; upper filling and lower drain plugs support routine maintenance. The gearbox uses splash lubrication: the rotating gears agitate the lubricant inside the casing. The lubricant level is set approximately at the gearbox centreline.
+
+
+## Digital Model
+
+[**Autodesk Inventor**](../Tools#autodesk-inventor) was used to prepare the models for the planetary gearbox as a mechanical assembly made up of individual parts, such as gears, shafts and other components. This provided an accurate digital representation of the product before it was adapted for the immersive learning application.
+
+The assembly structure prepared in Inventor helped define how the components relate to one another and how they fit together. The separate parts could then be used to illustrate the construction of the planetary gearbox and to support the assembly and disassembly activities. This was particularly useful for creating a learning experience in which students can understand both the appearance of the components and their position within the complete mechanism.
+
+The Inventor models were subsequently prepared for use in the rest of the asset-production workflow. After conversion and export, the geometry was further adapted in [**Blender**](../Tools#blender) to create and prepare much of the three-dimensional content. Blender was also used to prepare animations and to make the models suitable for use in the application. The resulting models and animations were exported in formats that Unity can import, and were then brought into the Unity project. In Unity, they were assigned materials, interactive behaviours and positions within the learning scenes. Blender thus supported the creation and preparation of the visual content, while Unity brought that content together with the XR interaction and educational logic.
+
+Changes to the geometry, appearance or animation of a component can be prepared in Blender and then updated in Unity, where the asset can be tested as part of the complete learning activity. The Blender source files and the converted .glb assets used by the Unity project are [available online](https://github.com/xrlearning/repo/tree/main/UseCases/PlanetaryGearbox/models/). 
+
+

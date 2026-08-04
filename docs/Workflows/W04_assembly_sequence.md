@@ -300,7 +300,7 @@ Table 2: Assembly Sequence Design Learning Workflow
 
 ## 4. Technology
 
-Several technologies were utilized for the development of the presented learning workflow. It is primarily based on Unity3D v6000.0.3f1 as a Virtual Reality (VR) development platform. 3D models were created in CAD software (SolidWorks) and imported into Unity 3D using neutral GLTF format, which is lightweight and suitable for real-time rendering. The following automatic functionalities of the [VR application](../Tools#cutset-and-bourjault-application) were developed and implemented in C#:
+Several technologies were utilized for the development of the presented learning workflow. It is primarily based on Unity3D v6000.0.3f1 as a Virtual Reality (VR) development platform. 3D models were created in CAD software (SolidWorks) and imported into Unity 3D using neutral GLTF format, which is lightweight and suitable for real-time rendering. The following automatic functionalities of the [VR application](../Tools#cutset-and-bourjault-application-in-unity) were developed and implemented in C#:
 
 - Control and automatic generation of Liaison Diagrams in scenes for implementation of Cutset and Bourajult methods,
 
