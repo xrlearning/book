@@ -27,7 +27,7 @@ With the increase of number of sensory and actuation signals, as well as states 
 
 This workflow contains Virtual Reality (VR) representation of a real-world flexible assembly cell that contains two manipulators with a total of 12 sensors and 7 actuators. The work cell carries out the last operation of step motor assembly, i.e., assembling the Front Endcap to the remaining elements of step motor. In addition to VR representation, workflow includes a real-world flexible assembly cell in which students can get hands-on experience on electropneumatic equipment, control hardware, motion of manipulators’ axes and which is controlled using the developed control system. However, the real-world cell does not enable simultaneous representation of the desired sequence of activities in work cell and state table making it difficult for students to understand the desired functioning of system and its tabular representation. For this purposes VR representation of the work cell is utilized.
 
-# 2. Learning Objectives
+# 1. Learning Objectives
 
 The objectives of workflow are to develop in students the following knowledge:
 
@@ -82,7 +82,7 @@ The listed knowledge is related to the specific Intended Learning Outcomes (ILOs
 
 Table 1: ILOs with associated knowledge
 
-# 3. Use Case
+# 2. Use Case
 
 The developed workflow contains automated assembly work cell that consists of two electropneumatic manipulators (Figure 1). The first manipulator (manipulator M1 – on the left side) has three degrees of freedom (DoF) – two translatory and one rotational, whereas the second manipulator (manipulator M2 – on the right side) has two translatory DoF. All DoF are realized by double-acting pneumatic cylinders (linear and rotary) operated using 5/2-way monostable directional control valves with electropneumatic actuation. The end positions of the cylinders are detected by inductive proximity sensors – one for extracted and one for retracted position of each cylinder. Manipulators are equipped with pneumatic two-finger parallel grippers also controlled using 5/2-way monostable directional control valves. The gripper installed on 3-DoF manipulator has two proximity sensors – one for open and one for closed position, whereas the grasping of objects using 2-DoF manipulator is controlled using actuation signals and timers. The cell contains a total of 12 sensors and 7 actuators. 
 
@@ -124,7 +124,7 @@ The second (manual) mode goes through states step by step and the transition fro
 
 Table 2: Sensory and actuator signals
 
-# 4. Learning Activities
+# 3. Learning Activities
 
 Workflow consists of six learning tasks through which students acquire intended knowledge and learning outcomes. The sequence of tasks along with their inputs and outputs are presented in Figure 5, whereas Table 3 contains the description of tasks and ILOs they contribute to. Task T2.0 is performed both on real-world equipment and in VR, task T3.0 is performed in VR only, task T4.0 is carried out in PLC programming software, whereas tasks T5.0 and T6.0 represent testing of the developed PLC program on real-world work cell.
 
@@ -418,7 +418,7 @@ Figure 5: Learning Activities
 
 Table 3: Sequential Control System Synthesis Design Workflow
 
-# 5. Technology
+# 4. Technology
 
 During the development of the workflow the following technologies were utilized:
 
@@ -448,7 +448,7 @@ During the development of the workflow the following technologies were utilized:
 
 Figure 6: VR device – Oculus Rift S
 
-# 6. User Experience
+# 5. User Experience
 
 Based on the students’ survey conducted, the presented VR-based workflow is an excellent addition to learning the synthesis of sequential control systems design. In particular, when compared to traditional teaching approaches, it in an effective way reveals the complexity of real-world industrial systems, as it enables simultaneous representation of complex work cell functioning and corresponding state table.
 

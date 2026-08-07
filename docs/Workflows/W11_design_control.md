@@ -75,7 +75,7 @@ Table 1: ILOs with associated knowledge type
 
 ## 2. Use Case
 
-The learning workflow can be applied to a use case involving a [pick&place cell](../UseCases/U03_pickplacecell), an automated manufacturing system designed to execute handling, sorting, and transfer operations in a discrete production environment. This use case serves as a testbed for validating the modularity, reusability, and immersive potential of the XR learning framework.
+The learning workflow can be applied to the use case involving a [pick&place cell](../UseCases/U03_pickplacecell), an automated manufacturing system designed to execute handling, sorting, and transfer operations in a discrete production environment. This use case serves as a testbed for validating the modularity, reusability, and immersive potential of the XR learning framework.
 
 
 

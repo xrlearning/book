@@ -19,7 +19,7 @@ parent: Learning Workflows
 # Design and Analysis of Manufacturing Systems
 {:.no_toc}
 
-The guidelines outlined in the previous sections can be applied to the design and analysis of manufacturing systems. This process typically presents a complex engineering challenge, requiring multidisciplinary expertise to meet production objectives. Manufacturing systems comprise production resources with distinct functionalities and capabilities, which are defined by their characteristics. However, how these resources are integrated also significantly affects the overall system capabilities. The design of manufacturing systems is guided by key performance indicators (KPIs), which necessitate specific methodologies and tools for accurate evaluation.
+The design and analysis of manufacturing systems typically presents a complex engineering challenge, requiring multidisciplinary expertise to meet production objectives. Manufacturing systems comprise production resources with distinct functionalities and capabilities, which are defined by their characteristics. However, how these resources are integrated also significantly affects the overall system capabilities. The design of manufacturing systems is guided by key performance indicators (KPIs), which necessitate specific methodologies and tools for accurate evaluation.
 
 
 ## 1. Learning Objectives

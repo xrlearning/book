@@ -19,6 +19,7 @@ parent: Use Cases
 # Planetary Gearbox for a Mobile-Crane Winch
 {:.no_toc}
 
+## Description
 
 The planetary gearbox adopted as a use case for Workflows [W01](../Workflows/W01_product_design), [W02](../Workflows/W2_product_analysis), and [W03](../Workflows/W3_virtual_testing) is a reduction unit designed for the winch of a mobile crane. The winch winds a steel rope around a horizontal drum to lift loads; a block-and-tackle system can be used to reduce the required rope tension (Figure 1). 
 
@@ -26,7 +27,7 @@ The planetary gearbox adopted as a use case for Workflows [W01](../Workflows/W01
 
 <p align="center">Figure 1: Gearbox application scenario: a mobile crane (left) and its winch (right)</p>
 
-## Application requirements
+### Requirements
 
 The gearbox design considered the following operating ranges for the lifting system:
 
@@ -42,13 +43,13 @@ The gearbox design considered the following operating ranges for the lifting sys
 
 The rope-tension range refers to a 10 mm steel rope with a safety factor of 2 and a maximum tensile load of 60,000 N. The maximum winding speed prevents rope overlap and excessive wear on the drum. The motor may be a gerotor, radial-piston, or gear motor selected for high-torque, low-speed operation.
 
-## Gearbox architecture and operation
+### Gearbox architecture and operation
 
 The gearbox is a planetary gear train with a central sun gear, three planet gears, an internally toothed ring gear, and a planet carrier. The ring gear is fixed to the casing, the sun gear receives the input motion from the motor, and the planet carrier provides the output motion to the winch. With the ring gear fixed, the relationship among the angular speeds of the sun, ring, and carrier is defined by the Willis equation.
 
 Three planet gears are positioned symmetrically at 120°. This configuration shares the transmitted load among the planet gears and balances the radial forces acting on the sun gear. Straight-tooth gears are used for the selected application. The sun gear transmits torque to the planets through tooth contact; the planets transmit it to the carrier while meshing with the fixed ring gear.
 
-## Main components and design features
+### Main components and design features
 
 - **Sun gear:** central input gear, connected to the input shaft by a keyed shaft–hub connection and axially retained by a set screw.
 - **Planet gears and pins:** three planet gears mounted on pins bolted to the carrier.

@@ -32,4 +32,5 @@ has_toc: false
 * [Personal Robotics for Manufacturing Laboratory](UseCases/U02_performlab)
 * [Pick & Place Cell](UseCases/U03_pickplacecell)
 * [Assembly Line](UseCases/U04_assemblyline)
+* [Hydraulics and Pneumatics Laboratory](UseCases/U05_pneumaticslab)
  

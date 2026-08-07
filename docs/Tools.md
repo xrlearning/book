@@ -58,7 +58,6 @@ Babylon.js and VEB.js support WebXR that is a web standard developed and maintai
 - *Graphs Eng* that visualizes graphs representing parts/part types, processes and production systems.
 - *StateChart* that support the design and visualization of UML StateChart modeling the behavior of assets.
 
-
 ## Cutset and Bourjault application in Unity
 
 This application has been developed using Unity and is available [online](https://github.com/xrlearning/repo/tree/main/Tools/Cutset_Bourjault).
@@ -73,6 +72,10 @@ Unity was also used to implement the application's interaction and learning feat
 
 The application uses Unity to provide feedback during the exercises. It can count correctly placed pieces, record actions or mistakes, measure the time taken to complete an activity and present the results at the end. Unity's interface, animation, physics and audio features therefore support both the presentation of the learning content and the practical interaction with the planetary gearbox.
 This application is available [online](https://github.com/xrlearning/repo/tree/main/Tools/Gearbox).
+
+## AR Environment for Pneumatic Circuit Assembly
+
+The description of this tool is available [here](./Tools/T01_arpneumatics).
 
 ## Meta XR SDK
 
