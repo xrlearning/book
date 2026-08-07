@@ -214,7 +214,7 @@ The learning activities are organised into two sequential phases:
 </tbody>
 </table>
 
-## 4. Technology
+# 4. Technology
 
 The presented workflow leverages a web-based AR stack to provide an accessible and immersive learning experience. 
 
