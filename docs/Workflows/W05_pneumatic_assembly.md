@@ -244,6 +244,7 @@ In the AR learning workspace (Figure 5), students explore and interact with virt
 **Figure 5.** AR learning workspace and UI for Pneumatics Circuit Assembly \[2\], \[3\]
 
 ## 5.1 Object Interaction
+{:.no_toc}
 
 Students engage with 3D models of pneumatic components by selecting and manipulating them within the AR workspace. Key interaction features include:
 
@@ -254,6 +255,7 @@ Students engage with 3D models of pneumatic components by selecting and manipula
 - Component Manipulation: Hand gestures (pinch-grab, point-and-click, two-hand rotation) allow intuitive placement and interaction.
 
 ## 5.2 Enhanced Immersion and Engagement
+{:.no_toc}
 
 The AR environment is designed to mimic realistic pneumatic laboratory conditions. Features include:
 
@@ -266,6 +268,7 @@ The AR environment is designed to mimic realistic pneumatic laboratory condition
 - Alert indicators highlighting improperly connected or missing components.
 
 ## 5.3 Expected Task Outcomes
+{:.no_toc}
 
 **Table 4** Summary of the expected output for each learning task
 
@@ -281,7 +284,7 @@ The AR environment is designed to mimic realistic pneumatic laboratory condition
 | T2.5        | Troubleshoot Circuit Configuration | A corrected circuit and a short record of identified errors and revisions.                                 |
 | T2.6        | Final Testing and Revisions        | Final test result and self-assessment of understanding, correctness, and confidence.                       |
 
-## References
+# References
 
 1.  Pizzagalli, S. L.; Mahmood, K.; Boychuk, R.; Otto, T.; Kuts, V. (2025). A workflow for extended reality-based learning in engineering education. Proceedings of the Estonian Academy of Sciences, 74, 2, 103−108. DOI: 10.3176/proc.2025.2.03.
 2.  Mondellini, Marta; Arlati, Sara; Urgo, Marcello; Pizzagalli, Simone Luca; Kashif, Mahmood; Terkaj, Walter (2025). Comparing Traditional and eXtended Reality-based Learning: Effects on Performance, Emotions, and Cognitive Aspects. In: Extended Reality: International Conference, XR Salento 2025, Otranto, Italy, June 17–20, 2025, Proceedings, Part VI. (324−336). Springer. (Lecture Notes in Computer Science; 15742). DOI: 10.1007/978-3-031-97778-7_24.
