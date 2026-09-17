@@ -168,6 +168,8 @@ assembly steps [2].
 
 
 ## References
-[1] Mondellini M, Arlati S, Urgo M, Pizzagalli S, Mahmood K, Terkaj W (2026) Comparing Traditional and eXtended Reality-Based Learning: Effects on Performance, Emotions, and Cognitive Aspects. In: De Paolis LT, Arpaia P, Sacco M (eds) Extended Reality. XR Salento 2025. Lecture Notes in Computer Science, 15742:324–336. Springer, Cham. https://doi.org/10.1007/978-3-031-97778-7_24
-[2] Mondellini M, Arlati S, Stefanone A, Lucania E, Colombo G, Urgo M, Terkaj W (2027) Teaching product assembly with VR: advantages, shortcomings, and student perceptions. In: De Paolis, L.T., Arpaia, P., Sacco, M. (eds) Extended Reality. XR Salento 2026. Lecture Notes in Computer Science, 16837:323-336. Springer, Cham. https://doi.org/10.1007/978-3-032-33500-5_22
-[3] Terkaj W, Arlati S, Mondellini M, Dindic A, Sacco M (2027) XR Experiential Learning in Higher Education: A Framework and Full-Immersion Workshop Experience. To appear in Springer Proceedings in Business and Economics.
+\[1\] Mondellini M, Arlati S, Urgo M, Pizzagalli S, Mahmood K, Terkaj W (2026) Comparing Traditional and eXtended Reality-Based Learning: Effects on Performance, Emotions, and Cognitive Aspects. In: De Paolis LT, Arpaia P, Sacco M (eds) Extended Reality. XR Salento 2025. Lecture Notes in Computer Science, 15742:324–336. Springer, Cham. https://doi.org/10.1007/978-3-031-97778-7_24
+
+\[2\] Mondellini M, Arlati S, Stefanone A, Lucania E, Colombo G, Urgo M, Terkaj W (2027) Teaching product assembly with VR: advantages, shortcomings, and student perceptions. In: De Paolis, L.T., Arpaia, P., Sacco, M. (eds) Extended Reality. XR Salento 2026. Lecture Notes in Computer Science, 16837:323-336. Springer, Cham. https://doi.org/10.1007/978-3-032-33500-5_22
+
+\[3\] Terkaj W, Arlati S, Mondellini M, Dindic A, Sacco M (2027) XR Experiential Learning in Higher Education: A Framework and Full-Immersion Workshop Experience. To appear in Springer Proceedings in Business and Economics.

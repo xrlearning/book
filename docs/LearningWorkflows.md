@@ -41,8 +41,7 @@ has_toc: false
 
 * W08 - [Sequential Control Systems Synthesis](Workflows/W08_sequential_control)
 * W09 - [Generation of Robotic Cell Digital Shadow](Workflows/W09_robotic_cell)
-* W10 - [Simulation of Conveyor Belt-Cobot line](Workflows/W00_conveyor_belt)
-* W11 - [Design and Control of Manufacturing Systems](Workflows/W01_design_control)
-* W12 - [Design and Analysis of Manufacturing Systems](Workflows/W12_design_analysis)
+* W10 - [Design and Control of Manufacturing Systems](Workflows/W10_design_control)
+* W11 - [Design and Analysis of Manufacturing Systems](Workflows/W11_design_analysis)
 
  

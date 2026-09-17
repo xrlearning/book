@@ -74,7 +74,7 @@ Table 1: ILOs with associated knowledge type
 
 The learning workflow was applied to an industrial case involving an [assembly line](../UseCases/U04_assemblyline) that produces self-closing concealed cabinet hinges. The assembly line includes 19 workstations, each performing specific tasks (e.g., pick and place, screw tightening, riveting) to assemble the components of the self-closing concealed cabinet hinge. These components are shown in Figure 5.
 
-<img src="W12_media/image6.png" style="width:3.0973in;height:2.68929in" />
+<img src="W11_media/image6.png" style="width:3.0973in;height:2.68929in" />
 
 Figure 5: Hinge components
 
@@ -113,7 +113,7 @@ A digital twin of the assembly line has been developed to support research and t
 
 Virtual reality (VR) technology has been selected to deliver the necessary level of realism, allowing students to immerse themselves in a virtual walkthrough of the factory, simulating an actual factory visit. The workflow can be explored using [VEB.js prototype tool](../Tools#vebjs). Figure 6 illustrates how the industrial environment, including the assembly line, is rendered within VEB.js.
 
-<img src="W12_media/image7.png" style="width:5.26258in;height:3.58282in" />
+<img src="W11_media/image7.png" style="width:5.26258in;height:3.58282in" />
 
 Figure 6: Screenshot of VEB.js application showing the assembly line use case
 
@@ -122,7 +122,7 @@ The presentation of the learning tasks and corresponding assessments has been im
 
 Alongside the front-end VR application, a set of digital tools (see Figure 7) has been employed to model the industrial case depicted in the virtual environment. Factory objects, their placement in the virtual scene, their 3D representation, and attributes were defined using [OntoGuiWeb](../Tools#ontoguiweb), a graphical interface designed for creating factory models based on an ontology data model. Event generation for animating the virtual scene was facilitated by a Discrete Event Simulator (e.g. [Java Modelling Tools](https://jmt.sourceforge.net/)).
 
-<img src="W12_media/image8.png" style="width:6.26806in;height:3.01775in" />
+<img src="W11_media/image8.png" style="width:6.26806in;height:3.01775in" />
 
 Figure 7: Integrated digital tools and data repository
 
