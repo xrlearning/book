@@ -82,21 +82,22 @@ Table 1: ILOs with associated knowledge
 
 ## 2. Use Cases
 
-The workflow for the assembly sequence analysis is applied using two examples through which students obtain knowledge and skills listed in Section 2. The first example refers to the simple product that contains only four parts denoted by letters A-D (Figure 1.a). The goal of this example is to introduce students to the techniques used for assembly sequence design. 
-
-The second example represents a real-world use case and refers to step motor. The motor is reduced to 6 parts/subassemblies denoted by letters A-E in Figure 1.b. It is assumed that rotor and stator are introduced into assembly process as subassemblies. Furthermore, since it is evident that the last operation in assembly process should be fixing the assembly using four screws, these parts are not considered during assembly sequence analysis.
+The workflow for the assembly sequence analysis contains two use cases through which students obtain knowledge and skills listed in Section 1. [Use Case 1](../UseCases/U06_simpleproduct) refers to the simple product that contains only four parts (Figure 1.a), whereas [Use Case 2](../UseCases/U07_stepmotor) represents a real-world product, i.e. a step motor (Figure 1.b).
 
 <img src="W04_media/image2.png" style="width:4.67722in;height:4.82502in" />
 
 Figure 1: Products used in workflow: a) simple product (Use Case1), and b) step motor (Use Case 2)
 
+
+
+## 3. Learning Activities
+
+The workflow consists of eight learning tasks through which the students acquire intended knowledge and learning outcomes. The sequence of tasks along with their input and output are presented in Figure 2, whereas Table 2 contains the description of tasks and ILOs they contribute to. Tasks T2.0 to T8.0 are performed for both use cases – first for use case 1 where students get the first insight into the application of the methods, and after that for use case 2 where students get deeper understanding of the methods, assembly sequences and their relation to product design and assembly process. To make this document concise, Table 2 presents the application to use case 2, as more complex, in more details assuming that the implementation of tasks for use case 1 is simpler.
+
 <img src="W04_media/image9.png" style="width:10.16001in;height:5.91861in" alt="A diagram of a flowchart Description automatically generated" />
 
 Figure 2: Learning Activities
 
-## 3. Learning Activities
-
-Workflow consists of eight learning tasks through which the students acquire intended knowledge and learning outcomes. The sequence of tasks along with their inputs and outputs are presented in Figure 2, whereas Table 2 contains the description of tasks and ILOs they contribute to. Tasks T2.0 to T8.0 are performed for both use cases – first for use case 1 where students get the first insight into the application of the methods, and after that for use case 2 where students get deeper understanding of the methods, assembly sequences and their relation to product design and assembly process. To make this document concise, in Table 2 use case 2, as more complex, is presented in more details assuming that the implementation of tasks for use case 1 is less complicated.
 
 <table>
 <colgroup>

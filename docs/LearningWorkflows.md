@@ -34,7 +34,7 @@ has_toc: false
 
 * W04 - [Assembly Sequence Analysis](Workflows/W04_assembly_sequence)
 * W05 - [Pneumatic Assembly Process](Workflows/W05_pneumatic_assembly)
-* W06 - [Inverse and Direct Kinematics Simulation](Workflows/W06_kinematics_simulation)
+* W06 - [Robotic Arm Kinematics](Workflows/W06_robotic_arm_kinematics)
 * W07 - [Robotic Motion Planning](Workflows/W07_motion_planning) 
 
 ## XR-Based Learning Workflows for the design and analysis of manufacturing systems

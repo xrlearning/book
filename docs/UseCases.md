@@ -33,4 +33,8 @@ has_toc: false
 * [Pick & Place Cell](UseCases/U03_pickplacecell)
 * [Assembly Line](UseCases/U04_assemblyline)
 * [Hydraulics and Pneumatics Laboratory](UseCases/U05_pneumaticslab)
+* [Simple Product](UseCases/U06_simpleproduct)
+* [Step Motor](UseCases/U07_stepmotor)
+* [Automated Assembly Work Cell](UseCases/U08_workcell)
+* [Robotic Cell](UseCases/U09_roboticcell)
  

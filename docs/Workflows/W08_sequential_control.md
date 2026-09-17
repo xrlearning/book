@@ -27,7 +27,7 @@ With the increase of number of sensory and actuation signals, as well as states 
 
 This workflow contains Virtual Reality (VR) representation of a real-world flexible assembly cell that contains two manipulators with a total of 12 sensors and 7 actuators. The work cell carries out the last operation of step motor assembly, i.e., assembling the Front Endcap to the remaining elements of step motor. In addition to VR representation, workflow includes a real-world flexible assembly cell in which students can get hands-on experience on electropneumatic equipment, control hardware, motion of manipulators’ axes and which is controlled using the developed control system. However, the real-world cell does not enable simultaneous representation of the desired sequence of activities in work cell and state table making it difficult for students to understand the desired functioning of system and its tabular representation. For this purposes VR representation of the work cell is utilized.
 
-# 1. Learning Objectives
+## 1. Learning Objectives
 
 The objectives of workflow are to develop in students the following knowledge:
 
@@ -82,23 +82,23 @@ The listed knowledge is related to the specific Intended Learning Outcomes (ILOs
 
 Table 1: ILOs with associated knowledge
 
-# 2. Use Case
+## 2. Use Case
 
-The developed workflow contains automated assembly work cell that consists of two electropneumatic manipulators (Figure 1). The first manipulator (manipulator M1 – on the left side) has three degrees of freedom (DoF) – two translatory and one rotational, whereas the second manipulator (manipulator M2 – on the right side) has two translatory DoF. All DoF are realized by double-acting pneumatic cylinders (linear and rotary) operated using 5/2-way monostable directional control valves with electropneumatic actuation. The end positions of the cylinders are detected by inductive proximity sensors – one for extracted and one for retracted position of each cylinder. Manipulators are equipped with pneumatic two-finger parallel grippers also controlled using 5/2-way monostable directional control valves. The gripper installed on 3-DoF manipulator has two proximity sensors – one for open and one for closed position, whereas the grasping of objects using 2-DoF manipulator is controlled using actuation signals and timers. The cell contains a total of 12 sensors and 7 actuators. 
+The developed workflow is applied to an [automated assembly work cell](../UseCases/U08_workcell) (Figure 1). The work cell executes the last operation of the assembly of a [step motor](../UseCases/U07_stepmotor), i.e. joining the Front Endcap to the remaining parts (Figure 2). 
 
-a\) <img src="W08_media/image2.jpeg" style="width:6.26806in;height:2.23681in" />
+<img src="W08_media/image2.jpeg" style="width:6.26806in;height:2.23681in" />
 
-b\) <img src="W08_media/image3.jpeg" style="width:4.00741in;height:2.40476in" />
+Figure 1: Automated assembly work cell
 
-Figure 1: Automated assembly work cell in the workflow: a) 2D representation, b) photo
+<img src="W08_media/image4.png" style="width:4.89329in;height:3.53947in" />
 
-Within the described cell last but one operation of the assembly of step motor (Figure 2), i.e. joining the Front Endcap to the remaining parts is carried out. In addition to manipulators, VR representation of the cell (Figure 3) contains two linear conveyers that feed unfinished subassemblies/parts and transfer finished subassembly from the cell. Note that the control of the conveyers is not considered in the workflow – it is only used to make the representation more realistic.
+Figure 2: Step motor
+
+In addition to manipulators, the VR representation of the work cell (Figure 3) contains two linear conveyers that feed unfinished subassemblies/parts and transfer finished subassembly from the cell. Note that the control of the conveyers is not considered in the workflow – it is only used to make the representation more realistic.
 
 At the beginning of the assembly process all linear actuators are retracted, rotary actuator is in the right position and end-effectors are open. During the process, manipulator M1 picks up the subassembly from conveyer (vertical cylinder advances, gripper grips the part, and then vertical cylinder retracts), moves it to the assembly fixture (rotary cylinder rotates for 180° and goes to the left position, horizontal, and subsequently vertical cylinder advance, and gripper releases the part) and retracts to home position (vertical and horizontal cylinder retract, whereas rotary cylinder stays in left position). In the second part of the sequence, manipulator M2 picks up the Front Endcap from the second conveyer (vertical cylinder advances, gripper grips the part, and then vertical cylinder retracts), carries out the assembly (horizontal and afterwards vertical cylinder advance, and gripper releases the part) and retracts to the start position (horizontal and vertical cylinder retract). The last part of the sequence refers to the removal of assembly from the cell. Manipulator M1 takes the finished subassembly from the assembly position (horizontal and vertical cylinders advance, and gripper closes), moves it to the first conveyer (vertical and horizontal cylinders retract, rotary cylinder returns to right position, vertical cylinder advances and gripper releases finished subassembly) and finally returns to the start position (vertical cylinder retracts).
 
-<img src="W08_media/image4.emf" style="width:4.89329in;height:3.53947in" />
 
-Figure 2: Step motor - product assembled within work cell in the workflow
 
 <img src="W08_media/image5.jpeg" style="width:6.26806in;height:3.50833in" />
 
@@ -108,9 +108,9 @@ Figure 3: Automatic mode of the workflow
 
 Figure 4: Manual mode of the workflow
 
-Within VR two modes of work-cell operation are created. The first (automatic) mode represents the simulation of work cell and in this mode the described sequence flow repeats in loop. User starts or stops the simulation through switches and can control the speed by slider (Figure 3).
+Within the VR environment two modes of work-cell operation are created. The first mode (automatic) represents the simulation of work cell and in this mode the described sequence flow repeats in loop. The user starts or stops the simulation through switches and can control the speed by slider (Figure 3).
 
-The second (manual) mode goes through states step by step and the transition from one step to the next or previous is carried out using buttons **Next** and **Back** (Figure 4). In this mode in the background of the cell there is a canvas with state table in which current state of the cell is highlighted with red rectangle. When student presses e.g., the button Next, the cell moves to the next state, and the corresponding column in state table in the background is highlighted. The state table contains the sensory and actuator signals presented in Table 2. Since the number of states in state table is large (a total of 47 states), it is split into three state tables – each representing one of three described parts of sequence. In the first and third table, the signals related to manipulator 2 are shaded since in these parts of sequence this manipulator is inactive. The same holds for the second table and manipulator 1
+The second mode (manual) goes through states step by step and the transition from one step to the next or previous is carried out using buttons **Next** and **Back** (Figure 4). In this mode in the background of the cell there is a canvas with state table in which current state of the cell is highlighted with red rectangle. When student presses e.g., the button Next, the cell moves to the next state, and the corresponding column in state table in the background is highlighted. The state table contains the sensory and actuator signals presented in Table 2. Since the number of states in state table is large (a total of 47 states), it is split into three state tables – each representing one of three described parts of sequence. In the first and third table, the signals related to manipulator 2 are shaded since in these parts of sequence this manipulator is inactive. The same holds for the second table and manipulator 1.
 
 | **Actuator**                         | **Notation** | **Retracted position signal** | **Advanced/closed position signal** | **Actuation signal** |
 |--------------------------------------|--------------|-------------------------------|-------------------------------------|----------------------|
@@ -124,7 +124,7 @@ The second (manual) mode goes through states step by step and the transition fro
 
 Table 2: Sensory and actuator signals
 
-# 3. Learning Activities
+## 3. Learning Activities
 
 Workflow consists of six learning tasks through which students acquire intended knowledge and learning outcomes. The sequence of tasks along with their inputs and outputs are presented in Figure 5, whereas Table 3 contains the description of tasks and ILOs they contribute to. Task T2.0 is performed both on real-world equipment and in VR, task T3.0 is performed in VR only, task T4.0 is carried out in PLC programming software, whereas tasks T5.0 and T6.0 represent testing of the developed PLC program on real-world work cell.
 
@@ -418,7 +418,7 @@ Figure 5: Learning Activities
 
 Table 3: Sequential Control System Synthesis Design Workflow
 
-# 4. Technology
+## 4. Technology
 
 During the development of the workflow the following technologies were utilized:
 
@@ -448,7 +448,7 @@ During the development of the workflow the following technologies were utilized:
 
 Figure 6: VR device – Oculus Rift S
 
-# 5. User Experience
+## 5. User Experience
 
 Based on the students’ survey conducted, the presented VR-based workflow is an excellent addition to learning the synthesis of sequential control systems design. In particular, when compared to traditional teaching approaches, it in an effective way reveals the complexity of real-world industrial systems, as it enables simultaneous representation of complex work cell functioning and corresponding state table.
 
@@ -484,7 +484,7 @@ Critical and self-critical thinking represent significant outcomes of engineerin
 
 - SFC program generation.
 
-# References
+## References
 
 1.  Abdelhameed, M.M. and Tolbah, F.A., 2002. A recurrent neural network-based sequential controller for manufacturing automated systems. Mechatronics, 12(4), pp.617-633.
 

@@ -60,7 +60,11 @@ Babylon.js and VEB.js support WebXR that is a web standard developed and maintai
 
 ## Cutset and Bourjault application in Unity
 
-This application has been developed using Unity and is available [online](https://github.com/xrlearning/repo/tree/main/Tools/Cutset_Bourjault).
+**Cutset and Bourjault method learning application** was developed in Unity, as support for learning assembly sequence analysis. It is designed to run on Oculus Rift S headsets, allowing users to interact with a virtual product and to generate possible assembly sequences in an immersive environment.
+
+The application comprises two use cases (simple product and step motor) and four scenes per use case. The first scene represents a starting point in which users get acquainted with the product and spatial relations between product parts and sub-assemblies. In this scene, through product manual assembling/disassembling users generate parts’ liaison diagram. The second and the third scene refer to the application of Cutset and Bourjault methods and represent the support for asking and answering precedence questions. Using interactive environment, users ask the precedence question, make experiments with the parts involved in the question, and enter the answer in the corresponding field. The last scene presents the Liaison Sequence Diagram (LSD) containing all possible sequences for use cases’ products assembly and in this scene, users can compare the LSD they generated with the correct LSD.
+
+The scenes are supported by custom-made scripts that enable immersive interaction during parts assembling/disassembling through collision detection and avoidance, selection of parts/sub-assemblies involved in liaisons, as well as export of precedence relations report. This application is available [online](https://github.com/xrlearning/repo/tree/main/Tools/Cutset_Bourjault).
 
 ## Gearbox learning application in Unity
 

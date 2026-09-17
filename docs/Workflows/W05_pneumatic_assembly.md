@@ -21,7 +21,9 @@ parent: Learning Workflows
 
 This learning workflow is designed to address the challenges of the assembly and operation of pneumatic systems in Augmented Reality (AR). Pneumatic system design and troubleshooting are core competencies not only in Vocational Education and Training (VET) for mechatronics and industrial automation but also in industrial and manufacturing-related curricula at universities, especially the Integrated Engineering curriculum at TalTech (subject: Hydraulics and Pneumatics). The workflow offers a structured approach to mastering these competencies, leveraging AR technologies and web-based 3D simulation. Students engage with virtual pneumatic components: compressors, valves, cylinders, splitters, and tubes in an interactive AR workspace, assembling circuits, testing system behaviour, and completing guided exercises. Through hands-on AR activities, learners develop the skills needed to understand, design, and troubleshoot real pneumatic circuits in a safe, repeatable environment.
 
-# 1. Learning Objectives
+## 1. Learning Objectives
+
+The learning objectives covers the following knowledge types, while the specific Intended Learning Objectives (ILOs) are listed in Table 1:
 
 **1. Factual Knowledge**
 
@@ -49,7 +51,7 @@ This learning workflow is designed to address the challenges of the assembly and
 
 - **4.1** Evaluate one's own confidence in assembling pneumatic circuits, interpreting simulation feedback, solving exercises, and understanding the relationship between circuit design and system behaviour.
 
-***Table 1.** List of specific Intended Learning Objectives (ILOs) with their associated knowledge type*
+***Table 1.** List of specific ILOs with their associated knowledge type*
 
 | **ILO** | **Knowledge Type** | **ILO Description**                                                                                                                                                                                                                                                     |
 |---------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -69,7 +71,7 @@ This learning workflow is designed to address the challenges of the assembly and
 | I14     | 4.1                | Evaluate one's own confidence in assembling pneumatic circuits, interpreting simulation feedback, solving exercises, and understanding the relationship between circuit design and system behaviour.                                                                    |
 
 
-# 2. Use Case
+## 2. Use Case
 
 The learning workflow has been applied to use case of the [pneumatics laboratory](../UseCases/U05_pneumaticslab) located at Tallinn University of Technology (TalTech). The lab is used for hydraulics and pneumatics laboratory teaching. The traditional laboratory procedure for pneumatics circuit assembly is structured as follows: the students assemble the circuit by using the provided components and schematics; the teacher verifies the correctness of the assembly and tests it together with the student; if there is something wrong both go through troubleshooting and a further verification; the class is afterwards concluded.
 
@@ -80,7 +82,7 @@ By working through structured exercises of increasing complexity, students can l
 The pneumatic domain is well-suited as a teaching context because it combines clear physical cause-and-effect relationships (pressure → flow → motion) with a discrete set of components that can be mastered progressively.
 
 
-# 3. Learning Activities
+## 3. Learning Activities
 
 The proposed main workflow is presented in Figure 1. It consists of different phases from the understanding of the system, definition of requirements till the test and evaluation of the proposed XR system integration and related learning activities. The phases go in parallel with specific activities and actions the students should undertake at each step of the workflow being, in this case, generic guidelines that can be customized for each specific use case. Another horizontal layer is constituted by the selection of the tools, mainly digital, to be involved in each step of the process.
 
@@ -214,7 +216,7 @@ The learning activities are organised into two sequential phases:
 </tbody>
 </table>
 
-# 4. Technology
+## 4. Technology
 
 The presented workflow leverages a web-based AR stack to provide an accessible and immersive learning experience. 
 
@@ -235,7 +237,7 @@ In Phase 2, students define their circuit goal (T2.1), assemble the circuit (T2.
 The images show how the user enables to pick and place the selected components and attach their connector ends to the air source through virtual tubes (left side). The user can operate the button components (right side) to check the correctness of the exercise and schematics assembly, and trigger/visualise the extension of the pistons.
 
 
-# 5. User Experience
+## 5. User Experience
 
 In the AR learning workspace (Figure 5), students explore and interact with virtual pneumatic components overlaid on their physical surroundings. This approach ensures that learners not only understand theoretical pneumatic principles but apply them directly through hands-on assembly and testing in a safe, repeatable context. The learning workflow provides students with several interactive elements to enhance understanding and learning outcomes.
 
@@ -243,7 +245,7 @@ In the AR learning workspace (Figure 5), students explore and interact with virt
 
 **Figure 5.** AR learning workspace and UI for Pneumatics Circuit Assembly \[2\], \[3\]
 
-## 5.1 Object Interaction
+### 5.1 Object Interaction
 {:.no_toc}
 
 Students engage with 3D models of pneumatic components by selecting and manipulating them within the AR workspace. Key interaction features include:
@@ -254,7 +256,7 @@ Students engage with 3D models of pneumatic components by selecting and manipula
 
 - Component Manipulation: Hand gestures (pinch-grab, point-and-click, two-hand rotation) allow intuitive placement and interaction.
 
-## 5.2 Enhanced Immersion and Engagement
+### 5.2 Enhanced Immersion and Engagement
 {:.no_toc}
 
 The AR environment is designed to mimic realistic pneumatic laboratory conditions. Features include:
@@ -267,7 +269,7 @@ The AR environment is designed to mimic realistic pneumatic laboratory condition
 
 - Alert indicators highlighting improperly connected or missing components.
 
-## 5.3 Expected Task Outcomes
+### 5.3 Expected Task Outcomes
 {:.no_toc}
 
 **Table 4** Summary of the expected output for each learning task
@@ -284,7 +286,7 @@ The AR environment is designed to mimic realistic pneumatic laboratory condition
 | T2.5        | Troubleshoot Circuit Configuration | A corrected circuit and a short record of identified errors and revisions.                                 |
 | T2.6        | Final Testing and Revisions        | Final test result and self-assessment of understanding, correctness, and confidence.                       |
 
-# References
+## References
 
 1.  Pizzagalli, S. L.; Mahmood, K.; Boychuk, R.; Otto, T.; Kuts, V. (2025). A workflow for extended reality-based learning in engineering education. Proceedings of the Estonian Academy of Sciences, 74, 2, 103−108. DOI: 10.3176/proc.2025.2.03.
 2.  Mondellini, Marta; Arlati, Sara; Urgo, Marcello; Pizzagalli, Simone Luca; Kashif, Mahmood; Terkaj, Walter (2025). Comparing Traditional and eXtended Reality-based Learning: Effects on Performance, Emotions, and Cognitive Aspects. In: Extended Reality: International Conference, XR Salento 2025, Otranto, Italy, June 17–20, 2025, Proceedings, Part VI. (324−336). Springer. (Lecture Notes in Computer Science; 15742). DOI: 10.1007/978-3-031-97778-7_24.
