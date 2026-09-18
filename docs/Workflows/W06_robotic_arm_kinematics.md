@@ -89,9 +89,9 @@ The learning objectives covers the following knowledge types, while the specific
 
 **Description and Equipment**
 
-The use case focuses on the integration of two robotic system cells in a virtual environment and the implementation of inverse and forward kinematics (IK, FK) interactive visualisation, to provide students with a safe, hands-on and repeatable sandbox to understand the robotic systems and kinematic solver algorithms.
+The use case focuses on the integration of [two robotic cells](../UseCases/U10_robotsystem) in a [virtual environment](../Tools/T02_xrkinematics) and the implementation of inverse and forward kinematics (IK, FK) interactive visualisation, to provide students with a safe, hands-on and repeatable sandbox to understand the robotic systems and kinematic solver algorithms.
 
-Two robotic cells were selected for the implementation of this workflow, incorporating the Yaskawa Motoman GP8 and ABB IRB 1600 industrial robotic arms. Both robotic systems are located in the TalTech IVAR Lab (link: <https://ivar.taltech.ee/equipment>), and are extensively used for teaching activities across several courses, as well as for research purposes. Both robots are six-axis articulated industrial robots, each consisting of six rotational joints and six links, as shown in Figure 1.
+Two robotic cells incorporate the Yaskawa Motoman GP8 and ABB IRB 1600 industrial robotic arms (Figure 1).
 
 <img src="W06_media/image2.png" style="width:5.11606in;height:3.48379in" />
 
@@ -99,49 +99,10 @@ Two robotic cells were selected for the implementation of this workflow, incorpo
 
 As previously mentioned, the selected robots are industrial articulated robots that are widely used across various sectors, particularly manufacturing and logistics, for applications such as assembly, welding, packaging, pick-and-place operations, sorting, material handling, and other precision-demanding tasks. The use of industrial robots offers several advantages, including improved precision, accuracy, productivity, and operational efficiency, as well as increased process speed and enhanced worker safety, particularly when performing repetitive or potentially hazardous tasks.
 
-Detailed technical descriptions and specifications of the Yaskawa Motoman GP8 and ABB IRB 1600, comprising six rotational joints and six links, are provided in references \[7\] and \[8\], respectively.
+Forward kinematics and inverse kinematics are used to achieve certain movements of a robot. On one hand, FK involves calculating the position and orientation of the robot's EE based on given joint parameters, such as angles or displacements, to achieve a specific position and orientation of the EE. On the contrary, IK determines the required joints parameters to achieve a specific position and orientation of the EE. 
 
-**Forward and Inverse Kinematics of Robotic Arms**
+For the purposes of this study, it is assumed that the reader has prior knowledge and experience with industrial robotics’ FK and IK. More details about the use case can be found [here](../UseCases/U10_robotsystem).
 
-Forward kinematics and inverse kinematics are used to achieve certain movements of a robot. On one hand, FK involves calculating the position and orientation of the robot's EE based on given joint parameters, such as angles or displacements, to achieve a specific position and orientation of the EE. On the contrary, IK determines the required joints parameters to achieve a specific position and orientation of the EE. In simpler words, for FK, the robot will move based on given parameters to reach a position for the EE, while in IK the robot knows the end position, where it should reach, and based on this calculates the required parameters to achieve this, and sometimes there is more than one solution, this is because to reach specific points, the robotic arm can be 'elbow up' or 'elbow down' (this is connected with the number of joints present) \[3 & 4\]. The difference between FK and IK can be depicted in Figure 2.
-
-<img src="W06_media/image3.png" style="width:5.48642in;height:2.93833in" />
-
-**Figure 2.** Difference between FK and IK \[3\]
-
-For FK, using the Denavit-Hartenberg (D-H) parameters to describe the geometry between links, the geometry of the robots must be defined. The four parameters for each joint to describe the geometry between the two links are shown below.
-
-<img src="W06_media/image4.png" style="width:4.04208in;height:1.39901in" />
-
-Where the joint angle describe the rotation of the joint (only for rotational joints), the link offset describes the distance from the previous Z-axis to the common normal (only for prismatic/translational joints), the twist angle is the angle between the Z- axes of the two links, and link length is very self-explanatory, the length of the link. With all this data, we can now set up our transformation 4x4 matrix as defined below. With this transformation matrix is possible to move the robot around one joint. To achieve a full robot transformation is necessary to multiply all the transformations matrices for each joint \[4\].
-
-<img src="W06_media/image5.png" style="width:4.38578in;height:1.67929in" />
-
-In contrast to FK, in IK it’s necessary to know or define the desire end position and orientation of the EE in the space. Once the desired position is defined, setting up the correct equations to calculate the next step is required. Differently than FK, IK is more complex and requires more mathematical solutions rather than visualization. This calculation will get gradually more complex the more joints there are in a robotic arm. Also, it gets more complexity if the space is in 2D or 3D. For a 2D space, only the coordinates x and y are used to calculate the angles, whereas in a 3D space, the z coordinate will be defined and used in the calculations. To showcase this calculation process, let’s take a 3 degree of freedom (DOF) robotic arm: Given the 3 final coordinates for the EE, it is possible to define the following 3 equations \[3 & 4\]:
-
-<img src="W06_media/image6.png" style="width:4.41162in;height:0.67303in" />
-
-For the purposes of this study, it is assumed that the reader has prior knowledge and experience with industrial robotics’ FK and IK. Therefore, the fundamental concepts and technical aspects of the topic are not discussed in detail.
-
-**Digital Model**
-
-The virtual models of both robotic cells are illustrated in Figure 3. The 3D models of the robots can be obtained online from the sources provided in references \[8\] and \[9\]. In addition, demonstrations of the developed virtual environments (XR-based scenes) are available through the TalTech IVAR Lab project webpage, which provides direct links to the corresponding demonstration videos (link: <https://ivar.taltech.ee/projects>).
-
-<img src="W06_media/image7.png" style="width:4.67788in;height:3.20484in" />
-
-**Figure 3.** Virtual models of Yaskawa Motoman GP8 (left) and ABB IRB1600 (right), with their respective stands
-
-The main goal is leveraging XR to allow the safe control and programming of both robots by means of a unified immersive user interface. The interface allows the control of the robots based on inverse and forward kinematics, while providing an interactive visualisation of the homogeneous matrix transformations and the Denavit–Hartenberg convention for FK.
-
-Both robotic arms were imported into a Unity-based simulated environment together with their respective stands (Figure 4). For each robot, three canvas menus are used: Main Menu, FK menu, and IK menu. The menus are shown or hidden dynamically depending on the user's navigation, so that no rotation is executed unintentionally. In FK mode, the user inputs a rotation (as a 4×4 matrix or as an angle) for a chosen joint or the full robot; in IK mode, the user drags a target sphere to the desired end-effector position/orientation and the arm computes and simulates the required path.
-
-<img src="W06_media/image7.png" style="width:6.50264in;height:2.68234in" />
-
-***Figure 4:** Final 3D environment, including both robots, their stands, and the interactive main menu canvases \[6\]*
-
-Interaction is performed hands-free through Meta Quest 2 hand tracking and a poke-based UI (Pointable Canvas Module).
-
-**Unity package enclosed separately**
 
 ## 3. Learning Activities
 
@@ -163,7 +124,7 @@ The workflow consists of six learning tasks through which students acquire the i
 <tr class="odd">
 <td><strong>Controls</strong></td>
 <td><em>Kinematics theory, D-H convention</em></td>
-<td><em>URDF import knowledge [10]</em></td>
+<td><em>URDF import knowledge [8]</em></td>
 <td><em>UI/UX guidelines, poke-interaction docs</em></td>
 <td><em>FK/IK theory, joint constraints</em></td>
 <td><em>Oculus integration documentation</em></td>
@@ -293,8 +254,8 @@ Assessment is based on observable outputs from each learning task and on the lea
 
 ## 4. Technology
 
-During the development of the workflow the following technologies are utilised:
-/WS1_
+During the development of the workflow the following technologies are used:
+
 - Robotic cells: Yaskawa Motoman GP8 and ABB IRB 1600;
 
 - Unity Engine: used to set up and display the 3D environment, create the UI (canvas, clickable buttons, dropdown buttons), the 3D model representations of the robots, and to connect the VR headset and its compatibility;
@@ -306,6 +267,8 @@ During the development of the workflow the following technologies are utilised:
 - Meta Quest 2 headset and controllers: hardware used to visualise the application and interact in the virtual environment, providing inside-out tracking and hand-gesture tracking;
 
 - C#: development of the UI-connection logic, matrix-parsing, FK/IK rotation calculation (Atan2 / Quaternion conversion) and error-handling/debug logging.
+
+The XR enviroment developed with Unity is described in a [specific page](../Tools/T02_xrkinematics).
 
 For the VR integration, the Meta/Oculus building blocks: Camera Rig, Hand Tracking, and Virtual Hands were imported to provide the headset visualisation and hand-tracking models as shown in Figure 6. UI elements were made compatible with VR interaction by making the buttons pokable: the default Unity event system was replaced with a Pointable Canvas Module, and a surface area was added to each canvas's parent object so the user can poke it directly.
 
@@ -355,12 +318,8 @@ Students consolidate their understanding through two guided exercises: first rot
 
 \[6\] Pizzagalli, S. L.; Mahmood, K.; Boychuk, R.; Otto, T.; Kuts, V. (2025). *A workflow for extended reality-based learning in engineering education.* Proceedings of the Estonian Academy of Sciences, 74, 2, 103−108. DOI: 10.3176/proc.2025.2.03.
 
-\[7\] Yaskawa Motoman. *GP7 and GP8 Technical Documentation*. <https://www.motoman.com/getmedia/1a40ce78-99c3-4e43-bbce-b9318263f464/GP7_GP8.pdf>
+\[7\] Yaskawa Motoman *GP8 Product Manual and 3D models* <https://www.yaskawa.eu.com/robotics/robots/handling-mounting/productdetail/product/gp8_694>
 
-\[8\] ABB Robotics. *Product Manual – IRB 1600/1660*. <https://www.abb.com/global/en/areas/robotics/products/robots/articulated-robots/medium-robots/irb-1600>
-
-\[9\] Yaskawa Motoman *GP8 Product Manual and 3D models* <https://www.yaskawa.eu.com/robotics/robots/handling-mounting/productdetail/product/gp8_694>
-
-\[10\] ROS Wiki. *URDF – Unified Robot Description Format*. <https://wiki.ros.org/urdf>
+\[8\] ROS Wiki. *URDF – Unified Robot Description Format*. <https://wiki.ros.org/urdf>
 
 # 

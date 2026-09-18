@@ -81,6 +81,10 @@ This application is available [online](https://github.com/xrlearning/repo/tree/m
 
 The description of this tool is available [here](./Tools/T01_arpneumatics).
 
+## XR Environment for Robotic Kinematics
+
+The description of this tool is available [here](./Tools/T02_xrkinematics).
+
 ## Meta XR SDK
 
 **Meta XR SDK** is a software toolkit used to connect Unity applications with Meta Quest headsets. It provides the basic features needed to support the XR experience, including headset tracking, controller input and support for hand-based interaction. Using the SDK allowed the application to be experienced directly in the headset rather than as a conventional desktop 3D scene.
