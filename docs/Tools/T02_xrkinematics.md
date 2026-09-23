@@ -45,26 +45,31 @@ The industrial robots were imported into a Unity-based simulated environment tog
 ## Imported Resources
 
 ### Unity Packages
+{:.no_toc}
 - XR Plugin management
 - Unity UI
 - TextMeshPro
 - Oculus XR Plugin
 
 ### Asset Store
+{:.no_toc}
 Meta XR all in one SDK
 Meta XR Interactions SDK OVR Samples
 
 ### Others
+{:.no_toc}
 ROS TCP connector (https://github.com/Unity-Technologies/ROS-TCP-Connector.git?path=/com.unity.robotics.ros-tcp-connector  install through GIT URL)
 STL (https://github.com/karl-/pb_Stl for instructions)
 Unity URDF Importer (IVAR Registry)
 
 ### Other from scoped registries
+{:.no_toc}
 Reorderable Unity Events
 ROS Robot Programming
 Unity MoveIt Integration
 
 ### Scoped Registries 
+{:.no_toc}
 ```
 NAME: TalTech IVAR Lab Registry
 URL: https://npm.dev.ivar.taltech.ee
