@@ -21,11 +21,13 @@ parent: Tools
 
 ## Functionalities
 
-The aim of this XR application is to provide a virtual teaching environment where students can have a hands-on experience available from anywhere to practice and learn the basic concepts of pneumatics before the actual [laboratory](./UseCases/U05_pneumaticslab) work, and in particular:
+The aim of this [XR application](https://github.com/xrlearning/ivar-pneumatics) is to provide a virtual teaching environment where students can have a hands-on experience available from anywhere to practice and learn the basic concepts of pneumatics before the actual [laboratory](./UseCases/U05_pneumaticslab) work, and in particular:
 
 - **Pneumatics and hydraulics functioning principles**: explore the core concepts (pressure, flow, component operation, etc.) ​
 - **Pneumatic components:** become familiar with application of key components like cylinders, directional control valves, pressure regulators, and sensors. ​
 - **Circuit design and inspection:** practice building circuits by dragging and dropping components on a virtual workspace, visualize/check the pressure.
+
+The application is [available online](https://github.com/xrlearning/ivar-pneumatics).
 
 ## Architecture
 
