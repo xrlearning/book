@@ -23,7 +23,7 @@ nav_order: 6
 {:.no_toc}
 
 
-## Workshop in Tallin (10-12 June 2024)
+## Workshop in Tallinn (10-12 June 2024)
 
 The first XR Learning Workshop of the XREN project was held at Tallinn University of Technology (TalTech) in Tallinn, Estonia, from 10 to 12 June 2024. The event marked an important milestone in our journey towards advancing technology-enhanced engineering education within the framework of the Erasmus+ project *Extended Reality Tools to Support Learning Activities in Engineering (XREN)*. The workshop brought together students and tutors from XREN consortium partners, including TalTech, Politecnico di Milano (Polimi), the University of Belgrade, and CNR-STIIMA. The workshop provided a collaborative and engaging environment in which participants could exchange knowledge, explore XR-supported learning approaches, and work together on innovative learning activities.
 
