@@ -21,7 +21,7 @@ parent: Tools
 
 ## Functionalities
 
-The aim of this [XR application](https://github.com/xrlearning/ivar-pneumatics) is to provide a virtual teaching environment where students can have a hands-on experience available from anywhere to practice and learn the basic concepts of pneumatics before the actual [laboratory](./UseCases/U05_pneumaticslab) work, and in particular:
+The aim of this [XR application](https://github.com/xrlearning/ivar-pneumatics) is to provide a virtual teaching environment where students can have a hands-on experience available from anywhere to practice and learn the basic concepts of pneumatics before the actual [laboratory](../UseCases/U05_pneumaticslab) work, and in particular:
 
 - **Pneumatics and hydraulics functioning principles**: explore the core concepts (pressure, flow, component operation, etc.) ​
 - **Pneumatic components:** become familiar with application of key components like cylinders, directional control valves, pressure regulators, and sensors. ​
@@ -31,7 +31,7 @@ The application is [available online](https://github.com/xrlearning/ivar-pneumat
 
 ## Architecture
 
-The software architecture and logic for the XR application is shown in the Figure 1. This takes into consideration both frontend, representation and interaction layer, and backend with the components’ twin representation, connection state and algorithms dedicated to simulation and exercise verification. Moreover, an initial User Interface (UI) and related interaction flow provided to the students. An initial user interaction flow and task diagram for the application is shown in Figure 2.
+The software architecture and logic for the XR application is shown in Figure 1. This takes into consideration both frontend (representation and interaction layer) and backend with the components’ twin representation, connection state and algorithms dedicated to simulation and exercise verification. Moreover, an initial User Interface (UI) and related interaction flow provided to the students. An initial user interaction flow and task diagram for the application is shown in Figure 2.
 
 <img src="T01_media/image11.svg" style="width:5.70764in;height:3.78958in" />
 

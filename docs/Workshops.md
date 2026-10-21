@@ -22,6 +22,8 @@ nav_order: 6
 # XR Learning Workshops
 {:.no_toc}
 
+The XREN workshops provided students with intensive, practice-oriented opportunities to explore the use of extended reality in engineering education. Through hands-on experimentation, multidisciplinary teamwork, and interaction with physical and virtual systems, participants applied XR technologies to challenges involving robotics, product analysis, industrial automation, healthcare, cultural heritage, and other application areas. This chapter summarises the activities conducted during the four workshops and reports the principal assessment results.
+
 
 ## Workshop in Tallinn (10-12 June 2024)
 
@@ -43,11 +45,13 @@ The workshop activities were organised into the following modules.
 2. **XR tools and software setup** 
 
     Students gained practical experience with XR-related tools and the required software environment. The activities covered user interface interaction in VR, design guidelines, and the possibilities offered by immersive technologies. The technological stack for the WebXR environment included Next.js, API calls, Hooks, and Three.js. 
+    
     <img src="Workshops_media/WS1_image3.jpeg" style="width:5.40476in;height:3.83992in" />
 
 3. **Robot connectivity and AR platform development** 
 
     Students tested robot connectivity and communication using the selected XR tools and software. Throughout the Joint Lab activities conducted in the TalTech IVAR Lab, students worked in teams to develop an AR platform using the Meta Quest 3 headset. The developed platform enables users to monitor the current state of the Yaskawa Motoman GP8 robot, directly control its operation, and create robot path plans, thereby supporting spatial understanding and enhancing the overall user experience.
+
     <img src="Workshops_media/WS1_image4.png" style="width:4.38691in;height:4.33587in" />
 
 4. **Teamwork and practical demonstration** 
@@ -68,7 +72,7 @@ A total of 20 students responded to questions regarding their expectations for t
 
 <img src="Workshops_media/WS1_image6.png" style="width:6.26806in;height:3.00916in" />
 
-Students’ engagement during the workshop was also assessed through a questionnaire comprising seven items, each rated on a five-point Likert scale (1–5). The results provide insights into the students’ level of engagement throughout the workshop and are presented in the graph below.
+Students’ engagement during the workshop was also assessed through a questionnaire comprising seven items, each rated on a five-point Likert scale (1–5). The results provide insights into the students’ level of engagement throughout the workshop.
 
 The results indicate that participants feel highly committed, successful, and motivated, but their alertness, confidence, performance, and control are moderate to low. This suggests that while they are driven and feel successful, there might be areas to improve regarding their confidence and perceived control over tasks [1].
 

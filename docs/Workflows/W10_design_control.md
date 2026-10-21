@@ -28,31 +28,31 @@ The core of this workflow is the application of a framework that utilizes a digi
 
 The types of knowledge that are relevant for this learning workflow can be instantiated as follows:
 
-1.  **Factual Knowledge**
+**1. Factual Knowledge**
 
-*1.1 Knowledge of terminology*: ability to recognize and differentiate between various types of equipment and components within a manufacturing system. This includes knowing terms such as conveyor, robot, sensor, actuator, control panel, etc.
+- **1.1** *Knowledge of terminology*: ability to recognize and differentiate between various types of equipment and components within a manufacturing system. This includes knowing terms such as conveyor, robot, sensor, actuator, control panel, etc.
 
-*1.2 Knowledge of specific details and elements*: ability to identify the role and properties of assets, e.g. functioning states of an actuator, range of action of a sensor, source and destination of parts.
+- **1.2** *Knowledge of specific details and elements*: ability to identify the role and properties of assets, e.g. functioning states of an actuator, range of action of a sensor, source and destination of parts.
 
-2.  **Conceptual Knowledge**
+**2. Conceptual Knowledge**
 
-*2.1 Knowledge of classifications and categories*: ability to classify equipment based on its function within the manufacturing system, such as a Cartesian robot for handling and a conveyor for transportation.
+- **2.1** *Knowledge of classifications and categories*: ability to classify equipment based on its function within the manufacturing system, such as a Cartesian robot for handling and a conveyor for transportation.
 
-2*.2 Knowledge of principles and generalizations*: ability to comprehend how the parts are moved within the manufacturing system, specifically the event-driven logic where sensors and actuators interact to control the system's response.
+- **2.2** *Knowledge of principles and generalizations*: ability to comprehend how the parts are moved within the manufacturing system, specifically the event-driven logic where sensors and actuators interact to control the system's response.
 
-*2.3 Knowledge of theories, models, and structures*: ability to understand how the system's behavior is defined via UML statecharts.
+- **2.3** *Knowledge of theories, models, and structures*: ability to understand how the system's behavior is defined via UML statecharts.
 
-3.  **Procedural Knowledge**
+**3. Procedural Knowledge**
 
-*3.1 Knowledge of subject-specific skills and algorithms:* ability to define goals and process plans of a manufacturing system*;* ability to apply performance evaluation techniques; ability to use a communication protocol like MQTT to control a manufacturing system; ability to program the behavior of actuators.
+- **3.1** *Knowledge of subject-specific skills and algorithms:* ability to define goals and process plans of a manufacturing system*;* ability to apply performance evaluation techniques; ability to use a communication protocol like MQTT to control a manufacturing system; ability to program the behavior of actuators.
 
-*3.2 Knowledge of subject-specific techniques and methods:* ability to model the behavior of sensors and actuators using UML statecharts; ability to design an integrated manufacturing system considering the behavior of the single assets.
+- **3.2** *Knowledge of subject-specific techniques and methods:* ability to model the behavior of sensors and actuators using UML statecharts; ability to design an integrated manufacturing system considering the behavior of the single assets.
 
-*3.3 Knowledge of criteria for determining when to use appropriate procedures*: ability to analyze system behavior and identify when a component is not performing as expected, allowing the student to troubleshoot and apply corrective procedures.
+- **3.3** *Knowledge of criteria for determining when to use appropriate procedures*: ability to analyze system behavior and identify when a component is not performing as expected, allowing the student to troubleshoot and apply corrective procedures.
 
-4.  **Metacognitive Knowledge**
+**4. Metacognitive Knowledge**
 
-*4.1 Self-knowledge:* ability to evaluate one's own confidence in the responses and solutions to the exercises.
+- **4.1** *Self-knowledge:* ability to evaluate one's own confidence in the responses and solutions to the exercises.
 
 Table 1 reports the specific ILOs with the associated type of knowledge.
 
@@ -87,7 +87,7 @@ The learning activities are organized into two levels of increasing difficulty:
 
 2)  *Design a manufacturing system reconfiguration and control its behavior*. The student is asked to design a reconfiguration of the existing manufacturing system to meet new requirements in terms of missions to be executed. The assets already available can be reused and new assets can be included, either duplicating existing assets or defining new asset types with related properties.
 
-Each level consists of tasks associated with specifics ILOs as reported in Table 4.
+Each level consists of tasks associated with specifics ILOs as reported in Table 2.
 
 | **Task ID** | **Task name**                               | **Task description**                                                                                                                                                                                                                                                                                                          | **ILO** |
 |-------------|---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
@@ -101,7 +101,7 @@ Each level consists of tasks associated with specifics ILOs as reported in Table
 | T2.5        | Virtual Commissioning                       | Test the integrated system in the virtual environment. This involves using VR tools to operate the control panel, trigger system events, and verify that the system functions correctly according to the predefined modes and logic. In addition, an MQTT-based controller is tested to achieve production goals.             | I8, I9  |
 | T2.6        | Final Testing and Revisions                 | Perform final testing of the entire system and identify any required revisions. During this task, students should self-assess their understanding of the system's design and their ability to troubleshoot issues, estimating their confidence in the solutions they have implemented.                                        | I9, I10 |
 
-Table 4: Tasks of learning activities with related ILO
+Table 2: Tasks of learning activities with related ILO
 
 ## 4. Technology
 
@@ -143,20 +143,20 @@ The virtual environment provides an industrial setting that students can freely 
 
 Users interact with the virtual environment using mouse/keyboard in the desktop mode or with VR controllers in immersive mode. The main interaction method is a virtual ray cast, which functions as a laser pointer, allowing users to select and activate buttons and switches from a distance. In addition to the ray cast, users can also grab and move virtual objects like boxes and items. To ensure precision and reduce frustration, the system may use snap zones.
 
-The assessment of the learning task is carried out by analyzing the output of the various tasks, as defined in Table 5.
+The assessment of the learning task is carried out by analyzing the output of the various tasks, as defined in Table 3.
 
 | **Task ID** | **Task**                                    | **Output**                                                                                                                                                                                                                                         |
 |-------------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | T1.1        | Identify Assets in the Manufacturing System | Answers to a questionnaire.                                                                                                                                                                                                                        |
 | T1.2        | Characterize Existing Assets                | Answers to a questionnaire.                                                                                                                                                                                                                        |
 | T1.3        | Analyze Existing Manufacturing System       | UML statecharts are tested for logical correctness and coherence with the system's behavior.                                                                                                                                                       |
-| T2.1        | Define Process Plan                         | The process plan is formalized (e.g. as an ontology or json document) and automatically checked if it contains the needed process steps and sequences. A visual check of The process plan, rendered as a diagram, can be visually checked as well. |
+| T2.1        | Define Process Plan                         | The process plan is formalized (e.g. as an ontology or json document) and automatically checked if it contains the needed process steps and sequences. A visual check of the process plan, rendered as a diagram, can be visually checked as well. |
 | T2.2        | Design Asset Behavior                       | UML statecharts are tested for logical correctness and coherence with the system's behavior.                                                                                                                                                       |
 | T2.3        | Design Integrated System                    | The system configuration is formalized (e.g. as an ontology or json document) and automatically checked in terms of logical consistency, component interactions, and alignment with the production goals.                                          |
 | T2.4        | Assess the system performance               | The performance data can be automatically compared against a benchmark to assess the student's design efficiency.                                                                                                                                  |
 | T2.5        | Virtual Commissioning                       | The student can generate animations that can be re-executed and a video to demonstrate the behavior of the system in the VR environment.                                                                                                           |
 | T2.6        | Final Testing and Revisions                 | A final report, including troubleshooting process, is assessed. The student's self-assessment can also be reviewed to gauge the metacognitive awareness.                                                                                           |
 
-Table 5: Expected outcome of the learning tasks
+Table 3: Expected outcome of the learning tasks
 
 

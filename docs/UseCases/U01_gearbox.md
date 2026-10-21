@@ -21,7 +21,7 @@ parent: Use Cases
 
 ## Description
 
-The planetary gearbox adopted as a use case for Workflows [W01](../Workflows/W01_product_design), [W02](../Workflows/W2_product_analysis), and [W03](../Workflows/W3_virtual_testing) is a reduction unit designed for the winch of a mobile crane. The winch winds a steel rope around a horizontal drum to lift loads; a block-and-tackle system can be used to reduce the required rope tension (Figure 1). 
+The planetary gearbox adopted as a use case for Workflows [W01](../Workflows/W01_product_design), [W02](../Workflows/W02_product_analysis), and [W03](../Workflows/W03_virtual_testing) is a reduction unit designed for the winch of a mobile crane. The winch winds a steel rope around a horizontal drum to lift loads; a block-and-tackle system can be used to reduce the required rope tension (Figure 1). 
 
 <p align="center"><img src="./U01_media/img-2.jpg" width="400" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="./U01_media/img-1.jpg" width="400" /></p>
 

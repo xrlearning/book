@@ -104,7 +104,7 @@ The robot 3D model includes nodes for joints and links according to the informat
 | Tool (end effector) | [Tool.glb](https://xrlearning.github.io/repo/UseCases/PerformLab/models/Tool.glb)                     |
 | Workpiece           | [Workpiece.glb](https://xrlearning.github.io/repo/UseCases/PerformLab/models/Workpiece.glb)           |
 
-The .glb file of the robot ([Comau_ns16hand.glb](https://xrlearning.github.io/repo/UseCases/PerformLab/models/Comau_ns16hand.glb)) explicitly contains the definition of all its [elements in the hierarchy](#211-comau-robot-ns16). 
+The .glb file of the robot ([Comau_ns16hand.glb](https://xrlearning.github.io/repo/UseCases/PerformLab/models/Comau_ns16hand.glb)) explicitly contains the definition of all its [elements in the hierarchy](#robot). 
 
 
 <img src="U02_media/fig2.jpg" style="width:4in;" />

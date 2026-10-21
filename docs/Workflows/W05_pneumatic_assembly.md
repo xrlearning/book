@@ -226,7 +226,9 @@ Using XR application the students can complete both phases of the workflow — t
 
 In Phase 2, students define their circuit goal (T2.1), assemble the circuit (T2.2), test its behaviour (T2.3), complete the guided exercise with validation (T2.4), troubleshoot any faults (T2.5), and perform final testing and self-assessment (T2.6).
 
-<img src="W05_media/image14.png" style="width:3.1481in;height:3.184in" /><img src="W05_media/image15.png" style="width:3.18526in;height:3.18526in" />The developed AR prototype was tested as shown in Figures 3 and 4 respectively.
+The developed AR prototype was tested as shown in Figures 3 and 4.
+
+<img src="W05_media/image14.png" style="width:3.1481in;height:3.184in" /><img src="W05_media/image15.png" style="width:3.18526in;height:3.18526in" />
 
 **Figure 3.** Application prototype with a single acting cylinder
 

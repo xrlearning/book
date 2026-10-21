@@ -321,5 +321,3 @@ Students consolidate their understanding through two guided exercises: first rot
 \[7\] Yaskawa Motoman *GP8 Product Manual and 3D models* <https://www.yaskawa.eu.com/robotics/robots/handling-mounting/productdetail/product/gp8_694>
 
 \[8\] ROS Wiki. *URDF – Unified Robot Description Format*. <https://wiki.ros.org/urdf>
-
-# 

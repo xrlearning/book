@@ -54,7 +54,7 @@ Nevertheless, the widespread adoption and implementation of AR/VR in higher educ
 
 A popular trend in the adoption of VR in education revolves around serious games or gamification, i.e., the exploitation of a game paradigm to implement learning activities. Furthermore, serious games in education have also been acknowledged for potential impact on the sense of achievement, engagement, and motivation of the students. In addition, the intersection of video games and learning approaches led to the development of frameworks supporting the design of serious games.
 
-The Mechanics, Dynamics, and Aesthetics (MDA) framework \[3\] considers three fundamental design components, i.e., actions, processes, and data that are available in the game (mechanics), run-time behaviour and dynamics of actions (dynamics), and the desirable emotional responses of the player (aesthetics). Focusing on serious games for learning, Winn \[4\] highlighted the need to extend the MDA framework to consider the contributions of designers and players to building the gaming experience. To this aim, the Design, Play and Experience (DPE) framework was proposed Winn2009, consisting of four main layers (Learning, Storytelling, Gameplay, User Experience) that are instantiated for each of the three main components, namely design, play and experience. In addition, DPE points out the relevant role of the adopted technology in making a serious game effective. More recently, Urgo et al. \[5\] specialized the DPE framework for designing learning applications in the field of industrial engineering (DPE-IE) within higher education, providing an implementation and demonstration example of the configuration and analysis of a manufacturing system.
+The Mechanics, Dynamics, and Aesthetics (MDA) framework \[3\] considers three fundamental design components, i.e., actions, processes, and data that are available in the game (mechanics), run-time behaviour and dynamics of actions (dynamics), and the desirable emotional responses of the player (aesthetics). Focusing on serious games for learning, Winn \[4\] highlighted the need to extend the MDA framework to consider the contributions of designers and players to building the gaming experience. To this aim, the Design, Play and Experience (DPE) framework was proposed, consisting of four main layers (Learning, Storytelling, Gameplay, User Experience) that are instantiated for each of the three main components, namely design, play and experience. In addition, DPE points out the relevant role of the adopted technology in making a serious game effective. More recently, Urgo et al. \[5\] specialized the DPE framework for designing learning applications in the field of industrial engineering (DPE-IE) within higher education, providing an implementation and demonstration example of the configuration and analysis of a manufacturing system.
 
 The proposed framework for XR-Based Learning Workflows is based on the DPE-IE framework to foster the use of XR in higher education by reducing development time and assisting educators lacking strong expertise in VR and software development. At the core of the framework (Figure 1), adapted from \[6\], lies the digital model of the Virtual Environment (VE Digital Model) that helps decouple the generation of the case-based contents from the development and configuration of technology-intensive tools.
 
@@ -82,7 +82,7 @@ This chapter delves into the main details of the framework, defining the guideli
 
 ### 2.1 Learning Objectives Definition 
 
-The learning component serves as the foundational element that enables effective and engaging learning experiences in an educational context. It involves defining the kwowledge domain and explicitly list the Intended Learning Outcomes (ILOs) \[7\] that the students will acquire thorugh the workflow. The ILOs can be grouped according to different classes of knowledge, as defined by \[8\]:
+The learning component serves as the foundational element that enables effective and engaging learning experiences in an educational context. It involves defining the knowledge domain and explicitly list the Intended Learning Outcomes (ILOs) \[7\] that the students will acquire thorugh the workflow. The ILOs can be grouped according to different classes of knowledge, as defined by \[8\]:
 
 1.  **Factual knowledge**, i.e. the basic elements that the learners must know to be acquainted with the discipline or problem under study.
 
@@ -160,7 +160,7 @@ Digital tools and technologies must be selected based on the specific needs of t
 
 The digital tools can be used as standalone or in integrated way. The use of an integrated digital platform \[9\] is recommended because it can better support the execution of learning workflows by smoothly providing access to different tools that exchange data without adding an overhead of data handling tasks that would divert the attention of the students.
 
-The integration of heterogenous digital tools can be supported by a common, extensible data model that represents industrial assets such as production systems, resources, processes, and products. An example of factory data model \[9\] has been developed as an OWL ontology, as it offers a flexible framework for integrating various knowledge domains while reusing existing technical standards (e.g., Industry Foundation Classes, W3C SSN/SOSA, UML Statechart). More details and examples of the factory data model can be found online in terms of ontology documentation[^1], serialization in JSON format[^2], related queries in SPARQL language[^3].
+The integration of heterogeneous digital tools can be facilitated by a common and extensible data model representing industrial assets, including production systems, resources, processes, and products. The factory data model presented in [9] was developed as an OWL ontology, providing a flexible framework for integrating different knowledge domains and reusing established technical standards, such as Industry Foundation Classes, W3C SSN/SOSA, and UML Statecharts. Further information and examples are available online, including the ontology documentation[^1], its JSON serialisation[^2], and a collection of related SPARQL queries[^3].
 
 The remaining part of this chapter is focused on the on the guidelines for the use of XR technology and examples of XR tools.
 
@@ -293,7 +293,7 @@ Artificial Locomotion Types include:
 
 - Steering Movement: Users control continuous motion without constant input, similar to driving a vehicle where movement persists based on initial user actions.
 
-- Teleportation: This type of movement involves an instant shift in the user's perspective. Its key benefit is eliminating continuous motion, which helps prevent motion sickness, especially for users sensitive to vection. However, teleportion can cause disorientation.
+- Teleportation: This type of movement involves an instant shift in the user's perspective. Its key benefit is eliminating continuous motion, which helps prevent motion sickness, especially for users sensitive to vection. However, teleportation can cause disorientation.
 
 - World Pulling: Users stay stationary while grabbing a point in the virtual world and either pulling or pushing it. This movement causes the virtual environment to shift accordingly, altering the user’s perspective.
 
@@ -340,7 +340,7 @@ As a summary, the following table presents potential issues related to VR locomo
 | Fatigue                                   | Prolonged standing or unnatural postures cause physical discomfort.                                           | Physical locomotion, World Pulling (if used frequently or awkwardly), Standing-based experiences without breaks             |
 | Headset Weight and Pressure               | Extended sessions lead to discomfort due to the physical pressure of the VR headset.                          | Any locomotion system, though worse with extended use of Physical locomotion and motion-tracked systems                     |
 
-Table 1: issues and types of locomotion
+Table 1: Issues and types of locomotion
 
 ### 3.3 XR Tools
 
@@ -362,7 +362,7 @@ Figure 3: Screenshot of VEB.js application
 {:.no_toc}
 #### 3.3.2 React and Three.js
 
-A valuable option for the implementation of web-based 3D and XR applications is the adoption of another webGL based framework such as [Next.js](https://nextjs.org/). This is grounded on React library and allows the creation of full-stack web applications. In combination with the webXR based [Three.js library](https://threejs.org/) dynamic and interactable 3D and augmented or virtual reality contents can be easily accessed from a compatible web browser therefore not dependent on any specific hardware. Also in this case it is possible to include 3D contents in compatible formats (such gLTF) and create a backend connection to communication protocols such as MQTT and ROS (Robot Operating System) which has been adopted in some of the joint calls and workshop activities (Figure 4).
+A valuable option for the implementation of web-based 3D and XR applications is the adoption of another webGL based framework such as [Next.js](https://nextjs.org/). This is grounded on React library and allows the creation of full-stack web applications. In combination with the webXR based [Three.js library](https://threejs.org/) dynamic and interactable 3D and augmented or virtual reality contents can be easily accessed from a compatible web browser therefore not dependent on any specific hardware. Also in this case it is possible to include 3D contents in compatible formats (such as gLTF) and create a backend connection to communication protocols such as MQTT and ROS (Robot Operating System) which has been adopted in some of the joint calls and workshop activities (Figure 4).
 
 <img src="G_media/image4.png" style="width:4.33071in;height:3.69029in" />
 
@@ -373,23 +373,23 @@ Figure 4: Screenshot of the proposed XR robot control interface and based on ROS
 
 ## References
 
-1.  Mahmood K, Otto T, Kuts V, Terkaj W, Modoni GE, Urgo M, Colombo G, Heidegger G, Kovacs P, Stahre P (2021) Advancement in production engineering education through Virtual Learning Factory Toolkit concept. Proceedings of the Estonian Academy of Sciences, 70(4):374–382.
+\[1\]  Mahmood K, Otto T, Kuts V, Terkaj W, Modoni GE, Urgo M, Colombo G, Heidegger G, Kovacs P, Stahre P (2021) Advancement in production engineering education through Virtual Learning Factory Toolkit concept. Proceedings of the Estonian Academy of Sciences, 70(4):374–382.
 
-2.  Research and Markets. "Virtual Reality In Education Global Market Report 2023." Accessed: June 4, 2023. Available online at: https://www.researchandmarkets.com/reports/5767510/virtual-reality-in-education-global-market-report (Author: Markets R., Year: 2023).
+\[2\]  Research and Markets. "Virtual Reality In Education Global Market Report 2023." Accessed: June 4, 2023. Available online at: https://www.researchandmarkets.com/reports/5767510/virtual-reality-in-education-global-market-report (Author: Markets R., Year: 2023).
 
-3.  Hunicke R, LeBlanc M, Zubek R. "MDA: A formal approach to game design and game research." In Proceedings of the AAAI Workshop on Challenges in Game AI, vol. 4, no. 1, pp. 17-22. San Jose, CA, 2004.
+\[3\]  Hunicke R, LeBlanc M, Zubek R. "MDA: A formal approach to game design and game research." In Proceedings of the AAAI Workshop on Challenges in Game AI, vol. 4, no. 1, pp. 17-22. San Jose, CA, 2004.
 
-4.  Winn B. "The design, play, and experience framework." In Handbook of research on effective electronic gaming in education, pp. 1010-1024. IGI Global, 2009.
+\[4\]  Winn B. "The design, play, and experience framework." In Handbook of research on effective electronic gaming in education, pp. 1010-1024. IGI Global, 2009.
 
-5.  Urgo M, Terkaj W, Mondellini M, Colombo G (2022) Design of Serious Games in Engineering Education: an Application to the Configuration and Analysis of Manufacturing Systems, CIRP Journal of Manufacturing Science and Technology, Volume 36, 172-184.
+\[5\]  Urgo M, Terkaj W, Mondellini M, Colombo G (2022) Design of Serious Games in Engineering Education: an Application to the Configuration and Analysis of Manufacturing Systems, CIRP Journal of Manufacturing Science and Technology, Volume 36, 172-184.
 
-6.  Terkaj W, Urgo M, Kovács P, Tóth E, Mondellini M (2024) A framework for virtual learning in industrial engineering education: development of a reconfigurable virtual learning factory application. Virtual Reality, 28:148 doi:10.1007/s10055-024-01042-8
+\[6\]  Terkaj W, Urgo M, Kovács P, Tóth E, Mondellini M (2024) A framework for virtual learning in industrial engineering education: development of a reconfigurable virtual learning factory application. Virtual Reality, 28:148 doi:10.1007/s10055-024-01042-8
 
-7.  Biggs J, Tang C (2011) Teaching for Quality Learning at University
+\[7\]  Biggs J, Tang C (2011) Teaching for Quality Learning at University
 
-8.  Anderson L, Bloom B, Krathwohl D, et al (2001) A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom’s Taxonomy of Educational Objectives. Longman
+\[8\]  Anderson L, Bloom B, Krathwohl D, et al (2001) A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom’s Taxonomy of Educational Objectives. Longman
 
-9.  Berardinucci F, Colombo G, Lorusso M, Manzini M, Terkaj W, Urgo M (2022) A learning workflow based on an integrated digital toolkit to support education in manufacturing system engineering. Journal of Manufacturing Systems, 63:411-423.
+\[9\]  Berardinucci F, Colombo G, Lorusso M, Manzini M, Terkaj W, Urgo M (2022) A learning workflow based on an integrated digital toolkit to support education in manufacturing system engineering. Journal of Manufacturing Systems, 63:411-423.
 
 [^1]: <https://virtualfactory.gitbook.io/vlft/kb/fdm>
 

@@ -29,39 +29,37 @@ This workflow represents support for teaching and learning of digital shadow cre
 
 The objectives of workflow are to develop in students the following knowledge:
 
-1.  **Factual Knowledge**
+**1. Factual Knowledge**
 
-    1.  UDP-based communication in Client-Server configuration (connectionless datagram type socket);
+- **1.1** UDP-based communication in Client-Server configuration (connectionless datagram type socket);
 
-    2.  Recalling robot programming by teaching;
+- **1.2** Recalling robot programming by teaching;
 
-    3.  Development of VR-based digital shadow of manufacturing systems.
+- **1.3** Development of VR-based digital shadow of manufacturing systems.
 
-2.  **Conceptual Knowledge**
+**2. Conceptual Knowledge**
 
-    1.  Communication between digital shadows and controllers;
+- **2.1** Communication between digital shadows and controllers;
 
-    2.  Relation between robot and gripper motion and changes in robot controller registries containing encoder and digital output data;
+- **2.2** Relation between robot and gripper motion and changes in robot controller registries containing encoder and digital output data;
 
-    3.  Relation between robot programmed motion and changes in robot controller registries;
+- **2.3** Relation between robot programmed motion and changes in robot controller registries;
 
-3.  **Procedural Knowledge**
+**3. Procedural Knowledge**
 
-<!-- -->
+- **3.1** Acquisition of data from controllers using UDP socket;
 
-1.  Acquisition of data from controllers using UDP socket;
+- **3.2** Procedure for creation manufacturing system digital shadow in VR;
 
-2.  Procedure for creation manufacturing system digital shadow in VR;
-
-3.  Applying VR programming tools for unidirectional communication with a robot controller.
+- **3.3** Applying VR programming tools for unidirectional communication with a robot controller.
 
 <!-- -->
 
-4.  **Metacognitive Knowledge**
+**4. Metacognitive Knowledge**
 
-    1.  Understanding the complexity of manufacturing systems digital shadows generation;
+- **4.1** Understanding the complexity of manufacturing systems digital shadows generation;
 
-    2.  Self-evaluate the understanding of methods for generation of robotic cell VR-based digital shadow.
+- **4.2** Self-evaluate the understanding of methods for generation of robotic cell VR-based digital shadow.
 
 The listed knowledge is related to the specific Intended Learning Outcomes (ILOs) that are listed in Table 1.
 
@@ -300,7 +298,7 @@ Using the presented workflow students master the creation of manufacturing syste
 
 **2. Deeper understanding of IoT in industrial applications**
 
-Within the workflow students utilize industrial internet of things to connect the PC running the VR-based digital shadow and real-world robot controller. They gain indispensable hands-on experience in establishing communication through UDP/IP protocol. In addition to mastering this protocol, students get experience with service-based client/server architecture that is frequently met in industrial applications and understand better the underling theoretical concepts. Finaly, they obtain skills related to preparing and parsing data streams.
+Within the workflow students utilize industrial internet of things to connect the PC running the VR-based digital shadow and real-world robot controller. They gain indispensable hands-on experience in establishing communication through UDP/IP protocol. In addition to mastering this protocol, students get experience with service-based client/server architecture that is frequently met in industrial applications and understand better the underling theoretical concepts. Finally, they obtain skills related to preparing and parsing data streams.
 
 **3. Generation of manufacturing systems digital shadow**
 

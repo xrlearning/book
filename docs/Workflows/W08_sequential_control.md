@@ -31,43 +31,39 @@ This workflow contains Virtual Reality (VR) representation of a real-world flexi
 
 The objectives of workflow are to develop in students the following knowledge:
 
-1.  **Factual Knowledge**
+**1. Factual Knowledge**
 
-    1.  Generation of state table that represents the desired behavior of machine assuming fundamental mode of operation – only one input signal is changed between two states;
+- **1.1** Generation of state table that represents the desired behavior of machine assuming fundamental mode of operation – only one input signal is changed between two states;
 
-    2.  Generation of Sequential Flow Chart (SFC) program for Programmable (Logic) Controller (PLC);
+- **1.2** Generation of Sequential Flow Chart (SFC) program for Programmable (Logic) Controller (PLC);
 
-    3.  Implementation of sequential control on PLC.
+- **1.3** Implementation of sequential control on PLC.
 
-2.  **Conceptual Knowledge**
+**2. Conceptual Knowledge**
 
-    1.  Relation between changes in sensory signals and corresponding changes in actuation signals;
+- **2.1** Relation between changes in sensory signals and corresponding changes in actuation signals;
 
-    2.  Relation between actions in PLC program and states and output signals in state table;
+- **2.2** Relation between actions in PLC program and states and output signals in state table;
 
-    3.  Relation between transitions in PLC program and sensory signals in state table.
+- **2.3** Relation between transitions in PLC program and sensory signals in state table.
 
-3.  **Procedural Knowledge**
+**3. Procedural Knowledge**
 
-<!-- -->
+- **3.1** Procedure for generation of state table;
 
-1.  Procedure for generation of state table;
+- **3.2** Procedure for creation of SFC program based on generated state table;
 
-2.  Procedure for creation of SFC program based on generated state table;
+- **3.3** Programming and monitoring PLCs using proprietary tools;
 
-3.  Programing and monitoring PLCs using proprietary tools;
+- **3.4** Applying VR tools to interact with the manufacturing equipment.
 
-4.  Applying VR tools to interact with the manufacturing equipment.
+**4. Metacognitive Knowledge**
 
-<!-- -->
+- **4.1** Understanding the complexity of sequential control systems in manufacturing equipment through experiments in VR;
 
-4.  **Metacognitive Knowledge**
+- **4.2** Capability to recognize the systems in which sequential control can be applied;
 
-    1.  Understanding the complexity of sequential control systems in manufacturing equipment through experiments in VR;
-
-    2.  Capability to recognize the systems in which sequential control can be applied;
-
-    3.  Self-evaluate the understanding of the methods for sequential control system design.
+- **4.3** Self-evaluate the understanding of the methods for sequential control system design.
 
 The listed knowledge is related to the specific Intended Learning Outcomes (ILOs) that are listed in Table 1.
 
@@ -442,9 +438,9 @@ During the development of the workflow the following technologies were utilized:
 
 - Oculus Rift S Virtual Reality device including headset with cameras and audio devices, as well as two hand controllers for providing students with immersive and interactive experience (Figure 6).
 
-<img src="W08_media/image26.jpg" style="width:3.10524in;height:1.23156in" alt="A black headset and a black box AI-generated content may be incorrect." />
+<img src="W08_media/image26.jpg" style="width:4in" alt="A black headset and a black box AI-generated content may be incorrect." />
 
-<img src="W08_media/image27.jpeg" style="width:2.09in;height:3in" /> <img src="W08_media/image28.jpeg" style="width:1.65946in;height:3in" />
+<img src="W08_media/image27.jpeg" style="height:3in" /> <img src="W08_media/image28.jpeg" style="height:3in" />
 
 Figure 6: VR device – Oculus Rift S
 

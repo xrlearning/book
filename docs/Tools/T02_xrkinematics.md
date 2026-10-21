@@ -35,7 +35,7 @@ The interaction is performed hands-free through Meta Quest 2 hand tracking and a
 
 ## Technology
 
-The industrial robots were imported into a Unity-based simulated environment together with their respective stands (Figure 1). The Unity package is [available online]().
+The industrial robots were imported into a Unity-based simulated environment together with their respective stands (Figure 1). The Unity package is [available online](https://github.com/xrlearning/repo/tree/main/Tools/XR_Kinematics).
 
 <img src="T02_media/image7.png" style="width:6.50264in;height:2.68234in" />
 
@@ -53,14 +53,14 @@ The industrial robots were imported into a Unity-based simulated environment tog
 
 ### Asset Store
 {:.no_toc}
-Meta XR all in one SDK
-Meta XR Interactions SDK OVR Samples
+- Meta XR all in one SDK
+- Meta XR Interactions SDK OVR Samples
 
 ### Others
 {:.no_toc}
-ROS TCP connector (https://github.com/Unity-Technologies/ROS-TCP-Connector.git?path=/com.unity.robotics.ros-tcp-connector  install through GIT URL)
-STL (https://github.com/karl-/pb_Stl for instructions)
-Unity URDF Importer (IVAR Registry)
+- [ROS TCP connector](https://github.com/Unity-Technologies/ROS-TCP-Connector.git?path=/com.unity.robotics.ros-tcp-connector) install through GIT URL
+- [STL](https://github.com/karl-/pb_Stl) for instructions
+- Unity URDF Importer (IVAR Registry)
 
 ### Other from scoped registries
 {:.no_toc}

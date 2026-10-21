@@ -24,45 +24,45 @@ Asking and answering the precedence questions represent critical points in teach
 
 ## 1. Learning Objectives
 
-The objectives of workflow are to develop in students the following knowledge:
+The objectives of workflow are to develop in students the following knowledge types.
 
-1.  **Factual Knowledge**
+**1. Factual Knowledge**
 
-    1.  Knowledge about alternative approaches to assembly sequence design and their characteristics.
+- **1.1** Knowledge about alternative approaches to assembly sequence design and their characteristics.
 
-    2.  Definition of Liaison Diagram and rules for its generation (loop closure rule and rules that product must follow).
+- **1.2** Definition of Liaison Diagram and rules for its generation (loop closure rule and rules that product must follow).
 
-    3.  Definition of precedence questions for Cutset and Bourjault methods and precedence relations; rules for asking and answering questions (superset and subset rules).
+- **1.3** Definition of precedence questions for Cutset and Bourjault methods and precedence relations; rules for asking and answering questions (superset and subset rules).
 
-    4.  Definition of Liaison Sequence Diagram and rules for its generation.
+- **1.4** Definition of Liaison Sequence Diagram and rules for its generation.
 
-    5.  Guidelines for selection of the most suitable sequence.
+- **1.5** Guidelines for selection of the most suitable sequence.
 
-2.  **Conceptual Knowledge**
+**2. Conceptual Knowledge**
 
-    1.  Relation between Liaison Diagram, precedence questions in Bourjault and Cutset method and product design.
+- **2.1** Relation between Liaison Diagram, precedence questions in Bourjault and Cutset method and product design.
 
-    2.  Relation between answers to precedence questions and possibility of mating parts within product.
+- **2.2** Relation between answers to precedence questions and possibility of mating parts within product.
 
-    3.  Influence of the assembly sequence on the assembly process characteristics.
+- **2.3** Influence of the assembly sequence on the assembly process characteristics.
 
-3.  **Procedural Knowledge**
+**3. Procedural Knowledge**
 
-    1.  Procedure for generation of Liaison Diagram.
+- **3.1** Procedure for generation of Liaison Diagram.
 
-    2.  Procedure for making subassemblies and asking precedence questions in Cutset method, as well as the procedure for asking precedence questions in Bourjault method.
+- **3.2** Procedure for making subassemblies and asking precedence questions in Cutset method, as well as the procedure for asking precedence questions in Bourjault method.
 
-    3.  Generation of precedence relations based on answers to precedence questions.
+- **3.3** Generation of precedence relations based on answers to precedence questions.
 
-    4.  Generation of Liaison Sequence Diagrams.
+- **3.4** Generation of Liaison Sequence Diagrams.
 
-    5.  Apply XR tools to interact with the product and assemble/disassemble its parts.
+- **3.5** Apply XR tools to interact with the product and assemble/disassemble its parts.
 
-4.  **Metacognitive Knowledge**
+**4. Metacognitive Knowledge**
 
-    1.  Problem solving in assembly sequence design using XR tools.
+- **4.1** Problem solving in assembly sequence design using XR tools.
 
-    2.  Self-evaluate the understanding of the methods for assembly sequence design and validate answers to the precedence questions through experiments in XR.
+- **4.2** Self-evaluate the understanding of the methods for assembly sequence design and validate answers to the precedence questions through experiments in XR.
 
 The listed knowledge is related to the specific Intended Learning Outcomes (ILOs) that are listed in Table 1.
 

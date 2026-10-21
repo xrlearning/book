@@ -26,31 +26,31 @@ The design and analysis of manufacturing systems typically presents a complex en
 
 Taking as a reference the taxonomy proposed by Anderson et al. (see Sect.3.1), the types of knowledge that are relevant for manufacturing system design and analysis can be instantiated as follows:
 
-1.  **Factual Knowledge**
+**1. Factual Knowledge**
 
-    1.  *Knowledge of terminology*: Ability to recognize and differentiate between various types of equipment. 
+- **1.1** *Knowledge of terminology*: Ability to recognize and differentiate between various types of equipment. 
 
-    2.  *Knowledge of specific details and elements*: Ability to identify the properties of objects.
+- **1.2** *Knowledge of specific details and elements*: Ability to identify the properties of objects.
 
-2.  **Conceptual Knowledge**
+**2. Conceptual Knowledge**
 
-    1.  *Knowledge of classifications and categories*: Ability to classify equipment based on its function, such as production resources, transportation resources, or buffers.
+- **2.1** *Knowledge of classifications and categories*: Ability to classify equipment based on its function, such as production resources, transportation resources, or buffers.
 
-    2.  *Knowledge of principles and generalizations*: Ability to comprehend the movement of parts within manufacturing cells in the virtual environment.
+- **2.2** *Knowledge of principles and generalizations*: Ability to comprehend the movement of parts within manufacturing cells in the virtual environment.
 
-    3.  *Knowledge of theories, models, and structures*: Ability to recognize different types of manufacturing system architectures, such as flow shop, job shop, and others.
+- **2.3** *Knowledge of theories, models, and structures*: Ability to recognize different types of manufacturing system architectures, such as flow shop, job shop, and others.
 
-3.  **Procedural Knowledge**
+**3. Procedural Knowledge**
 
-    1.  *Knowledge of subject-specific skills and algorithms*: Ability to apply performance evaluation techniques (e.g., discrete event simulation) to model and assess the performance of a manufacturing system.
+- **3.1** *Knowledge of subject-specific skills and algorithms*: Ability to apply performance evaluation techniques (e.g., discrete event simulation) to model and assess the performance of a manufacturing system.
 
-    2.  *Knowledge of subject-specific techniques and methods*: 1) Ability to analyze manufacturing system behavior and evaluate functional parameters. 2) Ability to develop a performance evaluation model based on the conceptual model of the manufacturing system.
+- **3.2** *Knowledge of subject-specific techniques and methods*: 1) Ability to analyze manufacturing system behavior and evaluate functional parameters. 2) Ability to develop a performance evaluation model based on the conceptual model of the manufacturing system.
 
-    3.  *Knowledge of criteria for determining when to use appropriate procedures*: Ability to formulate accurate hypotheses and generate a conceptual model of the manufacturing system being studied.
+- **3.3** *Knowledge of criteria for determining when to use appropriate procedures*: Ability to formulate accurate hypotheses and generate a conceptual model of the manufacturing system being studied.
 
-4.  **D. Metacognitive Knowledge**
+**4. Metacognitive Knowledge**
 
-    1.  *Self-knowledge*: Ability to evaluate one's own confidence in responses to questions or solutions to exercises.
+- **4.1** *Self-knowledge*: Ability to evaluate one's own confidence in responses to questions or solutions to exercises.
 
 Table 1 reports the specific ILOs with the associated type of knowledge.
 
@@ -72,11 +72,11 @@ Table 1: ILOs with associated knowledge type
 
 ## 2. Use Case
 
-The learning workflow was applied to an industrial case involving an [assembly line](../UseCases/U04_assemblyline) that produces self-closing concealed cabinet hinges. The assembly line includes 19 workstations, each performing specific tasks (e.g., pick and place, screw tightening, riveting) to assemble the components of the self-closing concealed cabinet hinge. These components are shown in Figure 5.
+The learning workflow was applied to an industrial case involving an [assembly line](../UseCases/U04_assemblyline) that produces self-closing concealed cabinet hinges. The assembly line includes 19 workstations, each performing specific tasks (e.g., pick and place, screw tightening, riveting) to assemble the components of the self-closing concealed cabinet hinge. These components are shown in Figure 1.
 
 <img src="W11_media/image6.png" style="width:3.0973in;height:2.68929in" />
 
-Figure 5: Hinge components
+Figure 1: Hinge components
 
 
 ## 3. Learning Activities
@@ -111,20 +111,20 @@ Table 2: Tasks of learning activities with related ILO
 
 A digital twin of the assembly line has been developed to support research and teaching activities. Digital resources are [available online](../UseCases/U04_assemblyline#online-resources), including the 3D models of the assets in gLFT format and the scene configuration defined in a JSON file according to a specific [schema](https://virtualfactory.gitbook.io/vlft/kb/instantiation/assets/json).
 
-Virtual reality (VR) technology has been selected to deliver the necessary level of realism, allowing students to immerse themselves in a virtual walkthrough of the factory, simulating an actual factory visit. The workflow can be explored using [VEB.js prototype tool](../Tools#vebjs). Figure 6 illustrates how the industrial environment, including the assembly line, is rendered within VEB.js.
+Virtual reality (VR) technology has been selected to deliver the necessary level of realism, allowing students to immerse themselves in a virtual walkthrough of the factory, simulating an actual factory visit. The workflow can be explored using [VEB.js prototype tool](../Tools#vebjs). Figure 2 illustrates how the industrial environment, including the assembly line, is rendered within VEB.js.
 
 <img src="W11_media/image7.png" style="width:5.26258in;height:3.58282in" />
 
-Figure 6: Screenshot of VEB.js application showing the assembly line use case
+Figure 2: Screenshot of VEB.js application showing the assembly line use case
 
 
 The presentation of the learning tasks and corresponding assessments has been implemented using the [Moodle platform](https://moodle.org/), an online learning management system that offers a variety of tools for designing forms and conducting assessments. 
 
-Alongside the front-end VR application, a set of digital tools (see Figure 7) has been employed to model the industrial case depicted in the virtual environment. Factory objects, their placement in the virtual scene, their 3D representation, and attributes were defined using [OntoGuiWeb](../Tools#ontoguiweb), a graphical interface designed for creating factory models based on an ontology data model. Event generation for animating the virtual scene was facilitated by a Discrete Event Simulator (e.g. [Java Modelling Tools](https://jmt.sourceforge.net/)).
+Alongside the front-end VR application, a set of digital tools (see Figure 3) has been employed to model the industrial case depicted in the virtual environment. Factory objects, their placement in the virtual scene, their 3D representation, and attributes were defined using [OntoGuiWeb](../Tools#ontoguiweb), a graphical interface designed for creating factory models based on an ontology data model. Event generation for animating the virtual scene was facilitated by a Discrete Event Simulator (e.g. [Java Modelling Tools](https://jmt.sourceforge.net/)).
 
 <img src="W11_media/image8.png" style="width:6.26806in;height:3.01775in" />
 
-Figure 7: Integrated digital tools and data repository
+Figure 3: Integrated digital tools and data repository
 
 ## 5. User Experience
 
