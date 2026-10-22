@@ -93,6 +93,7 @@ Table 2 links each task to the relevant intended learning outcomes.
 The workflow combines a digital twin of the robotics laboratory, a virtual environment, robot-motion data, motion-planning software, and MQTT-based communication.
 
 ### 4.1 Assets and scene configuration
+{:.no_toc}
 
 A digital twin of the laboratory was developed to support research and teaching activities. The [online resources](../UseCases/U02_performlab#online-resources) include:
 
@@ -104,6 +105,7 @@ A digital twin of the laboratory was developed to support research and teaching 
 The JSON scene configuration follows a dedicated [schema](https://virtualfactory.gitbook.io/vlft/kb/instantiation/assets/json).
 
 ### 4.2 Virtual environment
+{:.no_toc}
 
 The three-dimensional scene can be visualised using different engines and development environments, including Unity, Unreal Engine, Godot, and Babylon.js.
 
@@ -111,6 +113,7 @@ This workflow uses [VEB.js](../Tools#vebjs), a web-based prototype application t
 
 
 ### 4.3 Robot motion planning and simulation
+{:.no_toc}
 
 Planning, managing, and monitoring robot trajectories can be supported by tools such as:
 
@@ -125,6 +128,7 @@ In Levels 1 and 2, trajectory generation is outside the scope of the learning ac
 The reference trajectories for the PERFORM Lab were generated using MoveIt.
 
 ### 4.4 Joint-position data
+{:.no_toc}
 
 During the execution of the trajectory, the robot controller can communicate the joint state (i.e. position, velocity, force/torque, etc.) that in turn can be stored (e.g. in a text-based file) or published (e.g. via MQTT). We take in consideration only the joint position, i.e. the rotation angle of the joint. The joint angles are likely to be measured by sensors or encoders that are attached to the robot joints. These sensors can generate data at a high rate, potentially several times per second or even faster, depending on the specific application and the performance requirements.
 
@@ -159,6 +163,7 @@ Each item of the list reports by default the value of 10 joint angles. Robot_1 o
 An example can be seen in the [file](https://github.com/difactory/DF/blob/main/docs/AVATAR-JLL/files/trajectory_example.json) that defines a trajectory moving the tool along the vertical axis.
 
 ### 4.4 MQTT Communication
+{:.no_toc}
 
 [MQTT](https://mqtt.org/) (Message Queuing Telemetry Transport) is a lightweight, publish-subscribe messaging protocol that is commonly used in the Internet of Things (IoT) and other applications.
 
