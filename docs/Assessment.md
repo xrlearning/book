@@ -44,8 +44,9 @@ The questionnaire package has been designed according to the following principle
     - confidence in addressing engineering problems;
     - awareness of professional roles and applications;
     - ability to design or evaluate XR-based learning experiences.
+
     This alignment should be performed before the learning activity begins. It should not be reconstructed only after results have been collected.
-- **Combination of quantitative and qualitative evidence**. Likert-scale questions permit comparisons among items, groups, learning formats, and editions of an activity. Open-ended questions provide **the context needed to interpret the numerical results and can reveal unexpected benefits, barriers, or recommendations.
+- **Combination of quantitative and qualitative evidence**. Likert-scale questions permit comparisons among items, groups, learning formats, and editions of an activity. Open-ended questions provide the context needed to interpret the numerical results and can reveal unexpected benefits, barriers, or recommendations.
 - **Assessment at appropriate points in time**. For long-term activities, assessment should be repeated because participants’ perceptions may change as the work progresses. For short workshops, a pre-workshop questionnaire establishes expectations and prior experience, while a post-workshop questionnaire documents the experience and perceived outcomes.
 - **Anonymity and proportionality**. Only information required for the assessment should be collected. Responses should normally be anonymous or pseudonymous, and participants should be informed about the purpose of the questionnaire, the intended use of the results, and whether participation is voluntary.
 
@@ -70,7 +71,7 @@ Self-assessed competence can be measured using this scale:
   2. Basic competence 
   3. Intermediate competence 
   4. Advanced competence 
-  5. Expert competence 
+  5. Very advanced competence 
 
 Self-assessment reflects participants’ perceptions and should not be interpreted as an objective competence test. If competence development is a principal outcome, the questionnaire should be complemented by a knowledge test, practical task, rubric-based assessment, or observation.
 
@@ -89,7 +90,7 @@ This is a possible introductory text for participants:
 
 > This questionnaire examines your experience of participating in the co-design laboratory. Its purpose is to assess how the laboratory contributes to learning, skills development, teamwork, and confidence in addressing professional problems. The questionnaire is not an assessment of your individual performance. Please answer on the basis of your own experience. There are no right or wrong answers.
 
-The questionnaire is split into two parts because they address different dimensions and can also be reused independently
+The questionnaire is split into two parts because they address different dimensions and can also be reused independently:
 1. **[Co-design Lab Questionnaire A](#co-design-lab-questionnaire-a)**: contribution to learning outcomes
 2. **[Co-design Lab Questionnaire B](#co-design-lab-questionnaire-b)**: learning experience and professional confidence
 
@@ -409,6 +410,11 @@ The competence scale must remain unchanged between the pre-workshop and post-wor
 
 
 ## Administration guidance
+
+### Participant information and consent
+{:.no_toc}
+
+Before completing the questionnaire, participants should receive information about the purpose of the assessment, the voluntary nature of participation, the data collected, the intended use and retention of the responses, and the contact point for questions or withdrawal requests. Where questionnaire data are used for research or publication, the assessment must follow the applicable institutional ethics procedures and data-protection requirements. Demographic information should be limited to variables that are necessary for the analysis, particularly when the participant group is small.
 
 ### Anonymous response codes
 {:.no_toc}

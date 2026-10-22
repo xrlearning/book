@@ -19,9 +19,13 @@ parent: Learning Workflows
 # Design of Mechanical Products
 {:.no_toc}
 
-Mechanical product design involves not only the development of innovative solutions to meet specific functional requirements but also the integration of components into cohesive systems that balance performance, manufacturability, and cost-effectiveness. This workflow offers a structured approach to mastering these complexities, leveraging advanced tools like CAD software, XR technologies, and simulation techniques. Students will engage in iterative design processes, from concept development to virtual prototyping, guided by engineering principles and key performance metrics. Through hands-on activities and real-world case studies, learners will develop the skills needed to navigate the multidisciplinary demands of modern mechanical design.
+Mechanical product design involves developing solutions that satisfy functional requirements while integrating components into coherent systems that balance performance, manufacturability, cost, and user needs. This workflow provides a structured approach to these challenges by combining engineering-design methods with computer-aided design (CAD), extended reality (XR), and simulation tools.
+
+Students follow an iterative process that progresses from the analysis of an existing product to requirements definition, concept development, detailed design, virtual prototyping, and validation. Through practical activities and an industrially relevant case study, students develop the multidisciplinary knowledge and skills required to design and evaluate modern mechanical products.
 
 ## 1. Learning Objectives
+
+The knowledge addressed by this learning workflow is organised into four categories: factual, conceptual, procedural, and metacognitive knowledge.
 
 **1. Factual Knowledge**
 
@@ -42,9 +46,9 @@ Mechanical product design involves not only the development of innovative soluti
 **4. Metacognitive Knowledge**
 - **4.1** Reflect on the iterative design process to identify areas for improvement in product development.
 - **4.2** Evaluate the alignment of design decisions with technical requirements and user needs.
-- **4.3** Monitor personal understanding of complex systems and adapt learning strategies for better engagement with XR technologies.
 
-Table 1 lists the specific Intended Learning Objectives (ILOs) with their associated knowledge type.
+
+Table 1 lists the specific Intended Learning Outcomes (ILOs) with their associated knowledge type.
 
 | **ILO** | **Knowledge Type** | **ILO Description** |
 | ----- | ---- | ----- |
@@ -62,6 +66,7 @@ Table 1 lists the specific Intended Learning Objectives (ILOs) with their associ
 | I12 | 4.1 | Develop a performance evaluation framework (using the virtual prototype) for the designed part |
 | I13 | 4.2 | Optimize the product design by identifying potential improvements and correcting inefficiencies before production. |
 | I14 | 4.2 | Test the virtual prototype to validate the proposed design |
+
 
 Table 1: ILOs with associated knowledge type 
 

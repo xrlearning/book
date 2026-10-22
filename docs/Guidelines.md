@@ -24,7 +24,7 @@ toc_min_heading_level: 1
 {:.no_toc}
 
 
-This document addresses the design, development, testing and assessment of learning workflows in industrial engineering education, taking advantage of XR technologies. Each workflow will be formalised in terms of Learning objectives, Use cases, Tasks, User Experience, and Technology.
+This document addresses the design, development, testing and assessment of learning workflows in industrial engineering education, taking advantage of XR technologies. Each workflow is formalised through five components: Learning Objectives, Use Case, Learning Activities, Technology, and User Experience.
 
 The workflows will be designed taking into consideration both pedagogical and technical aspects. Thus, the latest research advances in these fields will be exploited to support the design of the workflow steps and pursue the learning objectives.
 
@@ -82,7 +82,7 @@ This chapter delves into the main details of the framework, defining the guideli
 
 ### 2.1 Learning Objectives Definition 
 
-The learning component serves as the foundational element that enables effective and engaging learning experiences in an educational context. It involves defining the knowledge domain and explicitly list the Intended Learning Outcomes (ILOs) \[7\] that the students will acquire thorugh the workflow. The ILOs can be grouped according to different classes of knowledge, as defined by \[8\]:
+The learning component serves as the foundational element that enables effective and engaging learning experiences in an educational context. It involves defining the knowledge domain and explicitly listing the Intended Learning Outcomes (ILOs) \[7\] that students are expected to achieve through the workflow. The ILOs can be grouped according to different classes of knowledge, as defined by \[8\]:
 
 1.  **Factual knowledge**, i.e. the basic elements that the learners must know to be acquainted with the discipline or problem under study.
 
@@ -138,7 +138,7 @@ The requirements for the VE include:
 
 The digital model of the VE plays a central role in the framework because it integrates data from heterogenous sources. An effective VE digital model must be based on a data model that facilitates the generation of new instances (model-driven reconfigurability).
 
-The VE must be stored and shared in format that is easily accessible by digital tools to enhance interoperability. Standard data exchange formats should be used whenever is possible.
+The VE digital model should be stored and shared in formats that can be accessed by different tools, thereby supporting portability and interoperability. Standard data-exchange formats should be used whenever possible.
 
 ### 2.5 User Experience Design
 
@@ -158,11 +158,11 @@ The requirements for the VE include:
 
 Digital tools and technologies must be selected based on the specific needs of the learning workflows. Several digital tools, including commercial options, are available in the market, but many of these tools fall short of meeting key requirements due to issues such as costly commercial licenses, cumbersome input/output data exchange management, or excessive complexity.
 
-The digital tools can be used as standalone or in integrated way. The use of an integrated digital platform \[9\] is recommended because it can better support the execution of learning workflows by smoothly providing access to different tools that exchange data without adding an overhead of data handling tasks that would divert the attention of the students.
+Digital tools can be used as standalone applications or as components of an integrated environment. The use of an integrated digital platform \[9\] is recommended because it can better support the execution of learning workflows by smoothly providing access to different tools that exchange data without adding an overhead of data handling tasks that would divert the attention of the students.
 
 The integration of heterogeneous digital tools can be facilitated by a common and extensible data model representing industrial assets, including production systems, resources, processes, and products. The factory data model presented in [9] was developed as an OWL ontology, providing a flexible framework for integrating different knowledge domains and reusing established technical standards, such as Industry Foundation Classes, W3C SSN/SOSA, and UML Statecharts. Further information and examples are available online, including the ontology documentation[^1], its JSON serialisation[^2], and a collection of related SPARQL queries[^3].
 
-The remaining part of this chapter is focused on the on the guidelines for the use of XR technology and examples of XR tools.
+The remaining part of this chapter is focused on the guidelines for the use of XR technology and examples of XR tools.
 
 ### 3.1 XR Overview
 
@@ -362,7 +362,9 @@ Figure 3: Screenshot of VEB.js application
 {:.no_toc}
 #### 3.3.2 React and Three.js
 
-A valuable option for the implementation of web-based 3D and XR applications is the adoption of another webGL based framework such as [Next.js](https://nextjs.org/). This is grounded on React library and allows the creation of full-stack web applications. In combination with the webXR based [Three.js library](https://threejs.org/) dynamic and interactable 3D and augmented or virtual reality contents can be easily accessed from a compatible web browser therefore not dependent on any specific hardware. Also in this case it is possible to include 3D contents in compatible formats (such as gLTF) and create a backend connection to communication protocols such as MQTT and ROS (Robot Operating System) which has been adopted in some of the joint calls and workshop activities (Figure 4).
+Another option for developing web-based 3D and XR applications is to combine [Next.js](https://nextjs.org/) with [Three.js](https://threejs.org/). Next.js is a web-application framework based on React, while Three.js is a JavaScript library for rendering interactive three-dimensional graphics through WebGL and supporting immersive experiences through WebXR.
+
+This combination enables three-dimensional and XR content to be accessed through compatible web browsers without requiring a dedicated desktop application. Applications can load assets in formats such as glTF and connect to back-end services or communication infrastructures based on protocols and frameworks such as MQTT and ROS (Robot Operating System). This technology stack was used in selected XREN joint-lab and workshop activities.
 
 <img src="G_media/image4.png" style="width:4.33071in;height:3.69029in" />
 

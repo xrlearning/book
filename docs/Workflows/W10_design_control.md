@@ -19,14 +19,14 @@ parent: Learning Workflows
 # Design and Control of Manufacturing Systems
 {:.no_toc}
 
-This learning workflow is designed to address the challenges of designing and controlling a manufacturing system using modern digital technologies, with a specific focus on Extended Reality (XR). The workflow is structured to guide students through a practical, hands-on experience by leveraging a realistic virtual environment (VE) of a manufacturing facility. This approach aims to foster a deep understanding of industrial engineering principles by integrating pedagogical and technical aspects.
+This learning workflow addresses the design and control of a manufacturing system using modern digital technologies, with particular emphasis on extended reality (XR). It guides students through a practical, hands-on learning experience based on a realistic virtual environment representing a manufacturing facility. By integrating pedagogical and technical elements, the workflow supports the development of industrial engineering knowledge and skills.
 
-The core of this workflow is the application of a framework that utilizes a digital twin of a pick&place cell. The use of open and multi-platform technologies is recommended to enhance the democratization of this XR-based learning approach in higher education. 
+The workflow is based on a digital twin of a pick-and-place cell. The use of open and cross-platform technologies is recommended to make this XR-based learning approach more accessible and reusable in higher education.
 
 
 ## 1. Learning Objectives
 
-The types of knowledge that are relevant for this learning workflow can be instantiated as follows:
+The knowledge addressed by this learning workflow is organised into four categories: factual, conceptual, procedural, and metacognitive knowledge.
 
 **1. Factual Knowledge**
 
@@ -54,7 +54,7 @@ The types of knowledge that are relevant for this learning workflow can be insta
 
 - **4.1** *Self-knowledge:* ability to evaluate one's own confidence in the responses and solutions to the exercises.
 
-Table 1 reports the specific ILOs with the associated type of knowledge.
+Table 1 summarises the intended learning outcomes (ILOs) and their associated knowledge types.
 
 | **ILO** | **Knowledge type** | **ILO description**                                                                                                                                                                               |
 |---------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -75,7 +75,15 @@ Table 1: ILOs with associated knowledge type
 
 ## 2. Use Case
 
-The learning workflow can be applied to the use case involving a [pick&place cell](../UseCases/U03_pickplacecell), an automated manufacturing system designed to execute handling, sorting, and transfer operations in a discrete production environment. This use case serves as a testbed for validating the modularity, reusability, and immersive potential of the XR learning framework.
+The workflow is applied to a [pick-and-place cell](../UseCases/U03_pickplacecell), an automated manufacturing system designed to perform handling, sorting, and transfer operations in a discrete-production environment.
+
+The cell provides a testbed for:
+
+- analysing the structure and behaviour of a manufacturing system;
+- modelling sensors, actuators, and control logic;
+- designing and evaluating system reconfigurations;
+- testing control strategies through virtual commissioning;
+- demonstrating the modularity and reusability of the XR learning workflow.
 
 
 
@@ -83,80 +91,100 @@ The learning workflow can be applied to the use case involving a [pick&place cel
 
 The learning activities are organized into two levels of increasing difficulty:
 
-1)  *How a manufacturing system works and is controlled*. The student is provided with an existing manufacturing system. Sensors and actuators are characterized by UML statecharts. A sequence of control actions is predefined to demonstrate the capability of the system to perform a mission, i.e. moving assets from a source position to a target position while executing operations.
+1)  *Understanding how a manufacturing system operates and is controlled*. Students are provided with an existing manufacturing system in which the behaviour of sensors and actuators is represented through UML statecharts. A predefined sequence of control actions demonstrates how the system performs a production mission, such as moving parts from a source to a destination while carrying out the required operations.
 
-2)  *Design a manufacturing system reconfiguration and control its behavior*. The student is asked to design a reconfiguration of the existing manufacturing system to meet new requirements in terms of missions to be executed. The assets already available can be reused and new assets can be included, either duplicating existing assets or defining new asset types with related properties.
+2)  *Reconfiguring and controlling a manufacturing system*. Students design a reconfiguration of the existing manufacturing system to satisfy new production requirements. Existing assets may be reused, duplicated, or supplemented with new asset types and properties. Students define the process plan, model asset behaviour, configure the integrated system, evaluate its performance, and test its operation through virtual commissioning.
 
 Each level consists of tasks associated with specifics ILOs as reported in Table 2.
 
-| **Task ID** | **Task name**                               | **Task description**                                                                                                                                                                                                                                                                                                          | **ILO** |
-|-------------|---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
-| T1.1        | Identify Assets in the Manufacturing System | Analyze the existing manufacturing system and identify relevant assets.                                                                                                                                                                                                                                                       | I1      |
-| T1.2        | Characterize Existing Assets                | Collect the properties of assets that are used in the manufacturing system, including sensors and actuators, based on their function in the virtual environment. This involves identifying the purpose of components like the Cartesian robot for handling and the conveyors for transportation.                              | I2, I3  |
-| T1.3        | Analyze Existing Manufacturing System       | Understand the system's behavior and the flow of parts. Model the system layout with diagrams and its behavior with UML statecharts. Evaluate the system performance.                                                                                                                                                         | I4, I5  |
-| T2.1        | Define Process Plan                         | Define the process plan with final goal and operations for the reconfigured manufacturing system                                                                                                                                                                                                                              | I6      |
-| T2.2        | Design Asset Behavior                       | Identify which assets are needed in the reconfigured manufacturing system, including sensors and actuators, and design their behavior using UML statecharts.                                                                                                                                                                  | I9      |
-| T2.3        | Design Integrated System                    | Design the configuration of the manufacturing system by integrating single assets and their behaviors into a complete system. This includes ensuring proper placement of components and understanding their interactions, defining the operational modes and programming the system to respond to user input and sensor data. | I10     |
-| T2.4        | Assess the system performance               | Evaluate the manufacturing system performance.                                                                                                                                                                                                                                                                                | I7      |
-| T2.5        | Virtual Commissioning                       | Test the integrated system in the virtual environment. This involves using VR tools to operate the control panel, trigger system events, and verify that the system functions correctly according to the predefined modes and logic. In addition, an MQTT-based controller is tested to achieve production goals.             | I8, I9  |
-| T2.6        | Final Testing and Revisions                 | Perform final testing of the entire system and identify any required revisions. During this task, students should self-assess their understanding of the system's design and their ability to troubleshoot issues, estimating their confidence in the solutions they have implemented.                                        | I9, I10 |
+| Task ID | Task | Description | Related ILOs |
+|:--------|:-----|:------------|:-------------|
+| T1.1 | Identify assets in the manufacturing system | Analyse the existing manufacturing system and identify its relevant assets. | I1 |
+| T1.2 | Characterise existing assets | Document the properties and functions of the assets used in the manufacturing system, including sensors, actuators, Cartesian robots, conveyors, and control devices. | I2, I3 |
+| T1.3 | Analyse the existing manufacturing system | Analyse system behaviour and the flow of parts. Represent the system layout using appropriate diagrams, model its behaviour using UML statecharts, and evaluate its performance. | I4, I5, I7 |
+| T2.1 | Define the process plan | Define the production goal, required operations, and operation sequence for the reconfigured manufacturing system. | I6 |
+| T2.2 | Design asset behaviour | Identify the assets required by the reconfigured system and model the behaviour of its sensors and actuators using UML statecharts. | I9 |
+| T2.3 | Design the integrated system | Configure the manufacturing system by integrating individual assets and their behaviours. Define asset placement, component interactions, operating modes, and responses to user commands and sensor data. | I10 |
+| T2.4 | Assess system performance | Evaluate the performance of the reconfigured manufacturing system using suitable indicators and compare the results with the specified requirements. | I7 |
+| T2.5 | Perform virtual commissioning | Test the integrated system in the virtual environment. Operate the control panel, trigger system events, verify the operating logic, and test an MQTT-based controller against the production goals. | I8, I9, I10 |
+| T2.6 | Conduct final testing and revisions | Test the complete system, identify unexpected behaviour, troubleshoot problems, implement revisions, and assess confidence in the proposed solutions. | I11, I12 |
 
-Table 2: Tasks of learning activities with related ILO
+*Table 2. Learning tasks and related intended learning outcomes.*
 
 ## 4. Technology
 
-Virtual reality (VR) technology has been selected to deliver the necessary level of realism, allowing students to immerse themselves in a virtual manufacturing system.
+Virtual reality provides the level of immersion required for students to explore, analyse, and operate a virtual manufacturing system. The workflow can be accessed in desktop mode using a conventional web browser or in immersive mode using a compatible VR headset.
 
-**Assets and scene configuration**
+### 4.1 Assets and scene configuration
+{:.no_toc}
 
-A digital twin of the cell has been developed to support research and teaching activities. Digital resources are [available online](../UseCases/U03_pickplacecell#online-resources), including the 3D models of the assets in gLFT format and the scene configuration defined in a JSON file according to a specific [schema](https://virtualfactory.gitbook.io/vlft/kb/instantiation/assets/json).
+A digital twin of the pick-and-place cell was developed to support teaching and research activities. The [online resources](../UseCases/U03_pickplacecell#online-resources) include:
 
-**Visualization in VR environment**
+- three-dimensional asset models in **glTF** format;
+- scene configurations defined in JSON;
+- structured data describing the assets and their relationships.
 
-The visualization of the use case in a VR environment is supported by [VEB.js](../Tools#vebjs), a prototype web-based VR tool, taking advantage of its reconfigurable model-driven approach. 
+The JSON scene configuration follows a dedicated [schema](https://virtualfactory.gitbook.io/vlft/kb/instantiation/assets/json).
 
-Any browser can be used to visualize the [Pick&Place cell](https://difactory.github.io/DF/scenes/UC/PickPlaceCell_old.html) with VEB.js.
+### 4.2 Visualisation with VEB.js
+{:.no_toc}
 
-**OntoGuiWeb**
+The use case can be visualised using [VEB.js](../Tools#vebjs), a prototype web-based VR application built around a reconfigurable, model-driven approach.
 
-Data authoring of the Pick&Place cell use case has been supported by [OntoGuiWeb](../Tools#ontoguiweb), a web application providing a graphical user interface for the instantiation and exploration of digital models as OWL ontologies.
+The [Pick-and-Place Cell demo](https://difactory.github.io/DF/scenes/UC/PickPlaceCell_old.html) can be accessed through a compatible web browser without installing a dedicated desktop application.
 
+### 4.3 Data authoring with OntoGuiWeb
+{:.no_toc}
 
+The digital model of the pick-and-place cell can be authored and explored using [OntoGuiWeb](../Tools#ontoguiweb). OntoGuiWeb provides a graphical interface for creating and examining model instances represented through OWL ontologies.
 
-**MQTT Communication**
+### 4.4 MQTT communication
+{:.no_toc}
 
-MQTT (Message Queuing Telemetry Transport) is a lightweight, publish-subscribe messaging protocol that is commonly used in the Internet of Things (IoT) and other applications.
+MQTT is a lightweight publish-subscribe messaging protocol commonly used in Internet of Things and industrial applications. Within this workflow, MQTT supports bidirectional communication between the virtual environment and an external controller.
 
-MQTT can be exploited for bi-directional communications with controller of the manufacturing system:
+The virtual environment can:
 
-- sending feedback about the state of the sensors (published messages)
+- publish messages describing the current states of sensors and other assets;
+- subscribe to topics that provide commands for actuators;
+- exchange messages structured according to an agreed JSON schema.
 
-- receiving commands for the execution of the actuators (messages receveived to subscribed topics)
-
-VEB.js can play the role of both publisher and subscriber, exchanging messages that are structured according to a json schema. Therefore, the virtual environment (VE) can be connected with an external controller that receives that current state of the assets in the VE and controls the actions in the VE.
-
+VEB.js can operate as both an MQTT publisher and subscriber. An external controller can therefore receive the current state of virtual assets, execute the control logic, and send commands back to the virtual environment.
 ## 5. User Experience
 
-The user experience (UX) in this learning workflow is designed to be intuitive and immersive. The virtual environment represents a simplified version of a real-world manufacturing facility, created to provide a sense of presence and a learning experience that closely mirrors reality.
+The user experience is designed to support intuitive exploration and interaction. The virtual environment represents a simplified industrial facility and allows students to examine the manufacturing system without the access, safety, and scheduling constraints associated with physical equipment.
 
-The virtual environment provides an industrial setting that students can freely explore. This immersive approach allows for learning through direct interaction with a simulated production system. A key feature of the interface is the ability to retrieve supplementary data directly from objects in the environment. Users can select various objects within the virtual environment to access detailed information. This includes the object's name, ID, dimensions, position, a brief description, and its relationships with other components.
+Students can explore the environment and retrieve information about individual assets. Depending on the available data, the asset information may include:
 
-Users interact with the virtual environment using mouse/keyboard in the desktop mode or with VR controllers in immersive mode. The main interaction method is a virtual ray cast, which functions as a laser pointer, allowing users to select and activate buttons and switches from a distance. In addition to the ray cast, users can also grab and move virtual objects like boxes and items. To ensure precision and reduce frustration, the system may use snap zones.
+- name and identifier;
+- dimensions and position;
+- functional description;
+- operating state;
+- relationships with other components.
+
+The workflow supports two interaction modes:
+
+- **Desktop mode:** interaction through a mouse and keyboard.
+- **Immersive mode:** interaction through a VR headset and motion controllers.
+
+In immersive mode, a ray-casting mechanism acts as a virtual pointer for selecting objects and operating buttons or switches from a distance. Students can also grab and move designated virtual objects, such as boxes or workpieces. Snap zones may be used to guide object placement, improve precision, and reduce interaction errors.
 
 The assessment of the learning task is carried out by analyzing the output of the various tasks, as defined in Table 3.
 
-| **Task ID** | **Task**                                    | **Output**                                                                                                                                                                                                                                         |
-|-------------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| T1.1        | Identify Assets in the Manufacturing System | Answers to a questionnaire.                                                                                                                                                                                                                        |
-| T1.2        | Characterize Existing Assets                | Answers to a questionnaire.                                                                                                                                                                                                                        |
-| T1.3        | Analyze Existing Manufacturing System       | UML statecharts are tested for logical correctness and coherence with the system's behavior.                                                                                                                                                       |
-| T2.1        | Define Process Plan                         | The process plan is formalized (e.g. as an ontology or json document) and automatically checked if it contains the needed process steps and sequences. A visual check of the process plan, rendered as a diagram, can be visually checked as well. |
-| T2.2        | Design Asset Behavior                       | UML statecharts are tested for logical correctness and coherence with the system's behavior.                                                                                                                                                       |
-| T2.3        | Design Integrated System                    | The system configuration is formalized (e.g. as an ontology or json document) and automatically checked in terms of logical consistency, component interactions, and alignment with the production goals.                                          |
-| T2.4        | Assess the system performance               | The performance data can be automatically compared against a benchmark to assess the student's design efficiency.                                                                                                                                  |
-| T2.5        | Virtual Commissioning                       | The student can generate animations that can be re-executed and a video to demonstrate the behavior of the system in the VR environment.                                                                                                           |
-| T2.6        | Final Testing and Revisions                 | A final report, including troubleshooting process, is assessed. The student's self-assessment can also be reviewed to gauge the metacognitive awareness.                                                                                           |
+Assessment is based on the outputs produced during each learning task. The assessment strategy combines questionnaires, review of formal models, automated validation, performance comparison, observation of system behaviour, and student self-assessment.
 
-Table 3: Expected outcome of the learning tasks
+| Task ID | Task | Expected output and assessment method |
+|:--------|:-----|:--------------------------------------|
+| T1.1 | Identify assets in the manufacturing system | Completed questionnaire or asset inventory. The response is assessed for the correct identification and classification of relevant assets. |
+| T1.2 | Characterise existing assets | Completed asset-description template or questionnaire. The response is assessed for the correct identification of asset properties, functions, and relationships. |
+| T1.3 | Analyse the existing manufacturing system | System-layout diagram, UML statecharts, and performance results. The models are assessed for logical correctness and consistency with the observed system behaviour. |
+| T2.1 | Define the process plan | A process plan represented as a diagram, JSON document, ontology, or equivalent structured model. The plan is checked for the presence and correct sequence of the required operations. |
+| T2.2 | Design asset behaviour | UML statecharts representing sensor and actuator behaviour. The statecharts are assessed for logical correctness, completeness, and consistency with the system requirements. |
+| T2.3 | Design the integrated system | A formal system configuration, represented as an ontology, JSON document, diagram, or equivalent model. The configuration is assessed for logical consistency, component compatibility, and alignment with the production goals. |
+| T2.4 | Assess system performance | A set of calculated performance indicators and a short interpretation of the results. The indicators can be compared with reference values or design requirements. |
+| T2.5 | Perform virtual commissioning | An executable virtual scenario, recorded animation, video, or test report demonstrating the behaviour of the system and its MQTT-based control. |
+| T2.6 | Conduct final testing and revisions | A final report documenting the tests, identified problems, corrective actions, revised solution, and student confidence assessment. |
+
+*Table 3. Expected outputs and assessment methods for the learning tasks.*
 
 

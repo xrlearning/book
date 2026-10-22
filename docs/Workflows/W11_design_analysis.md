@@ -19,12 +19,16 @@ parent: Learning Workflows
 # Design and Analysis of Manufacturing Systems
 {:.no_toc}
 
-The design and analysis of manufacturing systems typically presents a complex engineering challenge, requiring multidisciplinary expertise to meet production objectives. Manufacturing systems comprise production resources with distinct functionalities and capabilities, which are defined by their characteristics. However, how these resources are integrated also significantly affects the overall system capabilities. The design of manufacturing systems is guided by key performance indicators (KPIs), which necessitate specific methodologies and tools for accurate evaluation.
+The design and analysis of manufacturing systems is a complex engineering activity requiring multidisciplinary knowledge to satisfy production requirements. A manufacturing system comprises production, handling, transportation, storage, and control resources, each characterised by specific functions and capabilities. The way these resources are configured and integrated determines the overall capabilities and performance of the system.
+
+Manufacturing-system design is guided by production requirements and key performance indicators (KPIs), such as throughput, lead time, resource utilisation, work in progress, and service level. Evaluating alternative system configurations therefore requires suitable modelling and analysis methods, including discrete-event simulation.
+
+This learning workflow uses an immersive virtual representation of an industrial assembly line to help students understand its structure and behaviour, formulate a conceptual model, estimate model parameters, and evaluate system performance.
 
 
 ## 1. Learning Objectives
 
-Taking as a reference the taxonomy proposed by Anderson et al. (see Sect.3.1), the types of knowledge that are relevant for manufacturing system design and analysis can be instantiated as follows:
+Following the revised taxonomy proposed by Anderson et al. (see Section 3.1), the knowledge addressed by this workflow is organised into four categories: factual, conceptual, procedural, and metacognitive knowledge.
 
 **1. Factual Knowledge**
 
@@ -62,9 +66,9 @@ Table 1 reports the specific ILOs with the associated type of knowledge.
 | I4      | 2.1                | Classify the pieces of equipment according to their class.                                                                                                           |
 | I5      | 2.2                | Identify the flow of parts within the manufacturing system in the virtual environment.                                                                               |
 | I6      | 2.3                | Identify the type of manufacturing system architecture.                                                                                                              |
-| I7      | 3.2.1              | Analyse the behaviour of manufacturing systems and assess functional parameters.                                                                                     |
+| I7      | 3.2              | Analyse the behaviour of manufacturing systems and assess functional parameters.                                                                                     |
 | I8      | 3.3                | Make proper hypotheses and generate a conceptual model of the manufacturing system under study.                                                                      |
-| I9      | 3.2.2              | Develop a performance evaluation model based on a conceptual model of the manufacturing system.                                                                      |
+| I9      | 3.2              | Develop a performance evaluation model based on a conceptual model of the manufacturing system.                                                                      |
 | I10     | 3.1                | Evaluate the performance of a manufacturing system.                                                                                                                  |
 | I11     | 4.1                | Self-assess the replies. Students will be asked to provide an estimation of the confidence they have with respect to their replies and numerical solutions provided. |
 
@@ -72,7 +76,19 @@ Table 1: ILOs with associated knowledge type
 
 ## 2. Use Case
 
-The learning workflow was applied to an industrial case involving an [assembly line](../UseCases/U04_assemblyline) that produces self-closing concealed cabinet hinges. The assembly line includes 19 workstations, each performing specific tasks (e.g., pick and place, screw tightening, riveting) to assemble the components of the self-closing concealed cabinet hinge. These components are shown in Figure 1.
+The workflow is applied to an industrial [assembly line](../UseCases/U04_assemblyline) that produces self-closing concealed cabinet hinges. The system comprises 19 workstations that perform operations such as component feeding, pick-and-place handling, screw tightening, riveting, inspection, and transportation.
+
+The use case enables students to:
+
+- identify products, components, and manufacturing resources;
+- understand the routing and transformation of parts;
+- examine the relationships among processes and resources;
+- recognise the manufacturing-system architecture;
+- estimate processing and reliability parameters;
+- develop a conceptual and simulation model;
+- evaluate the performance of the assembly line.
+
+The components of the self-closing concealed cabinet hinge are shown in Figure 1.
 
 <img src="W11_media/image6.png" style="width:3.0973in;height:2.68929in" />
 
@@ -81,46 +97,94 @@ Figure 1: Hinge components
 
 ## 3. Learning Activities
 
-The learning activities are organized into three levels of increasing difficulty: 1) What a factory is made of; 2) How a factory works; 3) Performance of a factory.
+The learning activities are organised into three levels of increasing complexity:
 
-Each level consists of tasks associated with specifics ILOs as reported in Table 2.
+- Level 1 – Understanding what a manufacturing system consists of
 
-| **Task ID** | **Task name**                   | **Task description**                                                                                                                                                                                                         | **ILO** |
-|-------------|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
-| T1.1        | Count the equipment pieces      | Players are tasked with counting the number of instances of a specific type of equipment shown in an image (e.g., conveyor, robot, or rotary table) along with related details like its name, classification, and functions. | I1      |
-| T1.2        | Search for equipment            | The challenge asks players to verify if at least one instance of a particular equipment exists in the environment, simplifying the task from Challenge 1.1 while focusing on the same learning objective.                    | I1      |
-| T1.3        | Identify objects in the factory | Players are shown a factory view and provided with a set of labels, which they must drag and drop onto the correct equipment.                                                                                                | I1      |
-| T1.4        | Report object properties        | Players must identify and report specific properties of an object or compute a derived measure, such as the distance between two stations. The properties are accessible through the user interface.                         | I3      |
-| T2.1        | Identify processed parts        | Players must recognize the type of part being processed in the system, and if it's an assembly, identify the components involved.                                                                                            | I2      |
-| T2.2        | Classify factory objects        | Participants classify objects in the factory by interacting with parts and choosing from a set of options like buffering, transporting, or processing.                                                                       | I4      |
-| T2.3        | Trace part routing              | Players are required to determine the movement of parts within the system (e.g. tracking the stations that a part passes through).                                                                                           | I5      |
-| T2.4        | Locate assembly points          | Participants must find where a part and a component are combined in the system.                                                                                                                                              | I2, I5  |
-| T2.5        | Identify system architecture    | Players must identify the type of manufacturing system architecture, such as flow shop or job shop.                                                                                                                          | I6      |
-| T2.6        | List workstations               | Participants must provide a list of the workstations involved in the manufacturing process.                                                                                                                                  | I5, I6  |
-| T3.1        | Estimate processing times       | Players need to estimate the processing time for a station by either observing an animation or analyzing additional data, like log files.                                                                                    | I7      |
-| T3.2        | Estimate failure metrics        | Participants analyze data (such as log files) to estimate failure-related metrics like Mean Time to Failure (MTTF) and Mean Time to Repair (MTTR) for a workstation.                                                         | I7      |
-| T3.3        | Validate hypotheses             | Players are given a hypothesis, which they must verify as either true or false.                                                                                                                                              | I8      |
-| T3.4        | Choose appropriate methods      | Participants select from a set of suggested tools or methods that are applicable to the system being studied.                                                                                                                | I8      |
-| T3.5        | Estimate model parameters       | Based on the selected method, players estimate various model parameters, such as the number of servers in a queue, buffer size, or routing probabilities.                                                                    | I9      |
-| T3.6        | Evaluate performance            | Using a selected tool or method, players assess the system's performance and make conclusions, such as determining maximum daily output or the required buffer capacity to meet demand.                                      | I10     |
-| TS          | Self-assess answers             | Players assess their confidence in the correctness of their responses to the given questions.                                                                                                                                | I11     |
+  Students explore the virtual factory to identify manufacturing equipment, products, components, and object properties. The activities establish the factual knowledge required for the subsequent analysis tasks.
+- Level 2 – Understanding how a manufacturing system operates
 
-Table 2: Tasks of learning activities with related ILO
+  Students classify resources according to their functions, analyse the routing and transformation of parts, identify assembly points and workstations, and determine the architecture of the manufacturing system.
+
+- Level 3 – Evaluating manufacturing-system performance
+
+  Students estimate processing and reliability parameters, formulate modelling assumptions, select suitable analysis methods, develop a performance-evaluation model, and use the model to assess the manufacturing system against production requirements.
+
+A self-assessment task accompanies the three levels and asks students to report their confidence in the answers and numerical results produced. Table 2 links each task to the relevant intended learning outcomes.
+
+
+| Task ID | Task | Description | Related ILOs |
+|:--------|:-----|:------------|:-------------|
+| T1.1 | Count equipment instances | Count the instances of a specified equipment type, such as conveyors, robots, or rotary tables, and report their name, classification, and function. | I1, I4 |
+| T1.2 | Locate equipment | Determine whether at least one instance of a specified equipment type is present in the virtual environment and identify its location. | I1 |
+| T1.3 | Identify factory objects | Assign the provided labels to the corresponding equipment, products, or components in the virtual environment. | I1, I2 |
+| T1.4 | Report object properties | Retrieve and report the properties of an object or derive a requested measure, such as the distance between two workstations. | I3 |
+| T2.1 | Identify processed parts | Identify the part undergoing processing and, for an assembly, identify its components. | I2 |
+| T2.2 | Classify factory objects | Classify factory objects according to their functions, such as processing, handling, transportation, storage, inspection, or control. | I4 |
+| T2.3 | Trace part routing | Determine the sequence of workstations through which a selected part travels. | I5 |
+| T2.4 | Locate assembly points | Identify the workstation at which a part and a component are combined. | I2, I5 |
+| T2.5 | Identify system architecture | Identify and justify the manufacturing-system architecture, such as a flow shop or job shop. | I6 |
+| T2.6 | List workstations | Identify and order the workstations involved in the manufacturing process. | I5, I6 |
+| T3.1 | Estimate processing times | Estimate workstation processing times by observing animations or analysing operational data and event logs. | I7 |
+| T3.2 | Estimate reliability parameters | Analyse event or failure data to estimate parameters such as mean time to failure (MTTF) and mean time to repair (MTTR). | I7 |
+| T3.3 | Validate modelling assumptions | Evaluate whether a proposed modelling assumption is supported by the available system information and data. | I8 |
+| T3.4 | Select an analysis method | Select and justify an appropriate modelling or analysis method for the system and performance question under study. | I8 |
+| T3.5 | Estimate model parameters | Estimate the parameters required by the selected model, such as the number of servers, buffer capacity, processing-time distributions, failure parameters, or routing probabilities. | I7, I9 |
+| T3.6 | Evaluate system performance | Use the selected method to calculate KPIs and draw conclusions, such as the maximum daily output or buffer capacity required to satisfy demand. | I10 |
+| TS | Assess confidence | Report confidence in the answers, assumptions, and numerical results produced during the learning activities. | I11 |
+
+*Table 2. Learning tasks and related intended learning outcomes.*
 
 ## 4. Technology
 
-A digital twin of the assembly line has been developed to support research and teaching activities. Digital resources are [available online](../UseCases/U04_assemblyline#online-resources), including the 3D models of the assets in gLFT format and the scene configuration defined in a JSON file according to a specific [schema](https://virtualfactory.gitbook.io/vlft/kb/instantiation/assets/json).
+The workflow combines a digital representation of the assembly line, a web-based virtual environment, an online learning-management system, semantic modelling tools, and discrete-event simulation.
 
-Virtual reality (VR) technology has been selected to deliver the necessary level of realism, allowing students to immerse themselves in a virtual walkthrough of the factory, simulating an actual factory visit. The workflow can be explored using [VEB.js prototype tool](../Tools#vebjs). Figure 2 illustrates how the industrial environment, including the assembly line, is rendered within VEB.js.
+### 4.1 Digital assets and scene configuration
+{:.no_toc}
+
+A digital twin of the assembly line was developed to support teaching and research activities. The [online resources](../UseCases/U04_assemblyline#online-resources) include:
+
+- three-dimensional asset models in **glTF** format;
+- a scene configuration represented in JSON;
+- structured descriptions of factory objects and their properties;
+- operational data required by the analysis tasks.
+
+The JSON scene configuration follows a dedicated [schema](https://virtualfactory.gitbook.io/vlft/kb/instantiation/assets/json).
+
+
+### 4.2 Virtual environment
+{:.no_toc}
+
+Virtual reality enables students to explore the assembly line through an immersive factory walkthrough. The workflow uses the [VEB.js prototype application](../Tools#vebjs) to render the industrial environment and provide access to information associated with products, resources, and workstations. Figure 2 illustrates how the industrial environment, including the assembly line, is rendered within VEB.js.
 
 <img src="W11_media/image7.png" style="width:5.26258in;height:3.58282in" />
 
 Figure 2: Screenshot of VEB.js application showing the assembly line use case
 
+### 4.3 Learning activities and assessment
+{:.no_toc}
 
-The presentation of the learning tasks and corresponding assessments has been implemented using the [Moodle platform](https://moodle.org/), an online learning management system that offers a variety of tools for designing forms and conducting assessments. 
+The learning tasks and corresponding assessments can be delivered through [Moodle](https://moodle.org/). Moodle supports several question types relevant to this workflow, including:
 
-Alongside the front-end VR application, a set of digital tools (see Figure 3) has been employed to model the industrial case depicted in the virtual environment. Factory objects, their placement in the virtual scene, their 3D representation, and attributes were defined using [OntoGuiWeb](../Tools#ontoguiweb), a graphical interface designed for creating factory models based on an ontology data model. Event generation for animating the virtual scene was facilitated by a Discrete Event Simulator (e.g. [Java Modelling Tools](https://jmt.sourceforge.net/)).
+- multiple-choice questions;
+- numerical questions;
+- drag-and-drop labelling of images;
+- selection of missing words;
+- file submissions;
+- confidence-rating questions.
+
+
+### 4.4 Digital model
+{:.no_toc}
+
+Factory objects, object properties, spatial placement, three-dimensional representations, and relationships can be defined using [OntoGuiWeb](../Tools#ontoguiweb). The tool provides a graphical interface for creating and exploring factory models represented through an ontology-based data model.
+
+### 4.5 Discrete-event simulation
+{:.no_toc}
+
+A discrete-event simulation tool can be used to generate operational events, derive performance indicators, and animate the virtual scene. One suitable implementation is [Java Modelling Tools](https://jmt.sourceforge.net/), although alternative simulation tools may be adopted if they provide the required modelling and data-exchange capabilities.
+
+Figure 3 shows the integration of the digital tools employed to model the industrial case. 
 
 <img src="W11_media/image8.png" style="width:6.26806in;height:3.01775in" />
 
@@ -128,31 +192,54 @@ Figure 3: Integrated digital tools and data repository
 
 ## 5. User Experience
 
-In the VR environment, users are able to freely explore an industrial setting while accessing supplementary data necessary for solving learning tasks. The graphical user interface (GUI) provides interactive elements that enhance learning and comprehension. Specifically, the interface offers the following capabilities:
+The virtual environment allows students to explore the industrial setting and retrieve the information required to complete the learning tasks. The graphical user interface supports direct interaction with factory objects and access to object-related resources.
 
-- *Object Interaction*. Users can click on various objects within the virtual environment, allowing them to retrieve details such as:
+Students can select objects in the virtual environment to retrieve information such as:
 
-  - The name and ID of the object.
+- object name and identifier;
+- dimensions and spatial position;
+- functional description;
+- object class and function;
+- relationships with other factory objects;
+- relevant operational parameters.
 
-  - Its dimensions and position within the factory.
+These data help students understand the structure and connectivity of the manufacturing system.
 
-  - A brief description of the object.
+Objects in the virtual environment may provide links to supporting resources, including:
 
-  - Relationships with other objects in the environment, enabling users to understand the system’s complexity and connectivity.
+- lecture slides and explanatory material;
+- technical data sheets;
+- three-dimensional models;
+- event and failure logs;
+- processing-time data;
+- maintenance and production reports.
 
-- *Access to Additional Resources*. For more in-depth information, users can access links to files that are attached to objects in the virtual environment. These files could include:
+Direct access to these resources enables students to combine visual exploration with data-driven analysis.
 
-  - Slides for educational purposes.
 
-  - Data sheets and 3D models for technical understanding.
+The workflow can support:
 
-  - Logs and reports such as failure logs for troubleshooting tasks.
+- **desktop interaction** using a mouse and keyboard;
+- **immersive interaction** using a VR headset and motion controllers;
+- **individual activities** completed independently;
+- **collaborative activities** supported by a conferencing or multiplayer platform.
 
-  - Processing times or other operational data related to equipment and workstations, enabling users to analyze system performance.
+This combination allows the workflow to be used in classroom, laboratory, blended, and remote-learning settings.
 
-This interactive approach enhances learning by allowing students to engage directly with a simulated production system, offering both a hands-on exploration of the environment and immediate access to relevant data. The combination of object-level interaction and resource access within the virtual environment makes the system an effective tool for immersive education in industrial domains.
 
-The assessment can be performed through a questionnaire using the Moodle platform. Various types of questions can be utilized, such as numerical, multiple-choice, label assignment in images, and word selection in sentences. Additionally, a conferencing platform can be integrated during the execution for lectures, online support, or collaboration in multiplayer mode.
+Assessment is performed through the outputs generated by the learning tasks. Moodle can be used to administer automatically scored questions, collect files, provide feedback, and record student confidence ratings. Tasks involving conceptual models, simulation models, and written conclusions require instructor review or a predefined assessment rubric.
+
+| Task group | Evidence collected | Assessment method |
+|:-----------|:-------------------|:------------------|
+| T1.1–T1.4 | Equipment counts, selected labels, object classifications, reported properties, and calculated measures | Automatic comparison with reference answers, with numerical tolerances where appropriate |
+| T2.1–T2.6 | Identification of products and components, resource classifications, part routes, assembly points, workstation sequences, and system architecture | Automatic scoring combined with review of short written justifications |
+| T3.1–T3.2 | Estimated processing times, MTTF, MTTR, and other operational parameters | Comparison with reference values or acceptable intervals |
+| T3.3–T3.4 | Modelling assumptions and selected analysis methods | Assessment of suitability, justification, and consistency |
+| T3.5 | Parameterised performance-evaluation model | Review of completeness, correctness, traceability to source data, and internal consistency |
+| T3.6 | Calculated KPIs and interpretation of the results | Comparison with benchmark results |
+| TS | Confidence rating associated with each answer or result | Comparison between confidence and answer correctness to support metacognitive reflection |
+
+*Table 3. Evidence and assessment methods for the learning tasks.*
 
 
 
